@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Company.FilterOperation.FilterOperationActivity">
+    <LinearLayout
+        android:id="@+id/flt_layout"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:id="@+id/flt_primary_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:background="@color/black"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/findByGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_gray"
+                android:paddingStart="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Gender"
+                android:textColor="?attr/primaryTitleColor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/findByRole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Role"
+                android:textColor="?attr/primaryTitleColor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/findByQuali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Qualification"
+                android:textColor="?attr/primaryTitleColor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/findByExp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Experience"
+                android:textColor="?attr/primaryTitleColor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/findByLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Language"
+                android:textColor="?attr/primaryTitleColor"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flt_secondary_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:background="@color/dark_gray"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <!--  for gender  -->
+            <LinearLayout
+                android:id="@+id/fltGenderView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="visible">
+
+                <CheckBox
+                    android:id="@+id/fltCB_male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltCB_female"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltCB_both"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Both"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <!--  for Role  -->
+            <!--<LinearLayout
+                android:id="@+id/fltRoleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:id="@+id/CBMaleLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp">
+
+                    <CheckBox
+                        android:id="@+id/fltCB_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+
+                   android:textColor="?attr/primaryTitleColor"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/CBFemaleLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp">
+
+                    <CheckBox
+                        android:id="@+id/fltCB_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+
+                   android:textColor="?attr/primaryTitleColor"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/CBBothLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp">
+
+                    <CheckBox
+                        android:id="@+id/fltCB_both"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Both"
+                        android:textSize="20sp"
+
+                   android:textColor="?attr/primaryTitleColor"/>
+                </RelativeLayout>
+            </LinearLayout>-->
+
+            <!--  for qualification  -->
+            <LinearLayout
+                android:id="@+id/fltQuliView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/fltBlwSSC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Below SSC"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltSSCPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SCC Pass"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltHSCPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HSC Pass"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltUnderGraduate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Under Graduate"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltGraduate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Graduate"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltPostGraduate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Post Graduate"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltPHD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PHD"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <!--  for exp  -->
+            <LinearLayout
+                android:id="@+id/fltExpView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/fltFresher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fresher"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltBlw1Yr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Below 1 year"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/flt1_2Yr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1-2 years"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/flt3_5Yr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3-5 years"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/flt6_9Yr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6-9 years"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/flt10PYr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10+ years"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <!--  for language known  -->
+            <LinearLayout
+                android:id="@+id/fltLangView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/fltHindi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hindi"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltEnglish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="English"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltMarathi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Marathi"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltTamil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tamil"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltUrdu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Urdu"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/fltGujarati"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gujarati"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_below="@+id/flt_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Apply"
+        android:textColor="?attr/primaryTitleColor"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

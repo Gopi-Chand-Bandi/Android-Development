@@ -1,0 +1,268 @@
+<resources>
+    <string name="app_name">JustJobs</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="working_day">
+        <item><font fgcolor='#a9a9a9'>Select Working Days</font></item>
+        <item>1 day a weak</item>
+        <item>2 day a weak</item>
+        <item>3 day a weak</item>
+        <item>4 day a weak</item>
+        <item>5 day a weak</item>
+        <item>6 day a weak</item>
+        <item>7 day a weak</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="emp_size">
+        <item>1 TO 10</item>
+        <item>1 TO 100</item>
+        <item>1 TO 1000</item>
+        <item>1 TO 10000</item>
+        <item>1 TO 100000</item>
+    </string-array>
+
+    <string-array name="experience">
+        <item>Fresher</item>
+        <item>below-1 year</item>
+        <item>1-2 years</item>
+        <item>3-5 years</item>
+        <item>6-9 years</item>
+        <item>10+ years</item>
+    </string-array>
+
+    <string-array name="role_select">
+        <item><font fgcolor='#a9a9a9'>Select Category First</font></item>
+    </string-array>
+
+
+    <string name="expandable_title_one"><b>Consultancy(Asking for money)</b></string>
+    <string name="expandable_text_one">JustJobsHR is 100% free.Please do not give any money to company. You can report this to us by clicking on "Report Issue" in the job details and mark "Asking Money".</string>
+
+    <string name="expandable_title_two"><b>Fake / Fraud company</b></string>
+    <string name="expandable_text_two">JustJobsHR is 100% free.Please do not give any money to company.If you feel that the company is fraud or fake, you can report this to us by clicking on <b>"Report Issue"</b> in the job details and mark <b>"Asking Money"</b>.</string>
+
+    <string name="expandable_title_three"><b>How to change my mobile number</b></string>
+    <string name="expandable_text_three">Mobile number cannot be changed for JustJobsHR account. In Order to have your account with different mobile number, please logout from current account and create a new account with different mobile number.</string>
+
+    <string name="expandable_title_four"><b>Vancy full</b></string>
+    <string name="expandable_text_four">If the company says that the vacancy is full, then you can report this to us by clicking on "Report Issues" in the job details and mark "Vacancy full".</string>
+
+    <string name="full_name">Full Name<font fgcolor='#FF0000'>*</font></string>
+    <string name="gender">Gender<font fgcolor='#FF0000'>*</font></string>
+    <string name="date_of_birth">Date Of Birth<font fgcolor='#FF0000'>*</font></string>
+    <string name="contact_number">Contact Number<font fgcolor='#FF0000'>*</font></string>
+    <string name="Area_location">Location<font fgcolor='#FF0000'>*</font></string>
+    <string name="state">State<font fgcolor='#FF0000'>*</font></string>
+    <string name="city">City<font fgcolor='#FF0000'>*</font></string>
+    <string name="job_profile_1">Job Profile Primary<font fgcolor='#FF0000'>*</font></string>
+    <string name="qualification">Qualification<font fgcolor='#FF0000'>*</font></string>
+    <string name="experience">Experience<font fgcolor='#FF0000'>*</font></string>
+    <string name="english_communication">English Communication<font fgcolor='#FF0000'>*</font></string>
+    <string name="languages_knows">Languages Knows<font fgcolor='#FF0000'>*</font></string>
+    <string name="has_vehicle">Vehicle<font fgcolor='#FF0000'>*</font></string>
+    <string name="has_driving_licence">Driving Licence<font fgcolor='#FF0000'>*</font></string>
+    <string name="skill">Skill <font fgcolor='#FF0000'>*</font></string>
+    <string name="reference">Reference <font fgcolor='#FF0000'>*</font></string>
+    <string name="cv_resume">CV / Resume<font fgcolor='#FF0000'>*</font></string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_cnd_registeration">CndRegisterationActivity</string>
+
+    <!--Tip activity String values-->
+    <string name="tip_qa1">
+        Tell me something about yourself in brief \n\n
+
+        “Thank you, Sir/Ma’am for this opportunity. I am from XYZ City and belong to a nuclear family. My father is a Central Government Employee and my mother is a Vice Principal at a private school. My younger sister will appear her CBSE 10th board this year. We are a very close-knit family. On an individual front, I perceive myself as a confident, conscientious and hardworking individual. I carry out any task assigned to me without hesitation, provided the instructions are clear. In the case of doubts, I never hesitate to put forth my questions. I have always been a fast learner, and I love to keep up my process of learning to figure out better ways of solving problems. Moreover, I love to compete with my own past performances than competing with my peers, as I believe that improvement is always better than perfection!”
+    </string>
+
+    <string name="tip_qa2">
+        Describe who you are. or Tell me about your background.\n\n
+
+        “I am a B. Tech in Computer Science/B. Com in Economics. I also have an MBA or I have completed a certification course in Digital Marketing from ABC Academy. What else would you like to know?”
+    </string>
+    <string name="tip_qa3">
+        What are your strengths and weaknesses?\n\n
+
+        “I have several strengths namely – I am patient, committed, honest and self-motivated. I am the biggest dreamer I have ever come across! I forgive easily and hate to keep grudges in my heart. My greatest weakness is that I don\'t like getting interrupted when I am seriously into something. Another one of my weaknesses is that I trust people very easily. As I already said, I am a very patient person, so I am actively working on this lacuna.”
+    </string>
+    <string name="tip_qa4">
+        You have not done your PG yet. This is not a drawback, but don’t you think you should get a PG degree asap?\n\n
+
+        “As soon as I graduated, I felt the urge to start working in the real world. It’s not that I am a total novice. I have undergone 3 internships, of which 2 are paid from reputed organizations. This credential has helped me land an offer from one of those firms. I sometimes wonder whether I should have first completed my post-graduation. Had I done so, I wouldn’t have been able to develop my complete portfolio. And I am hoping that my track record will help me get selected for this position in your esteemed organization.”
+    </string>
+    <string name="tip_qa5">
+        You have changed jobs/jumped ship too many times already, why so?\n\n
+
+        “You may label me a ‘frequent career-changer’ but I genuinely feel that today I am a far better employee. My switches have helped me develop better interpersonal skills, gain diverse skills and adapt to rapidly changing business environments. I can solve problems more efficiently and creatively, as I have learned to live with ambiguity and uncertainty. My first job helped me develop patience. My second job helped me master spreadsheets and numbers. My third job helped me develop better people skills and also adjust amidst culturally diverse and geographically dispersed teams. All in all, I feel that my varied background makes me an ideal candidate for this job role today.”
+    </string>
+    <string name="tip_qa6">
+        What are your strong points? or What are your strengths?\n\n
+
+        “I have the requisite skills to make your risk worth it. Chatting less and letting my work do the talking, is my motto. In the past, whatever project was assigned to me was delivered on time and also at par with all the quality standards.”
+    </string>
+    <string name="tip_qa7">
+        What is your greatest fear?\n\n
+
+        “I work too hard sometimes and care too much about my work. I take my tasks back home and work even during the weekends. You can call me a workaholic, but my family always points out that this is not right. Slowly and steadily I am realizing that speed and working smartly are the key. So, I have begun to reach out to my colleagues for ready-to-use workarounds so that I can give more time to my family.”
+    </string>
+    <string name="tip_qa8">
+        If I call up your current or previous reporting manager now, what will be their opinion about you? What will they say that you need to work on?\n\n
+
+        “Interesting. During my last performance review, my boss did not list any areas of improvement and gave me an outstanding rating. However, if I were to think of one, I would guess that I need to speak up more during meetings. I always have good ideas and contribute my thoughts to my current project. But I discuss these ideas with my boss and let him do all the talking during meetings. I should work on speaking up more during brainstorming sessions.”
+    </string>
+    <string name="tip_qa9">
+        Do you have any serious medical issues?\n\n
+
+        “I am partially color blind. Sometimes I face difficulty in distinguishing between colors. For example, I cannot see shades or tones of the same color. But for your information, no adjustments would be required on your part to accommodate this minor disability. As you can see from my resume, it does not have any impact on my ability to get the job done.”
+    </string>
+    <string name="tip_qa10">
+        Did you ever have a conflict with your current/previous boss or professor?\n\n
+
+        “Recently I had a disagreement with one of my professors about a question that was out of syllabus in one of the semester exams. It was not a major one, but yes I will label it a ‘conflict’. Most of my friends and peers did not attempt this question due to ambiguity. When I brought the cause into my professor’s notice in private, he remained cold and unconcerned. So, I and my batchmates had a discussion following which, we went to him together. At that point, our professor agreed that the question was ambiguous, but he refused to give us grace marks for the same. I felt disappointed because he did not appreciate the fact that I brought the situation earlier, into his notice in private. Besides, he did not suggest an alternative paper or project work, with which students could make up for the lost marks.”
+    </string>
+    <string name="tip_qa11">
+        What do your friends/co-workers say about you?\n\n
+
+        “I recently completed my internship at Tata Steel Ltd., Tata Center, Kolkata. My project lead told me that in the beginning, I was a little lost, but by the end of the summer internship program, she knew that she could count on me.”
+    </string>
+    <string name="tip_qa12">
+        What did you do in the last year to improve your knowledge?\n\n
+
+        “In 2016, I was in the final year of college. During that time, I did three things to improve my knowledge. 1. I got myself enrolled in Aptech for the Sun Certified Java Programmer course. I will appear my exam soon. 2. I have bought magazine subscriptions such as Dataquest. These magazines help me to stay well informed about new topics in the IT world. 3. I completed my final year application project based on Java. The topic was Centralized Remote Based College Information Scheme.”
+    </string>
+    <string name="tip_qa13">
+        Explain the difference between group and team. Are you a team player?\n\n
+
+        “Yes I am. During my summer internship at Cadence, me and my friends were working together. Ours was a mixed group with varied skills and we produced results which would have been impossible to produce individually. I had to keep all my communication channels open at all times to ensure that the project stayed on track. I was responsible for my part of the code and also for the collective delivery of the entire project. I worked closely with senior key team members to keep my deliverables on track. In the end, I was able to deliver on time and within budget.”
+    </string>
+    <string name="tip_qa14">
+        What is your ideal company or workplace?\n\n
+
+        “My ideal workplace or company is a fair one that values my contributions even as a fresher and encourages me to speak up and share my ideas. It is a place where I can be myself, while working towards a greater goal.”
+    </string>
+    <string name="tip_qa15">
+        Have you ever had to fire anyone? How did you feel about that?\n\n
+
+        “Yes, I have and believe me it feels horrible. But I know how to keep emotions at bay, while I am at work. Firing comes at the very end of road with me. When I set up a team, I do so very carefully after considering the past feedback and history of every single team member. But it is not always possible to choose your team. Sometimes, you have to work with a few rotten potatoes and it is essential to remove them from the basket, to save the rest. I have a tendency to spot poor performers within two to three months of them or me joining a new team. Last time I spotted one, I consulted my peers and other team members. Then, I had to set up a one-on-one meeting with the person and gave him several warnings, both written and verbal, over a 30-day period. I helped him prepare a list of work and behavioral goals, that I decided upon after consulting the rest of the team. Eventually I had to fire that person because he showed zero signs of improvement, drive and motivation. That firing was for a cause and I had no other resort left in my rule book.”
+    </string>
+    <string name="tip_qa16">
+        What is the most difficult thing that you’ve ever accomplished? or What is the most difficult thing you have ever done?\n\n
+
+        “I have never been a great public speaker. The very thought of facing a crowd used to make me nervous. When I started college, my best friend advised me that I had to get over this roadblock to shine through. So, last year, I took the bold step of trying my hand at public speaking. I joined the Debate Club in my college. Since then, I have participated in multiple contests. Initially, I stammered, forgot my lines, dropped the microphone once due to my sweaty palms and even got booed at or scolded by the judges. Yet, I kept on participating. Last month, for the very first time in a year, I won the third prize. It was a great boost to my self-confidence. I believe that it is my greatest feat so far, even bigger than my AIEEE rank.”
+    </string>
+    <string name="tip_qa17">
+        What is the difference between hard work and smart work?\n\n
+
+        “Hard work is delivering work on time with more effort and smart work is delivering work on time, with lesser effort. I feel that is the basic difference. Most of the times, in the corporate world, I feel a combination of both is needed to attain excellence.”
+    </string>
+    <string name="tip_qa18">
+        How do you feel about working weekends and night shifts?\n\n
+
+        “I am a fresher and I hardly have any exposure of the corporate world. Back in college, weekends were no different from weekdays for us. The assignments, tasks and projects had to be submitted within deadlines, and to do so, we would study during the weekdays. As far as night shifts are concerned, I would like to say that I am a nocturnal person and I like to do my studies generally at night. I have no issues working during weekends and at night, provided I get enough compensatory offs to relax and wind down.”
+    </string>
+
+    <!--Help String values-->
+    <string name="cnd_help_frg_s1">
+        <b>Consultancy(Asking for money).</b>\n\n
+        JustJobsHR is 100% free.Please do not give any money to company. You can report this to us by clicking on "Report Issue" in the job details and mark "Asking Money".
+    </string>
+    <string name="cnd_help_frg_s2">
+        <b>Fake / Fraud company.</b>\n\n
+        JustJobsHR is 100% free.Please do not give any money to company.If you feel that the company is fraud or fake, you can report this to us by clicking on <b>"Report Issue"</b> in the job details and mark <b>"Asking Money"</b>.
+    </string>
+    <string name="cnd_help_frg_s3">
+        <b>How to change my mobile number?</b>\n\n
+        Mobile number cannot be changed for JustJobsHR account. In Order to have your account with different mobile number, please logout from current account and create a new account with different mobile number.
+    </string>
+    <string name="cnd_help_frg_s4">
+        <b>Vacancy full</b>\n\n
+        If the company says that the vacancy is full, then you can report this to us by clicking on "Report Issues" in the job details and mark "Vacancy full".
+    </string>
+    <string name="txtCredits">
+        I Acknowledge <a href="https://justjobshr.com/justjobs_privacy.php">Privacy Policy</a> And <a href="https://justjobshr.com/justjobs_term&amp;condition.php">Terms And Condition</a>
+    </string>
+    <string name="pojo_english_commu_alert_1">This may impact the relevancy of  the candidates for your job applications</string>
+    <string name="pojo_english_commu_alert_2">This may reduce the number of applicatin on your job</string>
+    <string name="razor_pay_key">rzp_test_xxWBImNSojtG7K</string>
+
+
+
+    <string name="job_role">Job Role <font fgcolor='#FF0000'>*</font></string>
+    <string name="job_role_designation">Job Role Designation <font fgcolor='#FF0000'>*</font></string>
+    <string name="job_type">Job Type <font fgcolor='#FF0000'>*</font></string>
+    <string name="enter_state">Enter State <font fgcolor='#FF0000'>*</font></string>
+    <string name="enter_city">Enter City <font fgcolor='#FF0000'>*</font></string>
+    <string name="description">Description <font fgcolor='#FF0000'>*</font></string>
+    <string name="offering_salary">Offering Salary <font fgcolor='#FF0000'>*</font></string>
+    <string name="age_required">Age Required <font fgcolor='#FF0000'>*</font></string>
+    <string name="vacancy_location">Vacant Location <font fgcolor='#FF0000'>*</font></string>
+    <string name="education_required">Education Required <font fgcolor='#FF0000'>*</font></string>
+    <string name="gender_required">Gender Required <font fgcolor='#FF0000'>*</font></string>
+    <string name="company_name">Company Name <font fgcolor='#FF0000'>*</font></string>
+    <string name="p_o_c_designation">POC Designation <font fgcolor='#FF0000'>*</font></string>
+    <string name="select_company_type">Select Company Type <font fgcolor='#FF0000'>*</font></string>
+    <string name="select_industry">Select Industry <font fgcolor='#FF0000'>*</font></string>
+    <string name="about_company">About Company <font fgcolor='#FF0000'>*</font></string>
+    <string name="posted_by">Posted By <font fgcolor='#FF0000'>*</font></string>
+    <string name="communication_required">Communication Required <font fgcolor='#FF0000'>*</font></string>
+    <string name="languages_knows_preferred">Languages Known <font fgcolor='#FF0000'>*</font></string>
+    <string name="documents_required">Documents Required <font fgcolor='#FF0000'>*</font></string>
+    <string name="security_deposit">Is There Any Security Deposit charged To The Candidate(For Anything)? <font fgcolor='#FF0000'>*</font></string>
+
+
+    <!--prising string-->
+
+    <string name="_750"><strike>₹750</strike></string>
+    <string name="_25_it_candidate_unlocked">25 <b>IT Candidate</b> Unlocked</string>
+    <string name="_1450"><strike>₹1,450</strike></string>
+    <string name="_50_it_candidate_unlocked">50 <b>IT Candidate</b> Unlocked</string>
+    <string name="_2700"><strike>₹2,700</strike>></string>
+    <string name="_100_it_candidate_unlocked">100 <b>IT Candidate</b> Unlocked</string>
+    <string name="_15000"><strike>₹15,000</strike></string>
+    <string name="_500_it_candidate_unlocked">500 <b>IT Candidate</b> Unlocked</string>
+    <string name="_150000"><strike>₹1,50,000</strike></string>
+    <string name="_5000_it_candidate_unlocked">5,000 <b>IT Candidate</b> Unlocked</string>
+    <string name="_300000"><strike>₹3,00,000</strike></string>
+    <string name="_10000_it_candidate_unlocked">10,000 <b>IT Candidate</b> Unlocked</string>
+    <string name="_900000"><strike>₹9,00,000</strike></string>
+    <string name="_30000_it_candidate_unlocked">30,000 <b>IT Candidate</b> Unlocked</string>
+
+    <string name="_250"><strike>₹250</strike></string>
+    <string name="_25_non_it_candidate_unlocked">25 <b>Non-IT Candidate</b> Unlocked</string>
+    <string name="_500"><strike>₹500</strike></string>
+    <string name="_50_non_it_candidate_unlocked">50 <b>Non-IT Candidate</b> Unlocked</string>
+    <string name="_1000"><strike>₹1,000</strike></string>
+    <string name="_100_non_it_candidate_unlocked">100 <b>Non-IT Candidate</b> Unlocked</string>
+    <string name="_5000"><strike>₹5,000</strike></string>
+    <string name="_500_non_it_candidate_unlocked">500 <b>Non-IT Candidate</b> Unlocked</string>
+    <string name="_50000"><strike>₹50,000</strike></string>
+    <string name="_5000_non_it_candidate_unlocked">5,000 <b>Non-IT Candidate</b> Unlocked</string>
+    <string name="_100000"><strike>₹1,00,000</strike></string>
+    <string name="_10000_non_it_candidate_unlocked">10,000 <b>Non-IT Candidate</b> Unlocked</string>
+    <string name="__300000"><strike>₹3,00,000</strike></string>
+    <string name="_30000_non_it_candidate_unlocked">30,000 <b>Non-IT Candidate</b> Unlocked</string>
+
+    <string name="_725_it_actual_amount">725</string>
+    <string name="_1350_it_actual_amount">₹1,350 Only</string>
+    <string name="_2500_it_actual_amount">₹2,500 Only</string>
+    <string name="_12500_it_actual_amount">₹12,500 Only</string>
+    <string name="_105000_it_actual_amount">₹1,05,000 Only</string>
+    <string name="_180000_it_actual_amount">₹1,80,000 Only</string>
+    <string name="_450000_it_actual_amount">₹4,50,000 Only</string>
+    <string name="_2000"><strike>₹2,000</strike></string>
+    <string name="_10000"><strike>₹10,000</strike></string>
+    <string name="_200000"><strike>₹2,00,000</strike></string>
+    <string name="_600000"><strike>₹6,00,000</strike></string>
+
+    <!--prising string-->
+</resources>

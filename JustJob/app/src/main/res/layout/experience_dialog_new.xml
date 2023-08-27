@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Candidate.CandidateActivityFragment.experience_dialog_new">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/exp_dig_new_company_name"
+        android:layout_width="match_parent"
+        style="@style/MyTextInputLayout"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyTextInputEditText"
+            android:hint="Company Name"
+            android:inputType="textPersonName"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/exp_dig_new_company_industry_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="?attr/primaryTitleColor"
+        android:text="Industry"
+        android:drawableStart="@drawable/ic_work"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:background="@drawable/text_view_border"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/exp_dig_new_company_other_industry_et_lay"
+        style="@style/MyTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/MyTextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_baseline_business_24"
+            android:hint="Other Industry"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/exp_dig_new_role_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="?attr/primaryTitleColor"
+        android:text="Role"
+        android:drawableStart="@drawable/ic_work"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:background="@drawable/text_view_border"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/exp_dig_new_other_role_et"
+        style="@style/MyTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/MyTextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:hint="Other Role"
+            android:drawableEnd="@drawable/ic_baseline_business_24"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/exp_dig_new_designation_sp"
+        android:layout_width="match_parent"
+        android:theme="@style/SpinnerThemeLight_new"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/spinner_bg"
+        android:entries="@array/designation_spinner"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/exp_dig_new_company_salary"
+        android:layout_width="match_parent"
+        style="@style/MyTextInputLayout"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyTextInputEditText"
+            android:hint="Current Salary"
+            android:digits=",.0123456789"
+            android:inputType="numberDecimal"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+        android:id="@+id/exp_dig_new_company_salary_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_bg"
+        android:entries="@array/timing"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:theme="@style/SpinnerThemeLight_new" />
+
+    <CheckBox
+        android:id="@+id/exp_dig_new_working_cBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="I'm Currently Working In This Job "/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/start_date_exp_dg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Start date*"
+            android:focusable="false"
+            android:layout_weight="1"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_marginEnd="15dp"
+            android:drawableEnd="@drawable/ic_date_of_birth"/>
+        <EditText
+            android:id="@+id/end_date_exp_dg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="End date*"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_marginStart="15dp"
+            android:drawableEnd="@drawable/ic_date_of_birth"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="end"
+        app:cardElevation="8dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/exp_dig_new_save_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:background="@drawable/search_jobs_btn"
+                android:text="Save "/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

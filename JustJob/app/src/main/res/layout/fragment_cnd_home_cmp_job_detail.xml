@@ -1,0 +1,2681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/container_layout_color"
+    tools:context=".Candidate.CndHomeDetailFrgActivity.cndHomeCmpJobDetailFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/cnd_job_details_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cnd_job_details_selected_rejected_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="5dp"
+                    android:padding="5dp"
+                    android:visibility="gone"
+                    android:text="Rejected"
+                    android:textColor="?attr/primaryTitleColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!--<LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cnd_job_details_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="200dp"
+                        android:padding="5dp"
+                        android:visibility="gone"
+                        android:text="Applied on 25-10-2023 03:24:59"
+                        android:textSize="12sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/ic_baseline_remove_red_eye_24" />
+
+                        <TextView
+                            android:id="@+id/cnd_home_list_details_view_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:text="132"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/ic_baseline_groups_24" />
+
+                        <TextView
+                            android:id="@+id/cnd_home_list_details_candidates"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:text="70"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_job_role"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="0dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textStyle="bold"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="0dp"
+                                android:background="?attr/primaryTitleColor" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_job_designation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginStart="2dp"
+                                android:text=""
+                                android:textStyle="bold"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="?attr/primaryTitleColor" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/ic_baseline_business_24" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_company_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="9dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textStyle="bold"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/ic_indian_money" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_min_salary"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="9dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="9dp"
+                                android:text="-"
+                                android:textStyle="bold"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_max_salary"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="9dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/ic_experience_icon" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_exp_from"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="9dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="9dp"
+                                android:text="-"
+                                android:textStyle="bold"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_exp_to"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="9dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="9dp"
+                                android:text="years"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                           <!-- <View
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="0dp"
+                                android:background="?attr/primaryTitleColor" />
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/ic_work_office" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_job_type"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="7dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" /> -->
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/ic_timing_icon" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_shift_from"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="8dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="8dp"
+                                android:text="to"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_shift_to"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="8dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/ic_cap_school_24" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_fresher_can"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="8dp"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                       <!-- <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/industry_icon"
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/location" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_job_state"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="8dp"
+                                android:text="state"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>-->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/location" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_vacant_location"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="8dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="16dp"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="11dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="0dp"
+                                android:background="?attr/primaryTitleColor" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_job_city"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="8dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="16dp"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="11dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="0dp"
+                                android:background="?attr/primaryTitleColor" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_job_state"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="8dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                       <!-- <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/industry_icon"
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/ic_person" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginTop="9dp"
+                                android:autoSizeMaxTextSize="20dp"
+                                android:text="Number of Openings :"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_vacant_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="9dp"
+                                android:text="Number of Openings"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>-->
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/ic_work_office" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_job_type"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="9dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/ic_location" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_job_location_type"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="9dp"
+                                android:layout_marginTop="9dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/ic_baseline_description_24"
+                                android:drawablePadding="10dp"
+                                android:text="Job Description"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="?attr/primaryTitleColor" />
+
+                        <TextView
+                            android:id="@+id/cnd_home_list_details_job_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="10dp"
+                            android:text=""
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                       <!-- <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="10dp"
+                                android:text="Location :"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_vacant_location"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="location"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>-->
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="2dp"
+                                android:src="@drawable/ic_gender" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_gender_req"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="2dp"
+                                android:src="@drawable/ic_date_of_birth" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_min_age"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginTop="10dp"
+                                android:text="to"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_max_age"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginTop="10dp"
+                                android:text="years old"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="2dp"
+                                android:src="@drawable/ic_chat" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_communication_req"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="7dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="2dp"
+                                android:src="@drawable/ic_language" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_language_req"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="2dp"
+                                android:src="@drawable/ic_work" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Working days -"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_working_day_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="-2dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="2dp"
+                                android:src="@drawable/ic_person" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_vacant_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="2dp"
+                                android:src="@drawable/ic_reimbursement_icon" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_reimbursement"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Reimbursement : "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+               <!-- <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_details"
+                            android:drawablePadding="10dp"
+                            android:text="Job Details"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cnd_home_list_details_job_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="job type"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" /> -->
+
+                        <!--<TextView
+                            android:id="@+id/cnd_home_list_details_job_role"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="job role"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />-->
+
+                       <!-- <TextView
+                            android:id="@+id/cnd_home_list_details_job_designation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="job designation"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />-->
+
+                      <!--  <TextView
+                            android:id="@+id/cnd_home_list_details_job_state"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="state"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/cnd_home_list_details_job_city"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="city"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_location"
+                            android:drawablePadding="10dp"
+                            android:text="Vacant Localities"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="10dp"
+                                    android:drawableStart="@drawable/ic_dot"
+                                    android:drawablePadding="10dp"
+                                    android:text="Location :"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/cnd_home_list_details_vacant_location"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="location"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="10dp"
+                                    android:autoSizeMaxTextSize="20dp"
+                                    android:drawableStart="@drawable/ic_dot"
+                                    android:drawablePadding="10dp"
+                                    android:text="Number of Openings :"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/cnd_home_list_details_vacant_num"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Number of Openings"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_work"
+                            android:drawablePadding="10dp"
+                            android:text="Experience Details"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_fresher_can"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="20dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="freshers also can apply"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_experience_can"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="20dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="Experienced"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="10dp"
+                                        android:drawableStart="@drawable/ic_dot"
+                                        android:drawablePadding="10dp"
+                                        android:text="From :"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/cnd_home_list_details_exp_from"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="10dp"
+                                        android:text="from"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawableStart="@drawable/ic_dot"
+                                        android:drawablePadding="10dp"
+                                        android:layout_marginEnd="10dp"
+                                        android:text="To :"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/cnd_home_list_details_exp_to"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="to"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_indian_money"
+                            android:drawablePadding="10dp"
+                            android:text="Salary"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="20dp"
+                                    android:drawableStart="@drawable/ic_dot"
+                                    android:drawablePadding="10dp"
+                                    android:text="Minimum Salary :"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/cnd_home_list_details_min_salary"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="min Salary"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="18dp"
+                                    android:autoSizeMaxTextSize="20dp"
+                                    android:drawableStart="@drawable/ic_dot"
+                                    android:drawablePadding="10dp"
+                                    android:text="Maximum Salary :"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/cnd_home_list_details_max_salary"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="max salary"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+               <!-- <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_date_of_birth"
+                            android:drawablePadding="10dp"
+                            android:text="Age Required"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="20dp"
+                                    android:drawableStart="@drawable/ic_dot"
+                                    android:drawablePadding="10dp"
+                                    android:text="Minimum Age :"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/cnd_home_list_details_min_age"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="min age"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="18dp"
+                                    android:autoSizeMaxTextSize="20dp"
+                                    android:drawableStart="@drawable/ic_dot"
+                                    android:drawablePadding="10dp"
+                                    android:text="Maximum Age :"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/cnd_home_list_details_max_age"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="max age"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_gender"
+                            android:drawablePadding="10dp"
+                            android:text="Gender Required"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_gender_req"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="unisex"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+               <!-- <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_chat"
+                            android:drawablePadding="10dp"
+                            android:text="Communication Required"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_communication_req"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="30dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="good english"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_language"
+                            android:drawablePadding="10dp"
+                            android:text="Language Knows"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_language_req"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="hindi"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_car_24"
+                            android:drawablePadding="10dp"
+                            android:text="Ownership Required"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_vehicle_req"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="car"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_processor_req"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="car"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_phone_req"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="car"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_details"
+                            android:drawablePadding="10dp"
+                            android:text="Required Document"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_documents_req"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="aadhar"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+               <!-- <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_work"
+                            android:drawablePadding="10dp"
+                            android:text="Shift Type"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:drawableStart="@drawable/ic_dot"
+                                    android:drawablePadding="10dp"
+                                    android:text="From : "
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/cnd_home_list_details_shift_from"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="30dp"
+                                    android:text="9:00 AM"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:drawableStart="@drawable/ic_dot"
+                                    android:drawablePadding="10dp"
+                                    android:text=" To : "
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/cnd_home_list_details_shift_to"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="6:00 PM"
+                                    android:textColor="?attr/primaryTitleColor"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+               <!-- <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_work"
+                            android:drawablePadding="10dp"
+                            android:text="Working Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_working_day_num"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="5"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/person_color"
+                            android:drawablePadding="10dp"
+                            android:text="Reimbursement"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_reimbursement"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="15dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="Travelling"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_indian_money"
+                            android:drawablePadding="10dp"
+                            android:text="Incentive Detail"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_incentive_num"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="brief"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_indian_money"
+                            android:drawablePadding="10dp"
+                            android:text="Deposit Info"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingStart="10dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="20dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="Depositable: "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_depositable"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Depositable"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="20dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="Deposit Amount: "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_deposit_amount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Deposit Amount"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingStart="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="20dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="Deposit purpose: "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_deposit_purpose"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Deposit purpose"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <!--<androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_baseline_description_24"
+                            android:drawablePadding="10dp"
+                            android:text="Job Description"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_job_description"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="description"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>-->
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/ic_baseline_description_24"
+                                android:drawablePadding="10dp"
+                                android:text="Documents Required"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="?attr/primaryTitleColor" />
+
+                        <TextView
+                            android:id="@+id/cnd_home_list_details_documents_req"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="10dp"
+                            android:drawableStart="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text=""
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="-10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/ic_incentive_icon"
+                                android:drawablePadding="10dp"
+                                android:text="Incentives"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="?attr/primaryTitleColor" />
+
+                        <TextView
+                            android:id="@+id/cnd_home_list_details_incentive_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="45dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawableStart="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text=""
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginEnd="20dp"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/ic_car_24"
+                                android:drawablePadding="10dp"
+                                android:text="Ownership Required"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="3dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="?attr/primaryTitleColor" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:padding="10dp"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_vehicle_req"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_processor_req"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_phone_req"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="20dp"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/ic_indian_money"
+                                android:drawablePadding="10dp"
+                                android:text="Deposit Info"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="3dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="?attr/primaryTitleColor" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingStart="7dp"
+                            android:visibility="visible">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="20dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="Depositable : "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_depositable"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="7dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="20dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="Deposit Amount: "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_deposit_amount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="7dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="20dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="Deposit purpose: "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_list_details_deposit_purpose"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/hrContactCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="?attr/card_layout_color"
+                    android:visibility="gone"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="HR Contact"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="HR Name : "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_detail_tab_cmp_info_company_poc_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="HR Contact : "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_detail_tab_cmp_info_HR_Cont"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="0dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_dot"
+                                android:drawablePadding="10dp"
+                                android:text="HR Email : "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_home_detail_tab_cmp_info_HR_Email"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="0dp"
+                                android:text=""
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/already_contacted_mobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="0dp"
+                    android:visibility="gone"
+                    android:text="Already Contacted Through Mobile"
+                    android:textColor="#F44336"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/already_contacted_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="0dp"
+                    android:visibility="gone"
+                    android:text="Already Contacted Through Email"
+                    android:textColor="#F44336"
+                    android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+                <!-- hr contact btn -->
+              <!--  <androidx.cardview.widget.CardView
+                    android:id="@+id/cnd_detail_card_HRNum_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="?attr/card_layout_color"
+                    android:padding="10dp"
+                    android:visibility="gone"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/cnd_home_list_details_HRNum_btn"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/search_jobs_btn"
+                            android:visibility="gone"
+                            android:text="Call HR"
+                            android:textAllCaps="false"
+                            android:textSize="22sp" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView> -->
+
+
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cnd_detail_card_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="?attr/card_layout_color"
+            android:padding="10dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cnd_home_list_details_btn_apply"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/search_jobs_btn"
+                    android:text="Apply Now"
+                    android:textAllCaps="false"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</FrameLayout>

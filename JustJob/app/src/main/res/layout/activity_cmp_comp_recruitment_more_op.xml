@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/container_layout_color"
+    tools:context=".Company.PlaneActivity.cmpCompRecruitmentMoreOpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pricing"
+                android:gravity="center"
+                android:textColor="#67B8DD"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For Job Salary (Annual CTC )"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:textColor="#67B8DD"
+                android:textStyle="bold"
+                android:padding="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Replacement \n Guarantee"
+                    android:textSize="18sp"
+                    android:textColor="?attr/primaryTitleColor"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15 Days"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="?attr/primaryTitleColor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                android:textColor="?attr/primaryTitleColor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="45 Days"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                android:textColor="?attr/primaryTitleColor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cost per candidate % of annual CTC"
+                    android:textSize="18sp"
+                android:textColor="?attr/primaryTitleColor"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6.50%"
+                    android:textSize="14sp"
+                android:textColor="?attr/primaryTitleColor"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7.50%"
+                    android:textSize="14sp"
+                android:textColor="?attr/primaryTitleColor"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8.33%"
+                android:textColor="?attr/primaryTitleColor"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="10">
+            <TextView
+                android:id="@+id/pay_upfront_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/primaryTitleColor"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:text="Pay 50% upfront to abail attractive discounts (Moneyback Gurantee)"
+                android:gravity="center_horizontal"
+                android:layout_weight="9"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_toEndOf="@+id/pay_upfront_price"
+                android:thumb="@drawable/thumb_switchs"
+                app:showText="true"
+                android:textColor="?attr/primaryTitleColor"
+                app:track="@drawable/track_switches"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <!--<Button
+                android:id="@+id/ComRecOption_buy_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="buy"
+                android:textColor="#000"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/plan_btn_design"/>-->
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            app:cardElevation="8dp"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            app:cardCornerRadius="6dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/ComRecOption_buy_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="buy"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:background="@drawable/search_jobs_btn"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>

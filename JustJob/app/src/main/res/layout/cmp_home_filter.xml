@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <RadioButton
+        android:id="@+id/cmp_home_filter_qualification_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qualification"
+        android:visibility="gone"
+        android:textSize="15sp"/>
+    <RadioButton
+        android:id="@+id/cmp_home_filter_experience_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Experience"
+        android:textSize="15sp"/>
+    <RadioButton
+        android:id="@+id/cmp_home_filter_location_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:visibility="gone"
+        android:textSize="15sp"/>
+    <RadioButton
+        android:id="@+id/cmp_home_filter_new_candidates_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Candidates"
+        android:textSize="15sp"/>
+
+</LinearLayout>

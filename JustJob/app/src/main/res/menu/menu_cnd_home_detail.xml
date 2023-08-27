@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nave_home"
+        android:icon="@drawable/ic_work_office"
+        android:title="Jobs"/>
+
+    <item
+        android:id="@+id/nave_company"
+        android:icon="@drawable/ic_baseline_business_24"
+        android:title="Companies"/>
+
+    <item
+        android:id="@+id/nave_help"
+        android:icon="@drawable/ic_help"
+        android:title="Learn"/>
+
+   <!-- <item
+        android:id="@+id/nave_notification"
+        android:icon="@drawable/ic_notification"
+        android:title="Notification"/>-->
+
+    <item
+        android:id="@+id/nave_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"/>
+
+</menu>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Company.CompanyActivitys.CompanyProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_profile_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layout_cmp_editable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                   <!-- <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/profile"
+                        app:civ_border_color="#3f51b5"
+                        app:civ_border_width="2dp"
+                        app:civ_shadow="true"
+                        android:visibility="gone"
+                        app:civ_shadow_radius="10dp"
+                        app:civ_shadow_color="#3f51b5"/>-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center_horizontal">
+                        <TextView
+                            android:id="@+id/cmp_profile_name_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="User Name "
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:id="@+id/cmp_profile_email_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:text="Email"
+                            android:textColor="@color/dark_gray" />
+
+                        <TextView
+                            android:id="@+id/edit_company_profile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/search_jobs_btn"
+                            android:drawableStart="@drawable/ic_edit_tv"
+                            android:drawablePadding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="Edit"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_profile_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                android:layout_below="@id/card_profile_one">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/ic_work_office" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Company Name"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cmp_profile_company_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:hint="Copanu Name"
+                                android:textColor="@color/dark_gray" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/ic_work_office" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Designation"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cmp_profile_company_designation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:hint="Designation"
+                                android:textColor="@color/dark_gray" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/location" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Head Office"
+                                android:textSize="14sp"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cmp_profile_company_head_location"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:hint="Head location"
+                                android:textColor="@color/dark_gray" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/ic_work_office" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Company Industry"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cmp_profile_company_industry"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:hint="Industry"
+                                android:textColor="@color/dark_gray" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/ic_work_office" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Company Type"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cmp_profile_company_job_type"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:hint="Job Type"
+                                android:textColor="@color/dark_gray" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/ic_work_office" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="About Company"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cmp_profile_company_about"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:hint="Designation"
+                                android:textColor="@color/dark_gray" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_profile_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                android:layout_below="@id/card_profile_two">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_posted_job"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_work_office"
+                            android:drawablePadding="8dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="Posted Jobs"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/posted_job_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:drawableEnd="@drawable/ic_arrow_right"
+                            android:drawablePadding="8dp"
+                            android:padding="5dp"
+                            android:text="10"
+                            android:textColor="#03DAC5"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#EDEAEA"
+                        android:visibility="gone"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:visibility="gone">
+                        <TextView
+                            android:id="@+id/cmp_profile_theme_switch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Change Theme"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:drawableLeft="@drawable/ic_theme_change"
+                            android:textSize="16sp"
+                            android:drawablePadding="8dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginTop="11dp"/>
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:id="@+id/cmp_profile_change_theme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_alignParentEnd="true"
+                            app:track="@drawable/tract_switch"
+                            android:thumb="@drawable/thumb_switch"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_data_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_data_visual"
+                            android:drawablePadding="8dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="Data Viewed"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="22sp" />
+
+                        <TextView
+                            android:id="@+id/data_view_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:drawableEnd="@drawable/ic_arrow_right"
+                            android:drawablePadding="8dp"
+                            android:padding="5dp"
+                            android:text="10"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="22sp" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#EDEAEA" />
+
+                    <TextView
+                        android:id="@+id/transaction_comp_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_account_balance_wallet"
+                        android:drawableEnd="@drawable/ic_arrow_right"
+                        android:drawablePadding="8dp"
+                        android:padding="5dp"
+                        android:text="Transaction"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#EDEAEA" />
+
+                    <!--Tracker-->
+                    <TextView
+                        android:id="@+id/tracker_comp_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_account_balance_wallet"
+                        android:drawableEnd="@drawable/ic_arrow_right"
+                        android:drawablePadding="8dp"
+                        android:padding="5dp"
+                        android:text="Tracker"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp"
+                        android:visibility="gone"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#EDEAEA"
+                        android:visibility="gone"/>
+                    <!--Tracker-->
+
+                    <TextView
+                        android:id="@+id/contact_comp_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_local_phone"
+                        android:drawableEnd="@drawable/ic_arrow_right"
+                        android:drawablePadding="8dp"
+                        android:padding="5dp"
+                        android:text="Contact US"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#EDEAEA" />
+
+                    <TextView
+                        android:id="@+id/feedback_cmp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_feedback"
+                        android:drawableEnd="@drawable/ic_arrow_right"
+                        android:drawablePadding="8dp"
+                        android:padding="5dp"
+                        android:text="Feedback &amp; Suggestion"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#EDEAEA" />
+
+                    <TextView
+                        android:id="@+id/signout_cmp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_logout"
+                        android:drawableRight="@drawable/ic_arrow_right"
+                        android:drawablePadding="8dp"
+                        android:padding="5dp"
+                        android:text="Sign Out"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

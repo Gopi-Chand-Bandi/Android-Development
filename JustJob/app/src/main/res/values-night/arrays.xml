@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="company_type">
+        <item>Agency</item>
+        <item>Corporate</item>
+        <item>Individual Employer</item>
+        <item>Small Medium Enterprises</item>
+        <item>StartUps</item>
+    </string-array>
+
+    <string-array name="appli_question">
+        <item>Multiple-Choice Question</item>
+    </string-array>
+
+    <string-array name="posted_by_post_job">
+        <item><font fgcolor='#a9a9a9'>Select</font></item>
+        <item>JustJobs Client</item>
+        <item>Consultancy</item>
+        <item>Freelancer</item>
+        <item>Company</item>
+    </string-array>
+
+    <string-array name="qualification">
+        <item>Below SSC</item>
+        <item>SSC Passed</item>
+        <item>HSC Passed</item>
+        <item>Under Graduate</item>
+        <item>Post Graduate</item>
+        <item>PHD</item>
+    </string-array>
+
+
+    <string-array name="communication">
+        <item>No English</item>
+        <item>Thoda English</item>
+        <item>Good English</item>
+        <item>Fluent English</item>
+    </string-array>
+
+    <string-array name="india_states">
+        <item><font fgcolor='#a9a9a9'>Select State</font></item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <string-array name="designation_spinner">
+      <!--  <item><font fgcolor='#a9a9a9'>Select Role Designation</font></item> -->
+        <item>Internship</item>
+        <item>Executive</item>
+        <item>Sr Executive</item>
+        <item>Team leader</item>
+        <item>Assistant Manager</item>
+        <item>Manager</item>
+        <item>Sr Manager</item>
+        <item>Head</item>
+        <item>AVP</item>
+        <item>VP</item>
+    </string-array>
+
+    <string-array name="fresher_designation">
+      <!--  <item><font fgcolor='#a9a9a9'>Select Role Designation</font></item> -->
+        <item>Internship</item>
+        <item>Executive</item>
+    </string-array>
+
+    <string-array name="job_profile">
+      <!--  <item><font fgcolor='#a9a9a9'>Select Job Profile</font></item> -->
+        <item>Other</item>
+        <item>Aayah</item>
+        <item>Accountant</item>
+        <item>Admin</item>
+        <item>Aeronautical Engineer</item>
+        <item>Air Hostess</item>
+        <item>Analyst</item>
+        <item>Android Engineer</item>
+        <item>Application Architecture</item>
+        <item>Application Maintenance</item>
+        <item>Application Programming Engineer</item>
+        <item>Architecture</item>
+        <item>Area Sales</item>
+        <item>Attendant</item>
+        <item>B2B Sales</item>
+        <item>B2C Sales</item>
+        <item>Baby Caretaker</item>
+        <item>Baby Sitting</item>
+        <item>Back End Engineer</item>
+        <item>Back Office</item>
+        <item>Bartender</item>
+        <item>Beautician</item>
+        <item>Big Data Engineer</item>
+        <item>Biomedical Engineer</item>
+        <item>Business Analyst</item>
+        <item>Business Development</item>
+        <item>Cabin Crew</item>
+        <item>Caretaker</item>
+        <item>Carpenter</item>
+        <item>Cashier</item>
+        <item>Chartered Accountant</item>
+        <item>Channel Sales</item>
+        <item>Chemical Engineer</item>
+        <item>Civil Engineer</item>
+        <item>Claims Processing</item>
+        <item>Client Servicing</item>
+        <item>Commis 1</item>
+        <item>Commis 2</item>
+        <item>Commis 3</item>
+        <item>Content Writer</item>
+        <item>CRM Engineer</item>
+        <item>Continental Chef</item>
+        <item>Cook / Chef</item>
+        <item>Counselors</item>
+        <item>Counter Sales</item>
+        <item>Customer Care</item>
+        <item>Customer Collection</item>
+        <item>Customer Service</item>
+        <item>Customer Support</item>
+        <item>Data Analyst</item>
+        <item>Data Collection</item>
+        <item>Data Entry</item>
+        <item>Data Scientist</item>
+        <item>Debt Recovery Agent</item>
+        <item>Database Administrator</item>
+        <item>Delivery Boy</item>
+        <item>Desktop Support Technician</item>
+        <item>Digital Marketing Expert</item>
+        <item>Direct Sales</item>
+        <item>Doctor</item>
+        <item>Draftsman</item>
+        <item>Drilling Operator</item>
+        <item>Driver</item>
+        <item>DTP Operator</item>
+        <item>Electrical Engineer</item>
+        <item>Electrician</item>
+        <item>Electronics Engineer</item>
+        <item>Embedded / VLSI / ASIC / Chip Design</item>
+        <item>Engineering</item>
+        <item>Environmental Engineer</item>
+        <item>Equity Dealer</item>
+        <item>ETL Engineer</item>
+        <item>ERP Engineer</item>
+        <item>Fashion Designer</item>
+        <item>Fashion Photographer</item>
+        <item>Field Marketing Expert</item>
+        <item>Field Executive</item>
+        <item>Field Sales</item>
+        <item>Financial Planner</item>
+        <item>Fitness Trainer</item>
+        <item>Fitter</item>
+        <item>Flutter Engineer</item>
+        <item>Front Desk</item>
+        <item>Full Stack Engineer</item>
+        <item>Gardener</item>
+        <item>Graphic Designer</item>
+        <item>Hair Stylist</item>
+        <item>Hardware Engineer</item>
+        <item>Helper</item>
+        <item>Housekeeping</item>
+        <item>Human Resource (HR)</item>
+        <item>Industrial Engineer</item>
+        <item>Instrumentation Engineer</item>
+        <item>Insurance Agent</item>
+        <item>Ionic Engineer</item>
+        <item>IOS Engineer</item>
+        <item>IT Security</item>
+        <item>IT Support</item>
+        <item>Java Engineer</item>
+        <item>Key Account Management</item>
+        <item>Kafka Engineer</item>
+        <item>Laboratory Assistant</item>
+        <item>Labourer</item>
+        <item>Librarian</item>
+        <item>Lifeguard</item>
+        <item>Lift Operator</item>
+        <item>Loader</item>
+        <item>Machine Learning Engineer</item>
+        <item>Machine Operator</item>
+        <item>Maid</item>
+        <item>Maintenance</item>
+        <item>Marketing Research Analyst</item>
+        <item>Masseuse</item>
+        <item>Mechanic</item>
+        <item>Mechanical Engineer</item>
+        <item>Medical Representative</item>
+        <item>Merchandiser</item>
+        <item>Metallurgical</item>
+        <item>MIS</item>
+        <item>MongoDB Engineer</item>
+        <item>Mutual Fund Agent</item>
+        <item>Network Engineer</item>
+        <item>NodeJS Engineer</item>
+        <item>Nurse</item>
+        <item>Office Assistant</item>
+        <item>Office Boy</item>
+        <item>Operation Head</item>
+        <item>Packer</item>
+        <item>Painter</item>
+        <item>Personal Assistant</item>
+        <item>Photographer</item>
+        <item>PHP Engineer</item>
+        <item>Physiotherapist</item>
+        <item>Plumber</item>
+        <item>Power BI</item>
+        <item>Procurement</item>
+        <item>Product Engineer</item>
+        <item>Production</item>
+        <item>Project Management</item>
+        <item>Promoter</item>
+        <item>Public Relations (PR)</item>
+        <item>Purchase</item>
+        <item>Python Engineer</item>
+        <item>QA Engineer</item>
+        <item>Quality Analyst</item>
+        <item>Quality Control</item>
+        <item>Radiology Technician</item>
+        <item>Receptionist/Front Desk</item>
+        <item>Relationship Manager</item>
+        <item>Regional</item>
+        <item>Regional Sales</item>
+        <item>Research Analyst</item>
+        <item>Security Guard</item>
+        <item>Site Reliability Engineer</item>
+        <item>Social Media</item>
+        <item>Software Engineer</item>
+        <item>Software Testing Engineer</item>
+        <item>Steward</item>
+        <item>Store Keeper</item>
+        <item>Store Sales</item>
+        <item>Support Engineer</item>
+        <item>Surgeon</item>
+        <item>System Administration</item>
+        <item>Technician</item>
+        <item>Telecaller</item>
+        <item>Telecommunications Engineer</item>
+        <item>Telemarketing</item>
+        <item>Telesales</item>
+        <item>Territory Sales</item>
+        <item>Tower Technician</item>
+        <item>Tutor / Teacher</item>
+        <item>UI/UX Designer</item>
+        <item>Van Associate</item>
+        <item>Waiter</item>
+        <item>Ward boy</item>
+        <item>Web Designer</item>
+        <item>Xamarin Engineer</item>
+        <item>Zonal Sales</item>
+    </string-array>
+
+    <string-array name="indian_cities">
+        <item><font fgcolor='#a9a9a9'>Select City</font></item>
+        <item>Adoni</item>
+        <item>Agartala</item>
+        <item>Agra</item>
+        <item>Ahmedabad</item>
+        <item>Ahmednagar</item>
+        <item>Aizawl</item>
+        <item>Ajmer</item>
+        <item>Akola</item>
+        <item>Alappuzha</item>
+        <item>Aligarh</item>
+        <item>Allahabad</item>
+        <item>Alwar</item>
+        <item>Amaravati</item>
+        <item>Ambala</item>
+        <item>Ambarnath</item>
+        <item>Ambattur</item>
+        <item>Amravati</item>
+        <item>Amritsar</item>
+        <item>Amroha</item>
+        <item>Anand</item>
+        <item>Anantapur</item>
+        <item>Anantapuram</item>
+        <item>Arrah</item>
+        <item>Asansol</item>
+        <item>Aurangabad</item>
+        <item>Avadi</item>
+        <item>Bahraich</item>
+        <item>Ballia</item>
+        <item>Bally</item>
+        <item>Bangalore</item>
+        <item>Baranagar</item>
+        <item>Barasat</item>
+        <item>Bardhaman</item>
+        <item>Bareilly</item>
+        <item>Bathinda</item>
+        <item>Begusarai</item>
+        <item>Belgaum</item>
+        <item>Bellary</item>
+        <item>berhampre</item>
+        <item>Bettiah</item>
+        <item>Bhagalpur</item>
+        <item>Bhalswa Jahangir Pur</item>
+        <item>Bharatpur</item>
+        <item>Bhatpara</item>
+        <item>Bhavnagar</item>
+        <item>Bhilai</item>
+        <item>Bhilwara</item>
+        <item>Bhimavaram</item>
+        <item>Bhind</item>
+        <item>Bhiwandi</item>
+        <item>Bhopal</item>
+        <item>Bhubaneswar</item>
+        <item>Bhusawal</item>
+        <item>Bidar</item>
+        <item>Bidhannagar</item>
+        <item>Bijapur</item>
+        <item>Bikaner</item>
+        <item>Bilaspur</item>
+        <item>Bokaro</item>
+        <item>Bongaigaon</item>
+        <item>Bulandshahr</item>
+        <item>Burhanpur</item>
+        <item>Buxar</item>
+        <item>Chandigarh</item>
+        <item>Chandrapur</item>
+        <item>Chapra</item>
+        <item>Chennai</item>
+        <item>Chinsurah</item>
+        <item>Chittoor</item>
+        <item>Coimbatore</item>
+        <item>Cuttack</item>
+        <item>Danapur</item>
+        <item>Darbhanga</item>
+        <item>Davanagere</item>
+        <item>Dehradun</item>
+        <item>Dehri</item>
+        <item>Delhi</item>
+        <item>Deoghar</item>
+        <item>Dewas</item>
+        <item>Dhanbad</item>
+        <item>Dharmavaram</item>
+        <item>Dhule</item>
+        <item>Dibrugarh</item>
+        <item>Dindigul</item>
+        <item>Durg</item>
+        <item>Durgapur</item>
+        <item>Eluru</item>
+        <item>Erode</item>
+        <item>Etawah</item>
+        <item>Faridabad</item>
+        <item>Farrukhabad</item>
+        <item>Fatehpur</item>
+        <item>Firozabad</item>
+        <item>Gandhidham</item>
+        <item>Gandhinagar</item>
+        <item>Gangtok</item>
+        <item>Gaya</item>
+        <item>Ghaziabad</item>
+        <item>Giridih</item>
+        <item>Gopalpur</item>
+        <item>Gorakhpur</item>
+        <item>Gudivada</item>
+        <item>Gulbarga</item>
+        <item>Guna</item>
+        <item>Guntakal</item>
+        <item>Guntur</item>
+        <item>Gurgaon</item>
+        <item>Guwahati</item>
+        <item>Gwalior</item>
+        <item>Hajipur</item>
+        <item>Haldia</item>
+        <item>Hapur</item>
+        <item>Haridwar</item>
+        <item>Hazaribagh</item>
+        <item>Hindupur</item>
+        <item>Hospet</item>
+        <item>Hosur</item>
+        <item>Howrah</item>
+        <item>Hubli–Dharwad</item>
+        <item>Hyderabad</item>
+        <item>Ichalkaranji</item>
+        <item>Imphal</item>
+        <item>Indore</item>
+        <item>Jabalpur</item>
+        <item>Jaipur</item>
+        <item>Jalandhar</item>
+        <item>Jalgaon</item>
+        <item>Jalna</item>
+        <item>Jamalpur</item>
+        <item>Jammu</item>
+        <item>Jamnagar</item>
+        <item>Jamshedpur</item>
+        <item>Jaunpur</item>
+        <item>Jehanabad</item>
+        <item>Jhansi</item>
+        <item>Jodhpur</item>
+        <item>Jorhat</item>
+        <item>Junagadh</item>
+        <item>Kadapa</item>
+        <item>Kakinada</item>
+        <item>Kalyan-Dombivli</item>
+        <item>Kamarhati</item>
+        <item>Kanpur</item>
+        <item>Karaikudi</item>
+        <item>Karawal Nagar</item>
+        <item>Karimnagar</item>
+        <item>Karnal</item>
+        <item>Katihar</item>
+        <item>Katni</item>
+        <item>Kavali</item>
+        <item>Khammam</item>
+        <item>Khandwa</item>
+        <item>Kharagpur</item>
+        <item>Khora | Ghaziabad</item>
+        <item>Kirari Suleman Nagar	</item>
+        <item>Kishanganj</item>
+        <item>Kochi</item>
+        <item>Kolhapur</item>
+        <item>Kolkata</item>
+        <item>Kollam</item>
+        <item>Korba</item>
+        <item>Kota</item>
+        <item>Kottayam</item>
+        <item>Kozhikode</item>
+        <item>kulti</item>
+        <item>Kumbakonam</item>
+        <item>Kurnool</item>
+        <item>Latur</item>
+        <item>Loni</item>
+        <item>Lucknow</item>
+        <item>Ludhiana</item>
+        <item>Machilipatnam</item>
+        <item>Madanapalle</item>
+        <item>Madhyamgram</item>
+        <item>Madurai</item>
+        <item>Mahbubnagar</item>
+        <item>Maheshtala</item>
+        <item>Malda</item>
+        <item>Malegaon</item>
+        <item>Mangalore</item>
+        <item>Mango</item>
+        <item>Mathura</item>
+        <item>Vrindhavan</item>
+        <item>Mau</item>
+        <item>Medininagar</item>
+        <item>Meerut</item>
+        <item>Mehsana</item>
+        <item>Mira-Bhayandar</item>
+        <item>Miryalaguda</item>
+        <item>Mirzapur</item>
+        <item>Moradabad</item>
+        <item>Morbi</item>
+        <item>Morena</item>
+        <item>Motihari</item>
+        <item>Mumbai</item>
+        <item>Munger</item>
+        <item>Muzaffarnagar</item>
+        <item>Muzaffarpur</item>
+        <item>Mysore</item>
+        <item>Nadiad</item>
+        <item>Nagaon</item>
+        <item>Nagercoil</item>
+        <item>Nagpur</item>
+        <item>Naihati</item>
+        <item>Nanded</item>
+        <item>Nandyal</item>
+        <item>Nangloi Jat</item>
+        <item>Narasaraopet</item>
+        <item>Nashik</item>
+        <item>Navi Mumbai</item>
+        <item>Nellore</item>
+        <item>New Delhi</item>
+        <item>Nizamabad</item>
+        <item>Noida</item>
+        <item>North Dumdum</item>
+        <item>Ongole</item>
+        <item>Orai</item>
+        <item>Pali</item>
+        <item>Pallavaram</item>
+        <item>Panchkula</item>
+        <item>Panihati</item>
+        <item>Panipat</item>
+        <item>Panvel</item>
+        <item>Parbhani</item>
+        <item>Patiala</item>
+        <item>Patna</item>
+        <item>Phagwara</item>
+        <item>Phusro</item>
+        <item>Pimpri-Chinchwad</item>
+        <item>Pondicherry</item>
+        <item>Port Blair</item>
+        <item>Proddatur</item>
+        <item>Pudukkottai</item>
+        <item>Pune</item>
+        <item>Purnia</item>
+        <item>Raebareli</item>
+        <item>Raichur</item>
+        <item>Raiganj</item>
+        <item>Raipur</item>
+        <item>Rajahmundry</item>
+        <item>Rajkot</item>
+        <item>Rajpur Sonarpur</item>
+        <item>Ramagundam</item>
+        <item>Ramgarh</item>
+        <item>Rampur</item>
+        <item>Ranchi</item>
+        <item>Ratlam</item>
+        <item>Raurkela Industrial Township</item>
+        <item>Rewa</item>
+        <item>Rohtak</item>
+        <item>Rourkela</item>
+        <item>Sagar</item>
+        <item>Saharanpur</item>
+        <item>Saharsa</item>
+        <item>Salem</item>
+        <item>Sambalpur</item>
+        <item>Sambhal</item>
+        <item>Sangli-Miraj &amp; Kupwad</item>
+        <item>Sasaram</item>
+        <item>Satara</item>
+        <item>Satna</item>
+        <item>Secunderabad</item>
+        <item>Serampore</item>
+        <item>Shahjahanpur</item>
+        <item>Shimla</item>
+        <item>Shimoga</item>
+        <item>Shivpuri</item>
+        <item>Sikar</item>
+        <item>Silchar</item>
+        <item>Siliguri</item>
+        <item>Singrauli</item>
+        <item>Sirsa</item>
+        <item>Siwan</item>
+        <item>Solapur</item>
+        <item>Sonipat</item>
+        <item>South Dumdum</item>
+        <item>Sri Ganganagar</item>
+        <item>Srikakulam</item>
+        <item>Srinagar</item>
+        <item>Sultan Pur Majra</item>
+        <item>Surat</item>
+        <item>Surendranagar Dudhrej</item>
+        <item>Suryapet</item>
+        <item>Tadepalligudem</item>
+        <item>Tadipatri</item>
+        <item>Tenali</item>
+        <item>Tezpur</item>
+        <item>Thane</item>
+        <item>Thanjavur</item>
+        <item>Thiruvananthapuram</item>
+        <item>Thoothukudi</item>
+        <item>Thrissur</item>
+        <item>Tinsukia</item>
+        <item>Tiruchirappalli</item>
+        <item>Tirunelveli</item>
+        <item>Tirupati</item>
+        <item>Tiruppur</item>
+        <item>Tiruvottiyur</item>
+        <item>Tumkur</item>
+        <item>Udaipur</item>
+        <item>Udupi</item>
+        <item>Ujjain</item>
+        <item>Ulhasnagar</item>
+        <item>Uluberia</item>
+        <item>Unnao</item>
+        <item>Uzhavarkarai</item>
+        <item>Vadodara</item>
+        <item>Varanasi</item>
+        <item>Vasai-Virar</item>
+        <item>Vasco Da Gama</item>
+        <item>Vellore</item>
+        <item>Vijayanagaram</item>
+        <item>Vijayawada</item>
+        <item>Visakhapatnam</item>
+        <item>Warangal</item>
+        <item>Yamunanagar</item>
+    </string-array>
+</resources>

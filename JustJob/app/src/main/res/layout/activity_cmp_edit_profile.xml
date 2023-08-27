@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/container_layout_color"
+    tools:context=".Company.CompanyActivitys.CmpEditProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_edit_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Full Name"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_edit_name"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/text_input_cmp_edit_name"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_person"
+                                android:hint="Name"
+                                android:inputType="textPersonName" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_edit_name_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_name"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_person"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="name"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_name"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Number"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_contact"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/text_input_cmp_edit_contact"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_person"
+                                android:hint="Contact"
+                                android:inputType="phone" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_contact_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_contact"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_local_phone"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Contact"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_contact"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_designation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Designation"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_designation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_designation"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/text_input_cmp_edit_designation"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_work"
+                                android:hint="Designation"
+                                android:inputType="text" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_edit_designation_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_designation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_designation"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_work"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Designation"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_designation"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_edit_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_edit_email"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/text_input_cmp_edit_email"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_email"
+                                android:hint="Email"
+                                android:inputType="textEmailAddress" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_edit_email_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_email"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_email"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Email"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_email"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_edit_company_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Company Name"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_company_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_edit_company_name"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/text_input_cmp_edit_company_name"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_email"
+                                android:hint="Company Name"
+                                android:inputType="textPersonName" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_edit_company_name_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_company_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_company_name"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_work"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Company Name"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_company_name"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_edit_head_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Head Office Location"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_head_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_edit_head_location"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/text_input_cmp_edit_head_location"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_email"
+                                android:hint="Head Location"
+                                android:inputType="textPersonName" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_edit_head_location_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_head_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_head_location"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_work"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Head Location"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_head_location"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_edit_industry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Industry"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_industry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_edit_industry"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+
+                        <TextView
+                            android:id="@+id/text_input_cmp_edit_industry"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/text_view_border"
+                            android:drawableEnd="@drawable/ic_work"
+                            android:padding="10dp"
+                            android:text="Select Industry"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/text_view_cmp_edit_other_industry"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:visibility="gone">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/cmp_edit_other_industry"
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Enter Other Industry"
+                                android:textSize="18sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_edit_industry_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_industry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_industry"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_work"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Industry"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_industry"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_edit_catagory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Company Catagory"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_catagory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_edit_catagory"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/text_input_cmp_edit_catagory"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spinner_bg"
+                            android:entries="@array/job_cmp_category"
+                            android:padding="10dp"
+                            android:paddingEnd="10dp"
+                            android:theme="@style/SpinnerThemeLight_new" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_edit_catagory_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_catagory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_catagory"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_work"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Industry"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_catagory"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_edit_company_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Company Type"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_company_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_edit_company_type"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/text_input_cmp_edit_company_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spinner_bg"
+                            android:clickable="false"
+                            android:entries="@array/company_type"
+                            android:padding="10dp"
+                            android:theme="@style/SpinnerThemeLight_new" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_edit_company_type_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_company_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_company_type"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_work"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Company Type"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_company_type"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_edit_company_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Company Address"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_company_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_edit_company_address"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/text_input_cmp_edit_company_address"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_location"
+                                android:hint="Company Address"
+                                android:inputType="textPersonName" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_edit_company_address_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_company_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_company_address"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_work"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Company Address"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_company_address"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_cmp_edit_about"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="About Company"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cmp_edit_about"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_cmp_edit_about"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/text_input_cmp_edit_about"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_email"
+                                android:hint="About Company"
+                                android:inputType="textPersonName" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_input_cmp_edit_about_don"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_cmp_edit_about"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cmp_edit_about"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_work"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="About Company"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_cmp_edit_about"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="?attr/card_layout_color"
+                android:padding="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/company_submit_btn_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/search_jobs_btn"
+                        android:text="Submit"
+                        android:textAllCaps="false"
+                        android:textSize="22sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

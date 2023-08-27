@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cnd_call_history_info_card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="13dp"
+    android:layout_marginRight="13dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/cnd_call_history_info_cmp_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Company Name"
+                    android:textColor="?attr/primaryTitleColor"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="-"
+                    android:textColor="?attr/primaryTitleColor"
+                    android:textSize="10sp"/>
+
+                <TextView
+                    android:id="@+id/cnd_call_history_info_job_role"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:text="Job Role"
+                    android:textColor="?attr/primaryTitleColor"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:id="@+id/cnd_call_history_call_made"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_call" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="-9dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_sent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cnd_call_history_call_got"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_call" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="-9dp"
+                        android:layout_marginTop="-2dp"
+                        android:src="@drawable/ic_received" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cnd_call_history_email_made"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_email" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_sent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cnd_call_history_email_got"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_email" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_received" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cnd_call_history_resume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_baseline_description_24" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_received" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/cnd_call_history_info_date_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="5dp"
+                    android:text="Date And Time"
+                    android:textColor="?attr/primaryTitleColor"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Company Info >>"
+                    android:textColor="@color/drawable_icon_color_tint"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

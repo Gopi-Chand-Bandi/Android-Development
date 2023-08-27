@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Company.CompanyPostJob.PoJo7Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Post Job Requirements"
+                android:textColor="?attr/primaryTitleColor"
+                android:textSize="22sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/documents_required"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="20sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_aadhar_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="Aadhar card"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_pan_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:text="Pan Card"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_two_wheeler_dl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:visibility="gone"
+                        android:text="Two Wheeler Driving Licence"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_four_wheeler_dl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:visibility="gone"
+                        android:text="Four Wheeler Driving Licence"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_tr_dl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:text="Passport"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_heavy_dl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:text="Voting Card"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_address_proof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:text="Driving Licence"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_bank_account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:text="Bank Account"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Other: "
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/pj_et_other_document"
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                                android:hint="Voter ID"
+                                android:inputType="textPersonName"
+                                android:padding="10dp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Working Day"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="20sp" />
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/pj_sp_working_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spinner_bg"
+                        android:entries="@array/working_day"
+                        android:padding="10dp"
+                        android:paddingEnd="10dp"
+                        android:theme="@style/SpinnerThemeLight_new"
+                        tools:ignore="RtlSymmetry" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pj_ib_8_submit"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_next_page" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

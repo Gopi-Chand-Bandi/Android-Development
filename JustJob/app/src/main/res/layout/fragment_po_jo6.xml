@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Company.CompanyPostJob.PoJo5Fragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Post Job Requirements"
+                android:textColor="?attr/primaryTitleColor"
+                android:textSize="22sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/communication_required"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="20sp" />
+
+                    <RadioGroup
+                        android:id="@+id/pj_communi_r_grp_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_no_engl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="No English"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_thoda_engl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="-15dp"
+                            android:text="Thoda English"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_good_engl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="-15dp"
+                            android:text="Good English"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_fluent_engl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="-15dp"
+                            android:text="Fluent English"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/pj_tv_communi_alert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FDEDC9"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="#916540"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/languages_knows_preferred"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="20sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_hindi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="Hindi"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_marathi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:text="Marathi"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_english"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:text="English"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_urdu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:text="Urdu"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/pj_cb_gujrati"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:text="Gujrati"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Other: "
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/pj_et_other_languages"
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                                android:hint="Other Language"
+                                android:inputType="textPersonName"
+                                android:padding="10dp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pj_ib_6_submit"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_next_page" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

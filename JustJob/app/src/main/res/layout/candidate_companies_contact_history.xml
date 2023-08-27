@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/company_contact_card_view_design"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="13dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="13dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/contacted_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Axis Bank Ltd"
+                android:textColor="#16202c"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/call_made_to_the_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-35dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_call" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="-9dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_sent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Call made to the company"
+                        android:textColor="#787878"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+               <!-- <LinearLayout
+                    android:id="@+id/call_received_from_the_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_call" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="-9dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_received" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Call received from the company"
+                        android:textColor="#787878"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout> -->
+
+                <LinearLayout
+                    android:id="@+id/email_sent_to_the_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-35dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_baseline_email_24" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_sent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Email sent to the company"
+                        android:textColor="#787878"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+               <!-- <LinearLayout
+                    android:id="@+id/email_received_from_the_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_baseline_email_24" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ic_received" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Email received from the company"
+                        android:textColor="#787878"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout> -->
+
+                <TextView
+                    android:id="@+id/contact_company_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textColor="#16202c"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

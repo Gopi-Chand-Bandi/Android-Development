@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="below_ssc">
+        <item>First Class</item>
+        <item>Second Class</item>
+        <item>Third Class</item>
+        <item>Fourth Class</item>
+        <item>Fifth Class</item>
+        <item>Sixth Class</item>
+        <item>Seventh Class</item>
+        <item>Eighth Class</item>
+        <item>Ninth Class</item>
+        <item>Tenth Class</item>
+    </string-array>
+
+    <string-array name="board">
+        <item>CBSE</item>
+        <item>Chhattisgarh Board</item>
+        <item>Goa Board</item>
+        <item>Gujarat Board</item>
+        <item>Haryana Board</item>
+        <item>Jammu and Kashmir State Board</item>
+        <item>Karnataka Board</item>
+        <item>Jharkhand Board</item>
+        <item>Kerala Board</item>
+        <item>Maharashtra Board</item>
+        <item>Manipur Board</item>
+        <item>Meghalaya Board</item>
+        <item>Mizoram Board</item>
+        <item>Madhya Pradesh Board</item>
+        <item>Nagaland Board</item>
+        <item>Orissa Board</item>
+        <item>Punjab School Education Board</item>
+        <item>Rajasthan Board</item>
+        <item>Board of Assam</item>
+        <item>Tamilnadu Board</item>
+        <item>Telangana Board</item>
+        <item>Tripura Board</item>
+        <item>Uttar Pradesh Board</item>
+        <item>Uttarakhand Board</item>
+        <item>West Bengal Board</item>
+    </string-array>
+
+    <string-array name="ssc_pass">
+        <item>SSC</item>
+        <item>HSC</item>
+    </string-array>
+
+    <string-array name="hhc_pass">
+        <item>Science</item>
+        <item>Commerce</item>
+        <item>Arts</item>
+    </string-array>
+
+    <string-array name="under_Graduate">
+        <item>BCA- Bachelor of Computer Applications</item>
+        <item>B.Sc.- Information Technology</item>
+        <item>BPT- Bachelor of Physiotherapy</item>
+        <item>B.Sc- Applied Geology</item>
+        <item>B.Sc.- Physics</item>
+        <item>B.Sc. Mathematics</item>
+        <item>B.Sc. Chemistry</item>
+        <item>B.Sc- Nursing</item>
+        <item>B.Pharma- Bachelor of Pharmacy</item>
+        <item>B.Com (Hons.)</item>
+        <item>BA (Hons.) in Economics</item>
+        <item>BBA- Bachelor of Business Administration</item>
+        <item>Integrated Law Program- BBA LL.B</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="GraduateList">
+        <item>BCA- Bachelor of Computer Applications</item>
+        <item>B.Sc.- Information Technology</item>
+        <item>BPT- Bachelor of Physiotherapy</item>
+        <item>B.Sc- Applied Geology</item>
+        <item>B.Sc.- Physics</item>
+        <item>B.Sc. Mathematics</item>
+        <item>B.Sc. Chemistry</item>
+        <item>B.Sc- Nursing</item>
+        <item>B.Pharma- Bachelor of Pharmacy</item>
+        <item>B.Com (Hons.)</item>
+        <item>BA (Hons.) in Economics</item>
+        <item>BBA- Bachelor of Business Administration</item>
+        <item>Integrated Law Program- BBA LL.B</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="post_graduat">
+        <item>Master of Arts (MA)</item>
+        <item>Master of Science (MSc)</item>
+        <item>Master of Fine Arts (MFA)</item>
+        <item>Master of Letters (MLitt)</item>
+        <item>Master of Laws (LLM)</item>
+        <item>Master of Engineering (MEng)</item>
+        <item>Integrated Masters</item>
+        <item>Postgraduate Certificate (PGCert) and Postgraduate Diploma (PGDip)</item>
+        <item>Legal Practice Course (LPC)</item>
+        <item>Graduate Diploma in Law (GDL)</item>
+        <item>Master of Business Administration (MBA)</item>
+        <item>Masters in Management (MiM</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="PHD">
+        <item>Biochemistry</item>
+        <item>Bio-Informatics</item>
+        <item>Biophysics</item>
+        <item>Biotechnology</item>
+        <item>Food Science / Nutrition</item>
+        <item>Chemical Engineering</item>
+        <item>Chemical Toxicology</item>
+        <item>Computational Chemistry</item>
+        <item>Electrochemistry</item>
+        <item>Food Chemistry</item>
+        <item>Astrophysics</item>
+        <item>Atomic Physics</item>
+        <item>Biophysics</item>
+        <item>Metrology</item>
+    </string-array>
+</resources>

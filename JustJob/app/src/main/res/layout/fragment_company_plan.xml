@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/container_layout_color"
+    tools:context=".Company.CompanyActivitys.CompanyPlanFragment">
+
+
+    <!--<com.google.android.material.tabs.TabLayout
+        android:id="@+id/new_pricing_plan_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="@color/white"
+        app:tabSelectedTextColor="?attr/tabSelectedTextColor"
+        app:tabTextColor="?attr/tabTextColor">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/new_it_plan_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT Hiring" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/new_nonit_plan_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non-IT &amp; Bulk Hiring" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/new_pricing_plan_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/new_pricing_plan_tablayout" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/plane_card_1_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="₹20 Per Unlocked"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Data Relevancy Check"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/arrow_1_day_Btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="58dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_1_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="₹20"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="50dp"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="₹20"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="0% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="1 Candidate data Access"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="0 Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="50 Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 1 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_1_day_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/plane_card_7_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="25 Data Access + 20 Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Data Relevancy Check"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/arrow_7_day_Btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="58dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_7_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="₹250"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="50dp"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="@string/_500"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="50% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="25 Candidate data Access"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="20 Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="200 Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 7 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_7_day_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/plane_card_15_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="50 Data Access + 30 Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Data Relevancy Check"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/arrow_15_day_Btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="58dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_15_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="₹450"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="50dp"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="@string/_1000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="55% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="50 Candidate data Access"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="30 Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="300 Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 15 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_15_day_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/plane_card_30_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="100 Data Access + 40 Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Data Relevancy Check"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/arrow_30_day_Btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="58dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_30_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="₹800"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="50dp"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="@string/_2000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="60% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="100 Candidate data Access"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="40 Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="400 Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 30 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_30_day_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/plane_card_60_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="500 Data Access + 200 Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Data Relevancy Check"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/arrow_60_day_Btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="58dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_60_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="₹3,500"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="50dp"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="@string/_10000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="65% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="500 Candidate data Access"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="200 Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="2,000 Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 60 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_60_day_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/plane_card_90_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="5,000 Data Access + unlimited Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Data Relevancy Check"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/arrow_90_day_Btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="58dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_90_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="₹30,000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="50dp"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="@string/_100000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="70% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="5,000 Candidate data Access"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 90 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_90_day_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/plane_card_180_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="10,000 Data Access + unlimited Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Data Relevancy Check"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/arrow_180_day_Btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="58dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_180_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="₹50,000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="50dp"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="@string/_200000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="75% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="10,000 Candidate data Access"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 180 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_180_day_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/plane_card_365_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="30,000 Data Access + unlimited Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Data Relevancy Check"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/arrow_365_day_Btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="58dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_365_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="₹1,20,000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="50dp"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="@string/_600000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="80% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="30,000 Candidate data Access"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 365 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_365_day_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/container_layout_color"
+    tools:context=".Company.NewPlaneActivity.CmpPlaneActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/pricing_plan_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="@color/white"
+        app:tabSelectedTextColor="?attr/tabSelectedTextColor"
+        app:tabTextColor="?attr/tabTextColor">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/it_plan_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT Hiring" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/nonit_plan_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non-IT &amp; Bulk Hiring" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pricing_plan_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pricing_plan_tablayout" />
+
+</RelativeLayout>

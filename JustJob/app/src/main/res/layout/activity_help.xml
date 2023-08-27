@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="?attr/container_layout_color"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    tools:context=".Candidate.CandidateActivityFragment.HelpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_help_s1"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="1"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:id="@+id/expandable_text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:id="@+id/expand_collapse_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_help_s2"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="1"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:id="@+id/expandable_text_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:id="@+id/expand_collapse_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_help_s3"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="1"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:id="@+id/expandable_text_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:id="@+id/expand_collapse_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_help_s4"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="1"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:id="@+id/expandable_text_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor"/>
+                <ImageButton
+                    android:id="@+id/expand_collapse_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/container_layout_color"
+    tools:context=".Candidate.CandidateActivityFragment.HelpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_help1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:text="Consultancy(Asking for money)"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/help_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_help1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:visibility="gone"
+                android:text="JustJobsHR is 100% free.Please do not give any money to company. You can report this to us by clicking on Report Issue in the job details and mark Asking Money."
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_help2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:text="Fake / Fraud company"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/help_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_help2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:visibility="gone"
+                android:text="JustJobsHR is 100% free.Please do not give any money to company.If you feel that the company is fraud or fake, you can report this to us by clicking on Report Issue in the job details and mark Asking Money."
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_help3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:text="How to change my mobile number?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/help_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_help3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:visibility="gone"
+                android:text="Mobile number cannot be changed for JustJobsHR account. In Order to have your account with different mobile number, please logout from current account and create a new account with different mobile number."
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_help4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:text="Vacancy full"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/help_button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_help4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:visibility="gone"
+                android:text="If the company says that the vacancy is full, then you can report this to us by clicking on Report Issues in the job details and mark Vacancy full."
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

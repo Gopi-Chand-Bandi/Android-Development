@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Company.CompanyPostJob.PoJo4Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Post Job Requirements"
+                android:textColor="?attr/primaryTitleColor"
+                android:textSize="22sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/education_required"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="20sp" />
+
+                    <RadioGroup
+                        android:id="@+id/pj_cb_quali_radio_grp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_below_ssc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="Below SSC"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_ssc_pass"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="SSC Pass"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_hsc_pass"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="HSC Pass"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_under_graduate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="Under Graduate"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_graduate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="Graduate"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_post_graduate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="Post Graduate"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/gender_required"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="20sp" />
+
+                    <RadioGroup
+                        android:id="@+id/pj_cb_male_female_radio_grp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_only_male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="Only Male"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_only_female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="Only Female"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/pj_cb_male_female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="Male &amp; Female (Both)"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pj_ib_5_submit"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_next_page" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

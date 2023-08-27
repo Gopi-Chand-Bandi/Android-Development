@@ -1,0 +1,3125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timing">
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <string-array name="job_cmp_category">
+        <item>Branch Office</item>
+        <item>Joint-Venture Company</item>
+        <item>Limited Liability Company</item>
+        <item>Limited Liability Partnership</item>
+        <item>Non-Government Organization (NGO)</item>
+        <item>One Person Company</item>
+        <item>Partnership Firm</item>
+        <item>Sole Proprietor</item>
+        <item>Private Limited Company</item>
+        <item>Public Limited Company</item>
+        <item>Section 8 Company</item>
+        <item>Sole Proprietorship</item>
+    </string-array>
+
+    <string-array name="job_industry_list">
+        <item><font fgcolor='#a9a9a9'>Select Category</font></item>
+        <item>Sales &amp; Operation</item>
+        <item>Engineering &amp; Construction</item>
+        <item>Office, Admin &amp; HR</item>
+        <item>Accounts &amp; Finance</item>
+        <item>BPO &amp; Telecaller</item>
+        <item>IT &amp; Software</item>
+        <item>Delivery &amp; Driver</item>
+        <item>Marketing &amp; Media</item>
+        <item>Hospitality &amp; Restaurant</item>
+        <item>Logistics &amp; Warehouse</item>
+        <item>Education</item>
+        <item>Retail</item>
+        <item>Healthcare</item>
+        <item>Design &amp; Creativity</item>
+        <item>Utility &amp; Services</item>
+        <item>Safety &amp; Security</item>
+        <item>Travel &amp; Tourism</item>
+        <item>Beauty &amp; Fitness</item>
+        <item>Legal</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="company_industry">
+        <item><font fgcolor='#a9a9a9'>Select Industry</font></item>
+        <item>Other</item>
+        <item>Accounting | Finance</item>
+        <item>Advertising</item>
+        <item>Advertising | Media | PR</item>
+        <item>Aerospace</item>
+        <item>Agriculture</item>
+        <item>Agriculture &amp; Allied Industries</item>
+        <item>Auto Components</item>
+        <item>Automotive | Automobile</item>
+        <item>Aviation</item>
+        <item>Banking | Financial Services | Insurance</item>
+        <item>Bank</item>
+        <item>Biotechnology</item>
+        <item>BPO | ITES</item>
+        <item>Cement</item>
+        <item>Chemical</item>
+        <item>Commercial Bank</item>
+        <item>Computers and Information Technology</item>
+        <item>Conglomerate</item>
+        <item>Construction</item>
+        <item>Consumer Durables</item>
+        <item>Defence Manufacturing</item>
+        <item>Distribution</item>
+        <item>E-commerce</item>
+        <item>Education | Training</item>
+        <item>Electronics</item>
+        <item>Electronics | Electrical</item>
+        <item>Electronics System Design &amp; Manufacturing</item>
+        <item>Energy</item>
+        <item>Engineering</item>
+        <item>Engineering &amp; Capital Goods</item>
+        <item>Entertainment</item>
+        <item>Event Management</item>
+        <item>Facility Management</item>
+        <item>Fast-Moving Consumer Goods</item>
+        <item>Financial Services</item>
+        <item>Fintech</item>
+        <item>FMCG | F&amp;B</item>
+        <item>Food | Beverages</item>
+        <item>Gems &amp; Jewellery</item>
+        <item>Healthcare</item>
+        <item>Healthcare | Medical</item>
+        <item>Heavy Industry</item>
+        <item>Holding Company</item>
+        <item>Hospitality</item>
+        <item>Industrial Engineering</item>
+        <item>Information Technology and Services</item>
+        <item>Infrastructure</item>
+        <item>Insurance</item>
+        <item>Investment &amp; Funding</item>
+        <item>IT - Hardware | Networking</item>
+        <item>IT Service Management</item>
+        <item>IT- Software</item>
+        <item>KPO | Research | Analytics</item>
+        <item>Logistics</item>
+        <item>Logistics | Courier | Transportation</item>
+        <item>Manufacturing</item>
+        <item>Marketing</item>
+        <item>Medical Device</item>
+        <item>Metal</item>
+        <item>Mining</item>
+        <item>NGO | Non Profit</item>
+        <item>Oil &amp; Gas</item>
+        <item>Petroleum Industry</item>
+        <item>Pharmaceutical Industry</item>
+        <item>Ports</item>
+        <item>Power</item>
+        <item>Private Equity</item>
+        <item>Production</item>
+        <item>Rail Transport</item>
+        <item>Railways</item>
+        <item>Real Estate</item>
+        <item>Recruitment | Staffing | RPO</item>
+        <item>Renewable Energy</item>
+        <item>Retail</item>
+        <item>Retail | Wholesale</item>
+        <item>Roads</item>
+        <item>Science &amp; Technology</item>
+        <item>Security | Detective Services</item>
+        <item>Services</item>
+        <item>Software</item>
+        <item>Startup Company</item>
+        <item>Steel</item>
+        <item>Stock Exchange</item>
+        <item>Stock Market</item>
+        <item>Strategy | Management Consulting</item>
+        <item>Technology</item>
+        <item>Telecom | ISP</item>
+        <item>Telecommunications</item>
+        <item>Textile | Garment | Fashion</item>
+        <item>Trade</item>
+        <item>Translation | Localization</item>
+        <item>Travel | Tourism</item>
+        <item>VA Tech Wabag</item>
+        <item>Venture Capital</item>
+        <item>Wellness | Fitness | Sports | Beauty</item>
+        <item>Technology | Information | Media</item>
+        <item>Technology | Information | Internet</item>
+        <item>IT Services | IT Consulting</item>
+        <item>IT System Design Services</item>
+        <item>IT System Custom Software Development</item>
+        <item>IT System Operations - Maintenance</item>
+        <item>IT System Installation - Disposal</item>
+        <item>IT System Training - Support</item>
+        <item>Business Consulting and Services</item>
+    </string-array>
+
+
+    <string-array name="Job_Type">
+        <item><font fgcolor='#a9a9a9'>Select Job Type</font></item>
+        <item>Full Time Job</item>
+        <item>Part Time Job</item>
+        <item>Work From Home</item>
+        <item>Work Abroad</item>
+    </string-array>
+
+    <string-array name="other">
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="select_industry_first">
+        <item>Select Industry First</item>
+    </string-array>
+
+    <string-array name="sales_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Sales Executive</item>
+        <item>Sales Officer</item>
+        <item>Sales Executive(Direct Sales)</item>
+        <item>Team Leader</item>
+        <item>Sales Promoter</item>
+        <item>Store Manager</item>
+        <item>Assistant Manager</item>
+        <item>Business Development Executive</item>
+        <item>Counter Sales</item>
+        <item>Field Sales Executive</item>
+        <item>Sales Manager / Sr. Sales Manager</item>
+        <item>Senior Sales Executive</item>
+        <item>Area Sales Manager</item>
+        <item>Customer Relationship</item>
+        <item>Relationship Manager</item>
+        <item>Sales Associate</item>
+        <item>Sales Staff</item>
+        <item>Executive - Sales &amp; Operations</item>
+        <item>Sales Executive / Sales Manager</item>
+        <item>Branch Manager</item>
+        <item>Business Development Manager</item>
+        <item>Manager Sales</item>
+        <item>Team Leader - Sales</item>
+        <item>Store Supervisor</item>
+        <item>Sales / Operations</item>
+        <item>Retail Sales</item>
+        <item>Manager / Assistant Manager</item>
+        <item>Sales Manager</item>
+        <item>Territory Sales Manager</item>
+        <item>Business Development</item>
+        <item>Area Sales Officer</item>
+        <item>Sales Consultant</item>
+        <item>Sales Person</item>
+        <item>Customer Service Associate</item>
+        <item>Sales Team Member / Team Lead</item>
+        <item>Deputy Manager - Direct Marketing</item>
+        <item>Sales And Marketing</item>
+        <item>Relationship Officer</item>
+        <item>Sales Executive / Sr. Sales Executive</item>
+        <item>Sales Representation</item>
+        <item>Insurance Sales Executive</item>
+        <item>Retail Store Manager</item>
+        <item>Territory Sales Incharge</item>
+        <item>Sales Adviser</item>
+        <item>Field Officer</item>
+        <item>Medical Representative</item>
+        <item>Sales Marketing Executive</item>
+        <item>Bde / Bdm / Business Development Executive</item>
+        <item>Customer Service Executive</item>
+        <item>Financial Consultant</item>
+        <item>Regional Manager</item>
+        <item>Sales Assistant</item>
+        <item>Telecaller</item>
+        <item>Field Sales Officer</item>
+        <item>Key Account Manager</item>
+        <item>Marketing Executive</item>
+        <item>Branch Sales Manager / Area Sales Manager</item>
+        <item>Collection And Recovery Officer</item>
+        <item>Area Sales Executive</item>
+        <item>Business Development And Operations Manager</item>
+        <item>Business Development Executive(Bde)</item>
+        <item>Marketing Manager</item>
+        <item>Business Manager</item>
+        <item>Merchandiser</item>
+        <item>Agency Manger</item>
+        <item>Direct Sales</item>
+        <item>Senior Sales Manager</item>
+        <item>Unit Sales Manager</item>
+        <item>Customer Support Officer</item>
+        <item>Assistant Manager - Sales</item>
+        <item>Business Development Officer</item>
+        <item>Sales Co-Ordinator</item>
+        <item>Bank Sales Officer</item>
+        <item>Management Trainee</item>
+        <item>Marketing Executive / Senior Marketing Executive</item>
+        <item>Retail Sales Executive</item>
+        <item>Team Leader Sales</item>
+        <item>Customer Service Manager</item>
+        <item>Field Sales And Marketing</item>
+        <item>Senior Sales Executive / Am - Sales</item>
+        <item>Sr. Executive Sales And Customer Service</item>
+        <item>Sales Manager / Corporate Sales</item>
+        <item>Store Customer Sales Associates</item>
+        <item>Business Development Executive / Sr. Executive</item>
+        <item>Direct Sales Executive</item>
+        <item>Direct Sales Manager</item>
+        <item>Relationship Manager Wealth Manager</item>
+        <item>Territory Sales Executive</item>
+        <item>Assistant Sales Manager</item>
+        <item>Business Development Associate</item>
+        <item>Manager Sales &amp; Marketing</item>
+        <item>Sales / Marketing Executive Sales Manager</item>
+        <item>Sales Associate - Promoter</item>
+        <item>Account Development Executive</item>
+        <item>Customer Service And Sales Professionals</item>
+        <item>Executive / Sr Executive Pre-Sales</item>
+        <item>Sales Officer E-Commerce</item>
+        <item>Tele Sales Executive</item>
+        <item>Business Development Manager - Bdm</item>
+        <item>Cluster Sales Manager</item>
+        <item>Direct Sales Associate</item>
+        <item>Field Sales Associate</item>
+        <item>Process Associate</item>
+        <item>Retail Head</item>
+        <item>Sales Coordinator</item>
+        <item>Sales Internship</item>
+        <item>Area Sales Manager(ASM)</item>
+        <item>Business Developer</item>
+        <item>Client Relationship Executive</item>
+        <item>Crm Executive</item>
+        <item>Market Representative</item>
+        <item>Sales Manager / Head</item>
+        <item>Zonal Sales Manager</item>
+        <item>Academic Consultant</item>
+        <item>Am - Direct Marketing</item>
+        <item>Auto Mobile</item>
+        <item>Business Associate</item>
+        <item>Business Development Manager</item>
+        <item>Exec / Sr. Exec - Tl Direct Marketing</item>
+        <item>Loan Executive</item>
+        <item>Sales Executive(Field)</item>
+        <item>Sales Manager(Broker Sales)</item>
+        <item>Senior Manager Client Servicing</item>
+        <item>Sr Executives / Assistant Manager Sales</item>
+        <item>Technical Sales Engineer</item>
+        <item>Telecalling Executive</item>
+        <item>Area Manager - Bank</item>
+        <item>Area Sales Manager / Sales Officer</item>
+        <item>Client Relationship Manager</item>
+        <item>Dealer Sales Executive</item>
+        <item>Reseller Sale Representative</item>
+        <item>Sales / City Manager</item>
+        <item>Sales Executive - B2B Sales Health Care</item>
+        <item>Sales Marketing Executive</item>
+        <item>Bd Executive</item>
+        <item>Business Adviser</item>
+        <item>Business Development Manager - E-commerce</item>
+        <item>Inside Sales Executive</item>
+        <item>Insurance Sales Manager</item>
+        <item>Retail Sales Associate</item>
+        <item>Sales / Bd Executive</item>
+        <item>Sm / Asm - Health Sales Vertical</item>
+        <item>Team Leader - Telesales</item>
+        <item>Acquisition Manager</item>
+        <item>Area Field Officer</item>
+        <item>Business Analyst</item>
+        <item>Business Development Associate(Bda)</item>
+        <item>Channel Partner Sales</item>
+        <item>City Team Leader</item>
+        <item>Digital Marketing Manager</item>
+        <item>Direct Sales Associate</item>
+        <item>Executive Sales</item>
+        <item>General Manager Sales</item>
+        <item>Key Account Executive Sales</item>
+        <item>Location Manager</item>
+        <item>Marketing And Sales Executive</item>
+        <item>National Sales Manager</item>
+        <item>Real Estate Adviser</item>
+        <item>Sales Consultants</item>
+        <item>Sales Development Manager</item>
+        <item>Sales Executive / Officer</item>
+        <item>Sales Officer(Home Loan)</item>
+        <item>Sr. Executive Direct Marketing</item>
+        <item>Technical Sales / Support</item>
+        <item>Territory Sales Head</item>
+        <item>Area Sales Manager - Health</item>
+        <item>Assistant Manager - Market Acquisition</item>
+        <item>Associate - Business Development</item>
+        <item>Business Development Consultant</item>
+        <item>Business Development Executive / Sr. Executive / Manager(Sg)</item>
+        <item>Business Development Head</item>
+        <item>Car Sales Executive</item>
+        <item>Client Servicing</item>
+        <item>Corporate Sales Manager</item>
+        <item>Customer Manager - Sme Sales</item>
+        <item>Educational Career Adviser</item>
+        <item>Field Marketing Executive</item>
+        <item>Field Sales Representative</item>
+        <item>Growth Manager(Mutual Fund Sales)</item>
+        <item>Head And Area Sales Manager</item>
+        <item>Head Sales And Marketing</item>
+        <item>Inside Sales / Business Development Champs</item>
+        <item>Inside Sales Manager</item>
+        <item>Inside Sales Representative</item>
+        <item>Lead Generation Executive</item>
+        <item>Recruitment &amp; Development Manager(Rdm)</item>
+        <item>Sales Engineer Mechanical</item>
+        <item>Sales Intern</item>
+        <item>Sales Promotion Executive</item>
+        <item>Service Relationship Manager</item>
+        <item>Telemarketing Executive</item>
+        <item>Telesales Executive / Key Account Manager</item>
+        <item>Assistant Business Development Manager - Corporate Sales</item>
+        <item>Assistant Manager - Marketplace</item>
+        <item>Banquet Sales Manager</item>
+        <item>Business Analyst Executive</item>
+        <item>Business Development Executive</item>
+        <item>Business Developer Executive IT</item>
+        <item>Business Development Executive(Sales)</item>
+        <item>Business Development Executive / Sales Marketing Executive</item>
+        <item>Business Development Intern</item>
+        <item>Business Relationship Manager</item>
+        <item>Business Sales Executive</item>
+        <item>Center Head</item>
+        <item>Channel Sales Executive</item>
+        <item>Channel Sales Manager</item>
+        <item>Chat Support Executive</item>
+        <item>Chemical Sales Executive</item>
+        <item>Client Servicing Executive</item>
+        <item>Club Manager</item>
+        <item>Corporate Sales-Inside Sales</item>
+        <item>Customer Relationship Executive - Agi Business</item>
+        <item>Deputy General Manager / General Manager - Sales - Real Estate</item>
+        <item>Enterprise Sales Account Manager</item>
+        <item>Enterprise Sales Executive</item>
+        <item>Executive - Business Development</item>
+        <item>Field Sales Manager</item>
+        <item>Home Loan Adviser</item>
+        <item>Inside Sales Engineer</item>
+        <item>Inside Sales Specialist</item>
+        <item>Management Executive</item>
+        <item>Marketing Executive / Business Development Executive</item>
+        <item>Preferred Relationship Manager</item>
+        <item>Recruitment Development Manger</item>
+        <item>Relationship Manager (Cabr / Broking Channel).</item>
+        <item>Relationship Manager (Territory Sales)</item>
+        <item>Relationship Manager - Home Loan</item>
+        <item>Sales And Marketing Executive</item>
+        <item>Sales Executives</item>
+        <item>Sales Manager / Executive</item>
+        <item>Sales Manager Real Estate</item>
+        <item>Sales Marketing / Executive</item>
+        <item>Sales Manager Real Estate</item>
+        <item>Sales Manager</item>
+        <item>Software Sales Executive</item>
+        <item>State Manager</item>
+        <item>Technical Sales</item>
+        <item>Technical Sales Executive</item>
+        <item>Tele-Sales Officer</item>
+        <item>Telesales Executive</item>
+        <item>Travel Consultant</item>
+        <item>Academic Consultants</item>
+        <item>Area Sales Manager - Ceramics</item>
+        <item>Assistant Manager - Channel Sales</item>
+        <item>Associate Territory Lead</item>
+        <item>Associate Travel Sales Consultant</item>
+        <item>Block Officer</item>
+        <item>Business Associate Manager</item>
+        <item>Business Development &amp; Marketing Assistant</item>
+        <item>Business Development / Sales Executive</item>
+        <item>Business Development Associates</item>
+        <item>Business Development Executive (Lead Generation &amp; Inside Sales)</item>
+        <item>Business Development Executive (Real Estate)</item>
+        <item>Business Development Executive - It Sales</item>
+        <item>Business Development Executive</item>
+        <item>Business Development Executive / Sales Professionals</item>
+        <item>Business Development - Investors</item>
+        <item>Business Manager(Relocations)</item>
+        <item>Content Writer</item>
+        <item>Corporate Sales And Marketing Manager</item>
+        <item>Corporate Sales Executive</item>
+        <item>Corporate Sales Head</item>
+        <item>Crm Pre Sales</item>
+        <item>Export Sales Manager</item>
+        <item>Field Sales Consultants</item>
+        <item>Head Of Performance Sales</item>
+        <item>Insurance Assistance Sales Manager</item>
+        <item>International Sales Marketing Executive</item>
+        <item>Investment Associate</item>
+        <item>It Sales Executive</item>
+        <item>Manager - Service Sales</item>
+        <item>Outside Sales Representatives</item>
+        <item>Pre Sales Business Analyst</item>
+        <item>Pre Sales Executive</item>
+        <item>Property Agents</item>
+        <item>Property Agents</item>
+        <item>Property Manager</item>
+        <item>Recruitment Development Manger</item>
+        <item>Relationship Manager - Strategic</item>
+        <item>Sales / Business Development Executive</item>
+        <item>Sales And Marketing Intern</item>
+        <item>Sales Business Development Manager</item>
+        <item>Sales Executive - Textile Manufacturing</item>
+        <item>Sales Executive / Business Development</item>
+        <item>Sales Executive And Business Development</item>
+        <item>Sales Manager - Business Loan</item>
+        <item>Sales Manager Healthcare</item>
+        <item>Sales Manager - Telecom</item>
+        <item>Sales Promotion Manager</item>
+        <item>Sales Specialist</item>
+        <item>Sr. Lead Generation Executive</item>
+        <item>Sr. Executive - Agency Sales</item>
+        <item>Team Lead (Inbound / Outbound)</item>
+        <item>Trainee Branch Manager</item>
+        <item>Travel Agent Domestic Sales</item>
+        <item>Travel Sales Consultant</item>
+        <item>Travel Sales Consultant(Domestic)</item>
+    </string-array>
+    <string-array name="engineering_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Electrical Engineer</item>
+        <item>Technician</item>
+        <item>Electrician</item>
+        <item>Maintenance Engineer</item>
+        <item>Manufacturing Engineer</item>
+        <item>Product Engineer</item>
+        <item>Electronics Engineer</item>
+        <item>Field Service Engineer</item>
+        <item>Technical Support Engineer</item>
+        <item>Welder</item>
+        <item>Construction Engineer</item>
+        <item>Instrumentation Engineer</item>
+        <item>Drafting Technician</item>
+        <item>Test Engineer</item>
+        <item>Network Engineer</item>
+        <item>Telecommunications Engineer</item>
+        <item>Dtp Operator</item>
+        <item>Electrical Design Engineer</item>
+        <item>Project Assistant</item>
+        <item>Chemical Engineer</item>
+        <item>Process Control Engineer</item>
+        <item>Electrical Field Engineer</item>
+        <item>Computer Software Engineer</item>
+        <item>Electro - Mechanical Engineer</item>
+        <item>Research And Development Engineer</item>
+        <item>Industrial Engineer</item>
+        <item>Plastics Engineer</item>
+        <item>Electrical Engineer-Industrial</item>
+        <item>Process Design Engineer</item>
+        <item>Drilling Operator</item>
+        <item>Computer Hardware Engineer</item>
+        <item>Health &amp; Safety Engineer</item>
+        <item>Environmental Health &amp; Safety Engineer</item>
+        <item>Staff Engineer</item>
+        <item>Application Engineer</item>
+        <item>Process Engineer-Plant Design</item>
+        <item>Biomedical Engineer</item>
+        <item>Plant Engineer</item>
+        <item>Commissioning Engineer</item>
+        <item>Contract Engineer</item>
+        <item>Radio Frequency Engineer</item>
+        <item>Metallurgical Engineer</item>
+        <item>Security Engineer</item>
+        <item>Mining Engineer</item>
+        <item>Packaging Engineer</item>
+        <item>Welding Engineer</item>
+        <item>Substation Engineer</item>
+        <item>Electrical Engineer-Utility</item>
+        <item>Agricultural Engineer</item>
+        <item>Electrical Engineer-Telecom</item>
+        <item>Lift Operator</item>
+        <item>Material Engineer</item>
+        <item>Component Engineer</item>
+        <item>Petroleum Engineer</item>
+        <item>Chief Engineer</item>
+        <item>Electrical Engineer-Commercial</item>
+        <item>Tower Technician</item>
+        <item>Aeronautical Engineer</item>
+        <item>Elevator Installer</item>
+        <item>Environmental Engineer</item>
+        <item>Firmware Engineer</item>
+        <item>Elevator Repair</item>
+        <item>Engineering Aide</item>
+        <item>Engineering Clerk</item>
+        <item>Geological Engineer</item>
+        <item>Logistics Engineer</item>
+        <item>Performance Engineer</item>
+        <item>Reliability Engineer</item>
+        <item>Cost Engineer</item>
+        <item>Environmental Compliance Engineer</item>
+        <item>Frontend Engineer</item>
+        <item>User Interface Engineer</item>
+        <item>X Ray Technician</item>
+        <item>Aerospace Engineer</item>
+        <item>Biological Engineer</item>
+        <item>Engineering Secretary</item>
+        <item>Nuclear Engineer</item>
+        <item>Reservoir Engineer</item>
+        <item>Staking Engineer</item>
+        <item>Stationery Engineer</item>
+
+        <item>Mechanical Engineer</item>
+        <item>Production Engineer</item>
+        <item>Trainee Engineer</item>
+        <item>Mechanical Design Engineer</item>
+        <item>Inspection Engineer</item>
+        <item>Production Supervisor</item>
+        <item>Design And Development Engineer</item>
+        <item>Mechanical Supervisor</item>
+        <item>Senior Mechanical Engineer</item>
+        <item>Diploma Engineer</item>
+        <item>Cnc Machine Operator</item>
+        <item>Design Engineer Mechanical</item>
+        <item>Mechanical Engineer</item>
+        <item>Jr. Mechanical Engineer</item>
+        <item>Automotive Engineer</item>
+        <item>Diploma Engineer Trainee</item>
+        <item>Maintenance Manager</item>
+        <item>Piping Engineer</item>
+        <item>Mechanical Trainee</item>
+        <item>Cnc Operator</item>
+        <item>Draughtsman Mechanical</item>
+        <item>Trainee Design Engineer</item>
+        <item>Maintenance Planning Engineer</item>
+        <item>Diploma Trainer Executive</item>
+        <item>Design Engineer Executive</item>
+        <item>Lathe Operator</item>
+        <item>Iti Mechanical Engineer</item>
+        <item>Boiler Engineer</item>
+        <item>Cmm Machine Operator</item>
+        <item>Cad Mechanical Trainer</item>
+        <item>Turbine Engineer</item>
+        <item>Equipment Engineer</item>
+        <item>Power Engineer</item>
+        <item>Gears Manufacturer-Mechanical</item>
+        <item>Validation Engineer</item>
+        <item>Cad Developer</item>
+        <item>Mechanical Trainee Ppc And Lqc</item>
+        <item>Crusher Plant Operations Manager</item>
+        <item>Mechanical Scientist</item>
+        <item>Rotating Equipment Engineer</item>
+        <item>Mechanical Sas Analyst</item>
+        <item>Ceramics Engineer</item>
+        <item>Naval Architect</item>
+
+        <item>Site Civil Engineer</item>
+        <item>Site Engineer</item>
+        <item>Junior Engineer Civil</item>
+        <item>Site Engineer Civil</item>
+        <item>Civil Engineer</item>
+        <item>Project Engineer - Civil</item>
+        <item>Site Supervisor</item>
+        <item>Sr. Civil Engineer</item>
+        <item>Quantity Supervisor</item>
+        <item>Draftsman Civil Engineer</item>
+        <item>Site Incharge(Civil Engineer)</item>
+        <item>Land Surveyor</item>
+        <item>Planning Engineer</item>
+        <item>Project Manager / Sr. Project Manager</item>
+        <item>Structural Design Engineer</item>
+        <item>Civil Engineer-Highway / Roadway</item>
+        <item>Civil Engineer - Qa Qc</item>
+        <item>Civil Site Supervisor</item>
+        <item>Designer</item>
+        <item>Structural Engineer-Building</item>
+        <item>Project Manager</item>
+        <item>Foreman civil</item>
+        <item>Draftsman</item>
+        <item>Civil Supervisor</item>
+        <item>Site Engineering, Project Management</item>
+        <item>Project Coordinator</item>
+        <item>Structural Engineer-Bridge</item>
+        <item>Circle Quality Engineer(Civil)</item>
+        <item>Construction-Construction Management</item>
+        <item>Civil Structural Design Enginer</item>
+        <item>Project Manager Civil</item>
+        <item>Senior Project Control Engineer</item>
+        <item>Civil Cad Trainer</item>
+        <item>Project Incharge</item>
+        <item>Project Manager Cum Planning Engineer</item>
+        <item>Civil Engineering Technician</item>
+        <item>Valuation Surveyor</item>
+        <item>Geographic Information Systems / Gis</item>
+        <item>Construction-General Building</item>
+        <item>Project Manager(Civil Construction)</item>
+        <item>Safety Engineer</item>
+        <item>Civil Engineering Consultant</item>
+        <item>Project Supervisor</item>
+        <item>Civil Engineer - Techno Commercial Intern</item>
+        <item>Civil Engineer - Telecom</item>
+        <item>Civil Engineer-Water / Wastewater</item>
+        <item>Geotechnical Engineer</item>
+        <item>Civil Engineer-Land Development</item>
+        <item>Civil Engineer-Municipal</item>
+        <item>Civil Engineer-Traffic</item>
+        <item>Construction Worker</item>
+        <item>Construction-Residential</item>
+        <item>Fire Protection Engineer</item>
+        <item>Junior Site Supervisor</item>
+        <item>Civil Engineer-Aviation</item>
+        <item>Construction-Heavy</item>
+        <item>Construction-Specialty</item>
+        <item>Drilling Engineer</item>
+        <item>Piping Stress Engineer</item>
+        <item>Sr Project Manager</item>
+        <item>Quality Assurance &amp; Quality Control-Executive</item>
+        <item>Quality Assurance &amp; Quality Control-Manager</item>
+        <item>Construction Supervisor</item>
+        <item>Site Management</item>
+        <item>Project Executive</item>
+        <item>Field Manager</item>
+        <item>Construction Manager</item>
+        <item>Field Representative</item>
+        <item>Construction Foreman</item>
+        <item>Project Superintendent</item>
+        <item>Construction Coordinator</item>
+        <item>Construction Assistant</item>
+        <item>Safety Manager</item>
+        <item>Purchasing Coordinator</item>
+        <item>Contract Manager</item>
+        <item>Construction Area Manager</item>
+        <item>General Contractor Manager</item>
+        <item>Safety Director</item>
+        <item>Construction Superintendent</item>
+        <item>Contract Administrator</item>
+        <item>Sheduler</item>
+        <item>Estimator</item>
+        <item>Construction Administrator</item>
+        <item>Civil Engineer</item>
+        <item>Plumber</item>
+    </string-array>
+
+    <string-array name="office_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Back Office And Data Entry</item>
+        <item>Computer Operator</item>
+        <item>Office Assistant</item>
+        <item>Back Office Staff</item>
+        <item>Data Entry</item>
+        <item>Mis Executive</item>
+        <item>Operation Executive</item>
+        <item>Back Office Assistant</item>
+        <item>Assistant Manager</item>
+        <item>Data Entry Operator</item>
+        <item>Customer Service Executive</item>
+        <item>Admin Executive</item>
+        <item>Process Associate</item>
+        <item>Office Executive</item>
+        <item>Back Office Manager</item>
+        <item>Billing Executive</item>
+        <item>Typist And Clerk</item>
+        <item>Office Coordinator</item>
+        <item>Data Analyst</item>
+        <item>Reservation Supervisor</item>
+        <item>Chat-Team Leader</item>
+        <item>Cash Manager</item>
+        <item>Back Office Associate</item>
+        <item>Back Office Operations</item>
+        <item>Documentation Executive</item>
+        <item>Back Office Account Executive</item>
+        <item>Business Development Executive</item>
+        <item>Data Entry Executive</item>
+        <item>Service Coordinator</item>
+        <item>Back Office Coordinator</item>
+        <item>Back Office Officer</item>
+        <item>Data Operator</item>
+        <item>Backend Executive</item>
+        <item>Customer Support Executive / Office Coordinator</item>
+        <item>Customer Service Officer</item>
+        <item>Back Office(Banking Process)</item>
+        <item>Administration Manager</item>
+        <item>Typing Operator</item>
+        <item>Relationship Manager</item>
+        <item>Credit Executive</item>
+        <item>Back Office Executive(Freshers)</item>
+        <item>Assistant Manager(Back Office)</item>
+        <item>Data Processing Executive</item>
+        <item>Documentation Assistant</item>
+        <item>Research Analyst</item>
+        <item>Document Collection Executive Field Executive</item>
+        <item>Field Verification Executive</item>
+        <item>Customer Relationship Executive</item>
+        <item>Data Entry Associate</item>
+        <item>Data Entry Intern</item>
+        <item>Marketing Executive</item>
+        <item>Claims Executive</item>
+        <item>Customer Service Associate</item>
+        <item>Executive Back Office</item>
+        <item>Relationship Officer</item>
+        <item>Document Collection Executive</item>
+        <item>Internal Auditor</item>
+        <item>Customer Relationship Officer</item>
+        <item>Data Research Executive</item>
+        <item>Field Data Collection Executive</item>
+        <item>Kyc Executive</item>
+        <item>Back Office Processing Executive</item>
+        <item>Business Executive</item>
+        <item>Back Office Email Support Executive</item>
+        <item>Branch Executive</item>
+        <item>Customer Care Executive</item>
+        <item>Survey Executive</item>
+        <item>Client Management</item>
+        <item>Customer Service Representative</item>
+        <item>Banking Officer</item>
+        <item>Company Assistant</item>
+        <item>Counselor</item>
+        <item>Data Entry Specialist</item>
+        <item>Documents Coordinator</item>
+        <item>Email Customer Service Executive</item>
+        <item>Recovery Executive</item>
+        <item>Report Writer</item>
+        <item>Report Writer</item>
+        <item>Back Office &amp; Counseling</item>
+        <item>Branch Sales Officer</item>
+        <item>Business Development Associate</item>
+        <item>Customer Care Associate</item>
+        <item>Data Collection</item>
+        <item>Financial Advisor</item>
+        <item>Bank Executive</item>
+        <item>Business Development Executive</item>
+        <item>Counsellor</item>
+        <item>Customer Care Assistant</item>
+        <item>Customer Care Representative</item>
+        <item>Relationship Executive</item>
+        <item>Banking Assistant</item>
+        <item>Chat Process Executive</item>
+        <item>Financial Analyst</item>
+        <item>Back Office Agent</item>
+        <item>Banking Executive</item>
+        <item>Branch Development Executive</item>
+        <item>Branch Relationship Executive</item>
+        <item>Branch Relationship Officer</item>
+        <item>Community Banking Officer</item>
+        <item>Data Collector(Commission Agent)</item>
+        <item>Data Conversion Specialist</item>
+        <item>Data Processing Executive</item>
+        <item>Reservation Executive</item>
+        <item>Admin Executive</item>
+        <item>Front Office Assistant</item>
+        <item>Admin Manager</item>
+        <item>Receptionist</item>
+        <item>Office Boy</item>
+        <item>Office Assistance</item>
+        <item>Admin / Back Office Executive</item>
+        <item>Admin Assistant</item>
+        <item>Office Coordinator</item>
+        <item>Administration Manager</item>
+        <item>Office Manager / P.A.</item>
+        <item>Admin Officer</item>
+        <item>Front Office Executive</item>
+        <item>Admin Team Lead</item>
+        <item>Personal Assistant</item>
+        <item>Personal Assistant</item>
+        <item>Administrative Support Supervisor</item>
+        <item>Front Dest Receptionist</item>
+        <item>Front Office Staff</item>
+        <item>Senior Executive Assistant</item>
+        <item>Admin / Accountant Assistant</item>
+        <item>Client Relations Manager</item>
+        <item>Office Administrator</item>
+        <item>Operations Assistant</item>
+        <item>Front Office / Office Assistant</item>
+        <item>Office Executive</item>
+        <item>Admin - Hr Executive</item>
+        <item>Administrator</item>
+        <item>Office Assistant</item>
+        <item>Office Assistant Data Entry Operator</item>
+        <item>Admin And Hr</item>
+        <item>Front Office Receptionist</item>
+        <item>Office Admin / Assistant</item>
+        <item>Administrative Assistant</item>
+        <item>Admin Office - Executive</item>
+        <item>Administration Executive</item>
+        <item>Personal Assistant / Receptionist</item>
+        <item>Admin Maintenance</item>
+        <item>Office Boy / Peon</item>
+        <item>Documentation Executive</item>
+        <item>Secretary</item>
+        <item>Senior Administrative Coordinator</item>
+        <item>Administrative Services Manager</item>
+        <item>Front Desk Executive</item>
+        <item>Senior Administrative Services Officer</item>
+        <item>Administrative Executive</item>
+        <item>Program Manager</item>
+        <item>Secretary / Executive Assistant</item>
+        <item>Senior Support Assistant</item>
+        <item>Helper / Peon Office Boy</item>
+        <item>Executive Services Administrator</item>
+        <item>Office Secretary</item>
+        <item>Assistant Office Executive</item>
+        <item>Receptionist Front Office</item>
+        <item>Administrative Support Manager</item>
+        <item>Assistant Director</item>
+        <item>Office Assistant / Designer</item>
+        <item>Program Administrator</item>
+        <item>Special Programs Coordinator</item>
+        <item>Human Resources Administrator</item>
+        <item>Administrative Services Officer</item>
+        <item>Executive Secretary</item>
+        <item>Admin Logistics</item>
+        <item>Legal Secretary</item>
+        <item>Senior Support Specialist</item>
+        <item>Virtual Assistant</item>
+        <item>Administrative Specialist</item>
+        <item>Helper</item>
+        <item>Senior Special Events Coordinator</item>
+        <item>Medical Secretary</item>
+        <item>Special Events Coordinator</item>
+        <item>Virtual Receptionist</item>
+    </string-array>
+
+    <string-array name="accounts_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Accountant</item>
+        <item>Account Assistant</item>
+        <item>Accounts Executive / Accountant</item>
+        <item>Senior Accountant</item>
+        <item>Junior Accountant</item>
+        <item>Account Manager</item>
+        <item>Tally Accountant</item>
+        <item>Audit Assistant</item>
+        <item>Cashier</item>
+        <item>Senior Executive Accounts</item>
+        <item>Assistant Accountant</item>
+        <item>Account Executive / Account Manager</item>
+        <item>Internal Auditor</item>
+        <item>Account Officer</item>
+        <item>Senior Accounts Executive</item>
+        <item>Assistant Manager - Finance</item>
+        <item>Accounts Manager</item>
+        <item>Tally Operator</item>
+        <item>Accounts Executive</item>
+        <item>Cashier Accountant</item>
+        <item>Billing Executive</item>
+        <item>Accounts Payable Accountant</item>
+        <item>Sr Accountant</item>
+        <item>Billing Executive / Account Executive</item>
+        <item>Auditor</item>
+        <item>Assistant Accounting Manager</item>
+        <item>Accounts Assistant</item>
+        <item>Account Associate</item>
+        <item>Clerk</item>
+        <item>Accounts Officer</item>
+        <item>Manager - Accounts And Finance</item>
+        <item>Account Process Executive</item>
+        <item>Sr. Accounts Executive</item>
+        <item>Finance Executive</item>
+        <item>Admin Accounts</item>
+        <item>Audit Manager</item>
+        <item>Chartered Accountant</item>
+        <item>Junior Accounts Executive</item>
+        <item>Deputy Manager Accounts</item>
+        <item>Accountant / Purchase Executive</item>
+        <item>Taxation Executive</item>
+        <item>Accounts Receivable Executive</item>
+        <item>Finance Associate</item>
+        <item>Jr. Accountant</item>
+        <item>Tax Executive</item>
+        <item>Finance And Accounts Manager</item>
+        <item>Sr. Accountant Executive</item>
+        <item>Audit Intern</item>
+        <item>Internal Control</item>
+        <item>Taxation Manager</item>
+        <item>Accounts Head</item>
+        <item>Chartered Accountant(Audit)</item>
+        <item>Financial Associate(International Process)</item>
+        <item>Junior Accounts Assistant</item>
+        <item>Accountant Manager</item>
+        <item>Company Secretary</item>
+        <item>Cost Accountant</item>
+        <item>Finance Manager</item>
+        <item>Account Assistance</item>
+        <item>Accounts Receivable Clerk</item>
+        <item>Jr Accounts Executive</item>
+        <item>Accounting Assistant</item>
+        <item>Financial Accountant</item>
+        <item>Indirect Taxation Executive</item>
+        <item>Accountant Executive</item>
+        <item>Assistant Account Executive</item>
+        <item>Audit Partner</item>
+        <item>Financial Executive</item>
+        <item>General Manager Finance And Accounts</item>
+        <item>Payroll Executive</item>
+        <item>Taxation(Direct) Manager</item>
+        <item>Accounts And Reconciliation Manager</item>
+        <item>Assurance Senior</item>
+        <item>Equity Research Analyst</item>
+        <item>Finance Business Executive</item>
+        <item>Manager Costing</item>
+        <item>Planning Analyst</item>
+        <item>Taxation(Indirect) Manager</item>
+        <item>Accountant / Tally Trainer</item>
+        <item>Chartered Accountant / Accountant</item>
+        <item>Director Of Finance</item>
+        <item>Financial Adviser</item>
+        <item>Financial Auditor</item>
+        <item>Trust Officer</item>
+        <item>Assistant Sr. Accounts Executive</item>
+        <item>Assurance Manager</item>
+        <item>Cfo(Chief Financial Officer)</item>
+        <item>Finance Clerk</item>
+        <item>Finance Head</item>
+        <item>Hod Accounts And Finance</item>
+        <item>School Treasurer</item>
+        <item>Treasurer</item>
+        <item>Accounting Secretary</item>
+        <item>Administrative Assistant</item>
+        <item>Auditor-In-Charge</item>
+        <item>Avp - Accounts</item>
+        <item>Chartered Accountant(Cpa)</item>
+        <item>Finance Vice President</item>
+        <item>Gm - Accounts And Finance(Chartered Accountant)</item>
+        <item>Internal Audit Director</item>
+        <item>Investment And Financial Executive</item>
+        <item>Personal Financial Advisers</item>
+        <item>Finance Executive / Finance Professional</item>
+        <item>Finance Sales Executive</item>
+        <item>Financial Analyst</item>
+        <item>Loan Officer</item>
+        <item>Manager Finance Account</item>
+        <item>Senior Financial Analyst</item>
+        <item>Finance / Operations Manager</item>
+        <item>Assistant Manager - Finance And Compliance</item>
+        <item>Credit / Control Executive</item>
+        <item>Relationship Manager / Investment Advisor</item>
+        <item>Financial Adviser</item>
+        <item>Loan Coordinator</item>
+        <item>Assistant Branch Manager</item>
+        <item>Financial Manager</item>
+        <item>Credit / Control Manager</item>
+        <item>Investor Relationship-Executive / Manager</item>
+        <item>Finance Advisor</item>
+        <item>Management Trainee</item>
+        <item>Project Officer-Finance</item>
+        <item>Credit Products Officer</item>
+        <item>Portfolio Manager</item>
+        <item>Investment Analyst</item>
+        <item>Financial Planner</item>
+        <item>Finance / Budgeting Manager</item>
+        <item>Bank Examiner</item>
+        <item>Wealth Manager</item>
+        <item>Asst Financial Planner</item>
+        <item>Treasury Manager</item>
+        <item>Real Estate Analyst</item>
+        <item>Anti-Money Laundering Auditor</item>
+        <item>Bankruptcy / Foreclosure Coordinator</item>
+        <item>Analyst, Bankruptcy Support</item>
+        <item>Assistant Trust Administrator</item>
+        <item>Corporate Finance / Strategic Planning Division Officer</item>
+        <item>Forex Manager</item>
+        <item>Staff Accountant</item>
+        <item>Business Banking Officer</item>
+        <item>Branch Manager</item>
+        <item>Customer Service Representative</item>
+        <item>Collector</item>
+        <item>Relationship Manager, Commercial Lending</item>
+        <item>Business Analyst</item>
+        <item>Loan Support Specialist</item>
+        <item>Accounting Supervisor</item>
+        <item>Client Service Manager</item>
+        <item>Consumer Credit Analyst</item>
+        <item>General Accountant</item>
+        <item>Senior Investment Analyst</item>
+        <item>Taller</item>
+        <item>Senior Taller</item>
+        <item>Consumer Finance Assistant Manager</item>
+        <item>Outbound Sales</item>
+        <item>Loss Recovery Manager</item>
+        <item>Loan Representative</item>
+        <item>Investment Management Operations Analyst</item>
+        <item>Lending Manager</item>
+        <item>New Accounts Banker</item>
+        <item>Personal Banker</item>
+        <item>Phone Banker</item>
+        <item>Loan Officer Trainee</item>
+        <item>Junior Analyst - Asset Management</item>
+        <item>Origination Loan Officer</item>
+        <item>consumer Loans Processor</item>
+        <item>Head Teller</item>
+        <item>Business Intelligence Manager</item>
+        <item>Consumer Loan Underwriter</item>
+        <item>Cpa</item>
+        <item>Regulatory Compliance Analyst</item>
+        <item>Trust Asset Manager</item>
+        <item>Commercial Relationship Management Assistant</item>
+        <item>E-services Quality Analyst</item>
+        <item>Investment Management Specialist</item>
+        <item>Mortgage Operations Support Technician</item>
+        <item>Investment Accounting Analyst</item>
+        <item>Investment Planner</item>
+        <item>Lead Business Consultant, Banking Innovation Center</item>
+        <item>Project Accountant</item>
+        <item>Mortgage Consultant</item>
+        <item>Premier Banker</item>
+        <item>Bilingual Client Services Representative</item>
+        <item>Bookkeeper</item>
+        <item>Online Customer Service Representative</item>
+        <item>Custody Investment Specialist</item>
+        <item>Lead Syndication Specialist</item>
+        <item>Senior Trust Consultant</item>
+        <item>Technology Risk Manager</item>
+        <item>Trust Assistant</item>
+        <item>Escrow Manager</item>
+        <item>Common Trust Fund Accountant</item>
+        <item>Wire Department Manager</item>
+    </string-array>
+    <string-array name="BPO_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Customer Care Executive</item>
+        <item>Telecaller</item>
+        <item>Customer Sales Executives</item>
+        <item>Customer Service Associate</item>
+        <item>Customer Service Executive</item>
+        <item>Customer Care Executive(Inbound Process)</item>
+        <item>Telecalling Executive</item>
+        <item>Customer Care Executive(Sales)</item>
+        <item>Senior Associate -(Nontechnical)</item>
+        <item>Customer Care Team Leader</item>
+        <item>Process Associate</item>
+        <item>Call Center Executive</item>
+        <item>Team Leader -(Nontechnical)</item>
+        <item>Customer Support Executive</item>
+        <item>Customer Support Advisor</item>
+        <item>Technical Support</item>
+        <item>Customer Service Executive Inbound Process</item>
+        <item>Customer Care Executive - Domestic</item>
+        <item>Customer Care Associate / Sales Associate</item>
+        <item>Customer Support And Business Development</item>
+        <item>Senior Associate -(Technical)</item>
+        <item>Customer Relationship Manager</item>
+        <item>Customer Service Representative</item>
+        <item>Customer Care Executive(Cce)</item>
+        <item>Telemarketing Executive</item>
+        <item>Customer Relationship Officer / Telecaller</item>
+        <item>International Bpo Executive</item>
+        <item>Customer Service Executive - Operations</item>
+        <item>Team leader -(Technical)</item>
+        <item>Call Center Agent</item>
+        <item>Customer Service Executive Outbound Process</item>
+        <item>Assistant Manager -(Nontechnical)</item>
+        <item>Customer Relation Officer</item>
+        <item>International OutBound Voice Process</item>
+        <item>Tech Sales Executive</item>
+        <item>Customer Support Executive-Call Support</item>
+        <item>International Sales Executive Voice(Inside Sales)</item>
+        <item>Customer Relations Executive</item>
+        <item>Tech Support-Inbound Voice Process</item>
+        <item>Associate-(Nontechnical)</item>
+        <item>Technical Support Executive</item>
+        <item>Associate -(Technical)</item>
+        <item>Customer Care Officer</item>
+        <item>Customer Support Associate</item>
+        <item>Customer Sales Officer</item>
+        <item>Customer Service Representative / Executive</item>
+        <item>Customer Support Executive Outbound Voice</item>
+        <item>Marketing Executive Sales / Customer Support</item>
+        <item>Customer Relationship Executive</item>
+        <item>Customer Service Agent</item>
+        <item>Customer Service Executive International Process</item>
+        <item>International Client Service Executive</item>
+        <item>Customer Care Associate</item>
+        <item>Customer Service Manager</item>
+        <item>Customer Service Officer</item>
+        <item>Customer Support Representative</item>
+        <item>International Bpo - Tech Support Executive</item>
+        <item>International Voice Process / OutBound (Web Sales)</item>
+        <item>Manager -(Nontechnical)</item>
+        <item>Customer Support Executive International</item>
+        <item>International Caller / Agent</item>
+        <item>Customer Relations Officer</item>
+        <item>Customer Relationship Assistant Manager</item>
+        <item>Customer Support Executive Inbound Voice</item>
+        <item>International Inbound Tech Process</item>
+        <item>Support Executive</item>
+        <item>Technical Support Voice</item>
+        <item>Customer Care Operator</item>
+        <item>Customer Sales Representative</item>
+        <item>Assistant Manager -(Technical)</item>
+        <item>Customer Care Executive - International</item>
+        <item>Customer Relationship Management Specialist</item>
+        <item>Tech Support Executive International Process</item>
+        <item>Inbound Technical Support</item>
+        <item>Manager-(Technical)</item>
+        <item>Technical Sales Associate</item>
+        <item>Customer Support (Insurance)</item>
+        <item>Technical Sales Executive</item>
+        <item>Customer Care Representative</item>
+        <item>Technical Support Bpo Executive</item>
+        <item>Technical Support Executive International</item>
+        <item>Customer Service Executive - Priority</item>
+        <item>Customer Service Representative - Chat Process</item>
+        <item>Customer Success Manager</item>
+        <item>Customer Support Executive Technical</item>
+        <item>Inbound Tech Sales Executives</item>
+        <item>Inbound Tech Sales Process</item>
+        <item>Inbound Technical Callers / Support</item>
+        <item>Tech Sales Associate Inbound</item>
+        <item>Technical Sales Agent</item>
+        <item>Customer Happiness associate</item>
+        <item>Tech Sales Executives International</item>
+        <item>Tech Support Engineer Inbound Sales Process</item>
+    </string-array>
+
+    <string-array name="IT_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Network Engineer</item>
+        <item>Technical Support Engineer</item>
+        <item>It Hardware And Networking Engineer</item>
+        <item>System Administrator</item>
+        <item>It Technical Support</item>
+        <item>Desktop Support Engineer</item>
+        <item>Network Support Engineer</item>
+        <item>It System Administrator</item>
+        <item>It Engineer</item>
+        <item>It / Networking-Manager</item>
+        <item>It Hardware / System Engineer</item>
+        <item>Security Engineer</item>
+        <item>It Desktop Engineer</item>
+        <item>Devops Engineer</item>
+        <item>Network Administrator</item>
+        <item>Linux Support Engineer</item>
+        <item>It And Network Admin</item>
+        <item>System Security</item>
+        <item>Hardware Installation Technician</item>
+        <item>Site Network Engineer</item>
+        <item>Computer Hardware Engineer</item>
+        <item>Management Information Systems(Mis)-Manager</item>
+        <item>Network Engineer</item>
+        <item>Computer Service Engineer</item>
+        <item>Network Planning Engineer</item>
+        <item>Maintenance Engineer</item>
+        <item>Switching / Router Engineer</item>
+        <item>Network Planning Manager</item>
+        <item>Printer Engineer</item>
+        <item>Laptop Engineer</item>
+        <item>Mobile Service Engineer</item>
+        <item>Network Engineer CCIE Certified</item>
+        <item>Webmaster</item>
+        <item>Software Developer</item>
+        <item>Front End Developer</item>
+        <item>Web Application Developer</item>
+        <item>Software Engineer</item>
+        <item>Senior Software Engineer</item>
+        <item>Software Developer / Full Stack Developer</item>
+        <item>Senior Software Developer</item>
+        <item>Associate Software Engineer</item>
+        <item>Technical Lead - Software Engineering</item>
+        <item>Technical Lead / Senior Software Engineer</item>
+        <item>Junior Software Developer</item>
+        <item>Full Stack Engineer</item>
+        <item>Software Developer (Trainee / Fresher)</item>
+        <item>Associate Software Developer</item>
+        <item>Software Developer Intern</item>
+        <item>Front End Engineer</item>
+        <item>Trainee Software Engineer / Programmer</item>
+        <item>Lead Software Engineer</item>
+        <item>Software Engineer / Developer</item>
+        <item>Software Trainee</item>
+        <item>Software Developer Engineer</item>
+        <item>Trainee Software Engineer</item>
+        <item>Senior Engineer / Asst.Manager</item>
+        <item>Senior Frontend Engineer</item>
+        <item>Software Development Intern</item>
+        <item>Staff Software Engineer</item>
+        <item>Front-End Senior Software Engineer</item>
+        <item>Senior Staff Software Engineer</item>
+        <item>Software Engineer Trainee</item>
+        <item>Principal Engineer</item>
+        <item>Software Development Intern</item>
+        <item>Staff Engineer</item>
+        <item>Staff Software Engineer</item>
+        <item>Senior Staff Software Engineer</item>
+        <item>Hardware Design Engineer</item>
+        <item>Technical Lead-Hardware Design</item>
+        <item>System Integration Technician</item>
+        <item>System Analyst</item>
+        <item>Embedded Software Engineer</item>
+        <item>Electrical &amp; Electronics Engineer</item>
+        <item>Senior Integrated Systems Engineer</item>
+        <item>Embedded Engineer</item>
+        <item>Embedded R &amp; D Engineer</item>
+        <item>Embedded Technologies Engineer</item>
+        <item>Embedded Firmware Engineer</item>
+        <item>Validation Engineer</item>
+        <item>Verification Engineer</item>
+        <item>Design And Verification Engineer</item>
+        <item>Analog Layout Engineer</item>
+        <item>Physical Design Engineer</item>
+        <item>Simulation Engineer</item>
+        <item>Sr. Embedded Software Engineer</item>
+        <item>Robotics Application Engineer</item>
+        <item>Sr. Embedded Firmware Engineer</item>
+        <item>Fpga Design Engineer</item>
+        <item>Soc Verification Engineer</item>
+        <item>Software Test Engineer</item>
+        <item>Quality Analyst</item>
+        <item>Automation Test Engineer</item>
+        <item>Test Engineer</item>
+        <item>Senior Quality Analyst</item>
+        <item>Software Tester</item>
+        <item>Senior Manual Qa Engineer</item>
+        <item>Quality Analyst - Software Testing</item>
+        <item>Manual Testing Engineer</item>
+        <item>Quality Assurance / Quality Control Executive</item>
+        <item>Manual Test Engineer</item>
+        <item>Automation Software Engineer</item>
+        <item>Qa Engineer</item>
+        <item>Systems Test Analyst</item>
+        <item>Technical Documenter</item>
+        <item>Software Test Automation Engineer</item>
+        <item>Software Qa Engineer</item>
+        <item>Software Testing</item>
+        <item>Testing Engineer</item>
+        <item>Performance Test Engineer</item>
+        <item>Testing Engineer(Manual Or Automation)</item>
+        <item>Quality Assurance Group Leader</item>
+        <item>Qa Tester</item>
+        <item>Production Quality Analyst</item>
+        <item>Quality Systems Engineer</item>
+        <item>Trainee Software Engineer</item>
+        <item>Assistant Manager Quality</item>
+        <item>Qa Automation Engineer</item>
+        <item>Software Test Selenium</item>
+        <item>junior Quality Analyst</item>
+        <item>Manual Test Engineer(Fresher)</item>
+        <item>Qa / Testing Intern</item>
+        <item>Qa Manager</item>
+        <item>Quality Controller</item>
+        <item>Quality Systems Specialist</item>
+        <item>Software Qa Manager</item>
+        <item>Qa Analyst</item>
+        <item>Quality Assistant</item>
+        <item>Quality Inspection - Executive</item>
+        <item>Technical writer</item>
+        <item>Quality Inspector</item>
+        <item>Software Qa Tester</item>
+        <item>Test Automation Engineer</item>
+        <item>Trainee / Intern Software Tester</item>
+        <item>Quality Assurance / Quality Control Manager</item>
+        <item>Quality Assurance Manager</item>
+        <item>Quality Coordinator</item>
+        <item>Quality Assurance Assistant</item>
+        <item>Quality Assurance Technician</item>
+        <item>Quality Review Specialist</item>
+        <item>Software Testing Engineer</item>
+        <item>Android Software Testing</item>
+        <item>Mobile Game Tester(Qa)</item>
+        <item>Process Control Technician</item>
+        <item>Qa Li Trainee Li Fresher</item>
+        <item>Quality Analyst-Software Testing</item>
+        <item>Quality Audit Representative</item>
+        <item>Security And Penetration Testing Expert</item>
+        <item>Software Test Technician</item>
+        <item>Clinical Quality Analyst</item>
+        <item>Director Software Quality Assurance</item>
+        <item>Qa Trainee Li(Freshers)</item>
+        <item>Quality Assurance Coordinator</item>
+        <item>Quality Review Trainer</item>
+        <item>Software Testing Training With Automation Tools</item>
+        <item>Supplier Quality Specialist</item>
+        <item>Data Analyst</item>
+        <item>Business Analyst</item>
+        <item>Data Analyst/ Data Scientist</item>
+        <item>Mis Executive / Data Analyst</item>
+        <item>Data Engineer / Analyst</item>
+        <item>Data Analyst - Operations</item>
+        <item>Business Intelligence Analyst</item>
+        <item>Data Scientist</item>
+        <item>Machine Learning Engineer</item>
+        <item>Erp Consultant(Sap)</item>
+        <item>Big Data Developer</item>
+        <item>It Business Analyst</item>
+        <item>Intern / Trainee</item>
+        <item>Analytics Developer</item>
+        <item>Data Analytics Developer</item>
+        <item>Data Research Analyst</item>
+        <item>Business Process Consultant</item>
+        <item>Data Analytics And Digital Accounts Manager</item>
+        <item>Sap Business Consultant</item>
+        <item>Senior Manager Consultant</item>
+        <item>Senior Manager - Business Intelligence</item>
+        <item>Jr. Business Analyst - Machine Learning</item>
+        <item>Crm Executive</item>
+        <item>Edp Analyst</item>
+        <item>Crm Developer</item>
+        <item>Jr. Business Analyst</item>
+        <item>Business Transformation Analyst</item>
+        <item>Project / Technical Manager</item>
+        <item>Project Lead</item>
+        <item>Product Manager</item>
+        <item>Associate Product Manager / Product Manager</item>
+        <item>Release Manager</item>
+        <item>Sr Product Manager</item>
+        <item>Vp Product</item>
+        <item>Android Application Developer</item>
+        <item>Mobile Engineer</item>
+        <item>Ios Application Developer</item>
+        <item>Software Developer</item>
+        <item>Android Mobile Application Developer</item>
+        <item>Senior Software Engineer</item>
+        <item>Software Engineer(Mobile Application)</item>
+        <item>Mobile Application Developer</item>
+        <item>Intern / Trainee</item>
+        <item>Mobile Application Developer-React Native</item>
+        <item>Hybrid Application Developer (Android / Ios)</item>
+        <item>Software Developer Fresher</item>
+        <item>Android Project Internship</item>
+        <item>Principal Engineer - Mobile</item>
+        <item>Android Ios Application Developer</item>
+        <item>Software Developer Intern</item>
+        <item>Database Administrator - Dba</item>
+        <item>Sql Data Base Administrator</item>
+        <item>Database Engineer</item>
+        <item>Senior Database Administrator</item>
+        <item>Database Architect / Designer</item>
+        <item>Oracle Data Integrator</item>
+        <item>Senior Database Engineer</item>
+        <item>Bi Data Specialist</item>
+        <item>Big Data Developer</item>
+        <item>Data-warehousing Technician</item>
+    </string-array>
+
+    <string-array name="Delivery_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Driver</item>
+        <item>Biker / Delivery Boy</item>
+        <item>Delivery Boy</item>
+        <item>Company Driver</item>
+        <item>Cab Driver</item>
+        <item>Delivery / Collection Executive</item>
+        <item>Delivery Boy / Delivery Executive</item>
+        <item>Field Executive</item>
+        <item>Commercial Car Driver</item>
+        <item>Light Vehicle Driver</item>
+        <item>Bike Rider</item>
+        <item>Bus Driver</item>
+        <item>Tempo Driver</item>
+        <item>Truck Driver</item>
+        <item>Delivery Executive</item>
+        <item>Bike Driver</item>
+        <item>Route Supervisor</item>
+        <item>Courier Delivery Boy</item>
+        <item>Document Collection Executive</item>
+        <item>Food Delivery Boy</item>
+        <item>Taxi Driver</item>
+        <item>Commercial Taxi Driver</item>
+        <item>Delivery Partner</item>
+        <item>Driver / Sales Workers</item>
+        <item>Heavy Equipment Operator</item>
+        <item>Delivery / Field Executive</item>
+        <item>Courier Boy</item>
+        <item>Food Delivery Executive</item>
+        <item>Parcel Delivery Boy</item>
+        <item>Route Driver</item>
+        <item>Delivery Driver</item>
+        <item>Delivery Rider</item>
+        <item>Driver / Sales Representative</item>
+        <item>E Commerce Delivery Boy</item>
+        <item>Cdl Driver</item>
+        <item>Fleet Coordinator</item>
+        <item>Rider Partner</item>
+        <item>Shuttle Car Operator</item>
+        <item>Test Vehicle Driver</item>
+        <item>Streetcar Operator</item>
+        <item>Subway Operator</item>
+        <item>Scheduler</item>
+        <item>Fleet Manager</item>
+        <item>Field Delivery Executive</item>
+        <item>Document Delivery Executive</item>
+        <item>Public Transportation Inspector</item>
+        <item>Truck Driver Supervisor</item>
+        <item>Chauffeur</item>
+        <item>Delivery Helper</item>
+        <item>Delivery Assistant</item>
+        <item>E-commerce Logistics - Delivery Boy</item>
+        <item>Parcel Delivery Boy</item>
+        <item>Route Driver</item>
+        <item>Delivery Agents</item>
+        <item>Delivery Rider</item>
+        <item>Food Delivery Executive</item>
+        <item>Collection Executive</item>
+        <item>School Bus Driver</item>
+        <item>Van Driver</item>
+        <item>Delivery Personnel</item>
+        <item>Delivery / Pick Up Executive</item>
+        <item>Hmv Driver</item>
+        <item>Heavy Duty Driver</item>
+        <item>Dispatcher</item>
+        <item>Delivery Drivers</item>
+        <item>Valet Drivers</item>
+        <item>Bike Delivery Driver</item>
+        <item>Delivery Associate</item>
+        <item>Fleet Manager</item>
+        <item>Field Worker</item>
+        <item>Packaging Boy</item>
+        <item>Picker / Packer</item>
+        <item>Packaging Boy / Helper</item>
+        <item>Packaging Supervisor</item>
+        <item>Materials Handling Supervisor</item>
+        <item>Packaging And Scanning Executive</item>
+        <item>Materials Handler</item>
+        <item>Import / Export Clerk</item>
+        <item>Fork Lift Operator</item>
+        <item>Logistics Manager</item>
+        <item>Expediter</item>
+        <item>Import / Export Supervisor</item>
+        <item>Package Handler</item>
+        <item>Transportation Manager</item>
+        <item>Transportation Planner</item>
+        <item>Import / Export Manager</item>
+        <item>Packing And Operations Executive</item>
+        <item>Transportation Supervisor</item>
+        <item>Traffic Director</item>
+        <item>Transportation Director</item>
+        <item>Logician</item>
+        <item>Logistics Analyst</item>
+        <item>Materials Control Manager</item>
+        <item>Transportation Broker</item>
+        <item>Logistics Coordinator</item>
+        <item>Logistics Specialist</item>
+        <item>Transportation Inspector</item>
+        <item>Packaging Engineer</item>
+        <item>Production Scheduler</item>
+        <item>Traffic / Rate Analyst</item>
+        <item>Traffic Clerk</item>
+        <item>Traffic Manager</item>
+        <item>Traffic Supervisor</item>
+        <item>Transportation Analyst</item>
+        <item>Transportation Attendant</item>
+        <item>Materials Planner</item>
+        <item>Refuse And Recyclable Material Collectors</item>+
+    </string-array>
+
+    <string-array name="Marketing_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Direct Marketing Executive</item>
+        <item>Marketing Manager</item>
+        <item>Marketing Assistant</item>
+        <item>Marketing Assistant</item>
+        <item>Product Executive</item>
+        <item>Assistant / Associate Marketing Manager</item>
+        <item>Marketing Consultant</item>
+        <item>Direct Marketing Manager</item>
+        <item>Senior Marketing Consultant</item>
+        <item>Retail Marketing Manager</item>
+        <item>Marketing Intern</item>
+        <item>Marketing And Promotions Manager</item>
+        <item>Junior Marketing Consultant</item>
+        <item>Product Marketing Manager</item>
+        <item>Product / Brand Manager</item>
+        <item>Manager Marketing - Internal / External Communication</item>
+        <item>Marketing Promotions Specialist</item>
+        <item>Manager - Market Research / Consumer Insights / Industry Analysis</item>
+        <item>Regional Marketing Manager</item>
+        <item>Product Manager</item>
+        <item>Corporate Communication Executive</item>
+        <item>Zonal Marketing Manager</item>
+        <item>Creative Marketing Assistant</item>
+        <item>Project Manager</item>
+        <item>Rural Marketing Manager</item>
+        <item>Product Manager</item>
+        <item>International Marketing Manager</item>
+        <item>Junior Project Director</item>
+        <item>Senior Product Manager</item>
+
+        <item>Digital Marketing Executive</item>
+        <item>Online Marketing Associate</item>
+        <item>Digital Marketing Manager</item>
+        <item>Marketing And Promotion Manager</item>
+        <item>Seo Executive</item>
+        <item>Direct Marketing Associate</item>
+        <item>Social Media Manager</item>
+        <item>Direct Marketing Intern</item>
+        <item>Direct Marketing Specialist</item>
+        <item>Digital Brand Manager</item>
+        <item>Social Media Manager / Digital Marketing Executive</item>
+        <item>Seo Content Writer</item>
+        <item>Seo / Seo Analyst</item>
+        <item>Social Media Marketer</item>
+        <item>Direct Marketing Representative</item>
+        <item>Social Media Marketing Intern</item>
+        <item>Lead Generation Executive</item>
+        <item>Digital Marketing Trainee</item>
+        <item>Email Marketer</item>
+        <item>Online Reputation Executive</item>
+        <item>Listing And Cataloguing Executive</item>
+        <item>Seo / Seo Specialist</item>
+        <item>Seo Fresher</item>
+        <item>Trainer Digital Marketing</item>
+        <item>Email Marketing Manager</item>
+        <item>Marketing Promotion Specialist</item>
+        <item>Marketing Specialist</item>
+        <item>Seo Intern</item>
+        <item>Direct Marketing Coordinator</item>
+        <item>Direct Of Digital Marketing Manager</item>
+        <item>Seo Executive - Digital Marketing</item>
+        <item>Seo / Sem Specialist</item>
+        <item>Seo Analyst / Digital Marketing</item>
+        <item>Seo Smo Sem Expert</item>
+        <item>Social Media Associate</item>
+        <item>Social Media Marketing Coordinator</item>
+        <item>SEO / Digital Marketing Manager</item>
+        <item>Social Media Marketing Manager</item>
+        <item>Youtube Influence</item>
+        <item>Database Marketing Analyst</item>
+        <item>Marketing Growth Hacker</item>
+        <item>Media Planner</item>
+        <item>Motion Graphic Artist</item>
+        <item>Ppc / Pay Per Click Specialist</item>
+        <item>Search Engine Marketing / Sem Specialist</item>
+        <item>Sem Assistant Manager</item>
+        <item>Seo / Smo</item>
+        <item>Social Media Marketing Analyst</item>
+        <item>Analyst Performance Marketing</item>
+        <item>Media Supervisor</item>
+        <item>Online Researcher</item>
+        <item>Search Engine Optimization (Seo) Manager</item>
+        <item>Seo / Seo Lead</item>
+        <item>Social Media Head</item>
+        <item>Affiliate Marketing Manager</item>
+        <item>Display Marketing Executive</item>
+        <item>Ppc Manager</item>
+        <item>Senior Smo Executive</item>
+        <item>Seo / Smo Specialist</item>
+        <item>Seo And Social Media Specialist</item>
+        <item>Seo Executive Intern</item>
+        <item>Social Media Optimization (Smo)</item>
+        <item>Display Marketing Manager</item>
+        <item>Ppc / Pay Per Click Expert</item>
+        <item>Ppc / Pay Per Click Lead</item>
+        <item>Seo Analyst</item>
+        <item>Seo Internship</item>
+        <item>Smm Executive</item>
+        <item>Smo Analyst</item>
+        <item>Traffic Manager</item>
+        <item>Advertising Sales Representative</item>
+        <item>Advertising Assistant</item>
+        <item>Events / Promotion Executive</item>
+        <item>Branch Marketing Manager</item>
+        <item>Advertising Coordinator</item>
+        <item>Advertising Director</item>
+        <item>Advertising Photographer</item>
+        <item>Advertising Intern</item>
+        <item>Business Alliances Manager</item>
+        <item>Advertising Copywriter</item>
+        <item>Event Manager</item>
+        <item>Creative Advertising Intern</item>
+        <item>Art Director / Senior Art Director</item>
+        <item>Account Director</item>
+        <item>Event Planner</item>
+        <item>Marketing Research Field Supervisor</item>
+        <item>Marketing Research Executive / Manager</item>
+        <item>Marketing Research Analyst</item>
+        <item>Direct Marketing Analyst</item>
+        <item>Marketing Research Associate</item>
+        <item>Associate Project Manager / Market Research</item>
+        <item>Media Researcher</item>
+        <item>Marketing Manager, Research intelligence</item>
+        <item>Media Research Interviewer</item>
+        <item>Marketing Data Analyst</item>
+        <item>Marketing Research Lead</item>
+        <item>Product Research Analyst</item>
+        <item>Research Assistant</item>
+        <item>Marketing Research Specialist</item>
+        <item>Marketing Data Analyst Intern</item>
+        <item>Insights Analyst</item>
+        <item>Qualitative Research Assistant</item>
+        <item>R &amp; D Analyst</item>
+        <item>Search Engine Marketing Analyst</item>
+        <item>Creative Director</item>
+        <item>Sr Visualiser</item>
+        <item>Creative Assistant</item>
+        <item>Media Director</item>
+        <item>Media Assistant</item>
+        <item>Script Writer</item>
+        <item>Screenplay Writer</item>
+        <item>Media Planning Assistant</item>
+        <item>Client Servicing / Key Account Manager</item>
+        <item>Asst Art Director</item>
+        <item>Copywriter</item>
+        <item>Digital Advertising Intern</item>
+        <item>Trainee</item>
+        <item>Brand Manager</item>
+        <item>Brand Marketing Specialist</item>
+        <item>Promotions Coordinator</item>
+        <item>Account Executive</item>
+        <item>Advertising Manager</item>
+        <item>Assistant Account Executive</item>
+        <item>Brand Activation Manager</item>
+        <item>Brand Assistant</item>
+        <item>Client Servicing Executive</item>
+        <item>Junior Brand Manager</item>
+        <item>Brand Marketing Manager</item>
+        <item>Brand Marketing Representative</item>
+        <item>Brand Strategist</item>
+        <item>Promotions Manager</item>
+        <item>Senior Brand Manager</item>
+        <item>Sourcing Manager</item>
+        <item>Account Coordinator</item>
+        <item>Assistant Brand Manager</item>
+        <item>Assistant Brand Marketing Manager</item>
+        <item>Associate Brand Manager</item>
+        <item>Brand Marketing Associate</item>
+        <item>Media Buyer</item>
+        <item>Promotions Director</item>
+        <item>Creative Content Writer</item>
+        <item>Content Writer / Interns</item>
+        <item>Content Reviewer</item>
+        <item>Digital Content Specialist</item>
+        <item>Content Director</item>
+        <item>Content Marketing Manager</item>
+        <item>Content Strategist</item>
+        <item>Marketing Content Writer</item>
+        <item>Content Strategist</item>
+        <item>Marketing Content Writer</item>
+        <item>Marketing Content Assistant</item>
+        <item>Content Marketing Intern</item>
+        <item>Events Manager</item>
+        <item>Event Operations Manager</item>
+        <item>Activities And Events Planner</item>
+        <item>Meeting And Event Planner</item>
+        <item>Wedding Coordinator</item>
+        <item>Corporate Events Planner</item>
+        <item>Film &amp; Musical Events Planner</item>
+        <item>Converts Planner</item>
+        <item>Association Event Planner</item>
+        <item>Parties &amp; Dj Nights Planner</item>
+        <item>Wedding Planner</item>
+        <item>Birthday Planner</item>
+        <item>Meeting Planner</item>
+        <item>Executive Conference Manager</item>
+        <item>Executive Meeting Manager</item>
+        <item>Exhibition Coordinator</item>
+        <item>Family Events Planner</item>
+        <item>Road Show Planner</item>
+        <item>Special Events Manager</item>
+        <item>Conference Planner</item>
+        <item>Convention Planner</item>
+        <item>Cultural Events Planner</item>
+        <item>Exhibition &amp; Conference Planner</item>
+        <item>Fashion Shows Planner</item>
+        <item>Meeting Specialist</item>
+        <item>Special Events Planner</item>
+        <item>Sports Events Planner</item>
+        <item>Meeting And Convention Planner</item>
+        <item>Meeting Coordinator</item>
+        <item>Meeting Manager</item>
+        <item>Photographer</item>
+        <item>Host / Hostess</item>
+        <item>Camera Man</item>
+        <item>Anchor</item>
+        <item>Reporter</item>
+        <item>Videographer</item>
+        <item>Journalist</item>
+    </string-array>
+
+    <string-array name="Hospitality_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Waiter / Waitress</item>
+        <item>Caption</item>
+        <item>Restaurant Manager</item>
+        <item>F &amp; B Manager</item>
+        <item>Host / Hostess</item>
+        <item>Bartender</item>
+        <item>Banquet Sales Executive / Manager</item>
+        <item>Comics</item>
+        <item>Restaurant Manager / Bar Manager</item>
+        <item>General Manager</item>
+        <item>Cook / Chef</item>
+        <item>Head Chef</item>
+        <item>Sous Chef</item>
+        <item>Pastry Chef</item>
+        <item>Cage Assistant</item>
+        <item>Executive Sous Chef / Chef De Cuisine</item>
+        <item>Cafe Manager</item>
+        <item>Steward</item>
+        <item>Barista</item>
+        <item>Restaurant Manager</item>
+        <item>Shift Manager</item>
+        <item>Hotel Manager</item>
+        <item>General Manager</item>
+        <item>Food Service Supervisor</item>
+        <item>Back Office Assistant</item>
+        <item>Hotel Supervisor</item>
+        <item>Hotel Assistant Manager</item>
+        <item>Restaurant General Manager</item>
+        <item>Sales And Marketing Manager</item>
+        <item>Banquet Manager</item>
+        <item>Director Of Maintenance</item>
+        <item>Front Office / Guest Relations Executive / Manager</item>
+        <item>Receptionist</item>
+        <item>Front Office Executive / Associate</item>
+        <item>Cashier</item>
+        <item>Front Office Associate</item>
+        <item>Cashier</item>
+        <item>Front Office Associate</item>
+        <item>Front Desk Manager</item>
+        <item>Front Desk Executive</item>
+        <item>Guest Services Supervisor</item>
+        <item>Lobby / Duty Manager</item>
+        <item>Guest Service Agent</item>
+        <item>Trainee</item>
+        <item>Bell Attendant</item>
+        <item>Security Guard</item>
+        <item>Parking Lot Attendant</item>
+        <item>Casino Host</item>
+        <item>Cruise Ship Attendant</item>
+        <item>Bellman</item>
+        <item>Baggage Porter</item>
+        <item>Bellhop</item>
+        <item>Gaming Dealer</item>
+        <item>Housekeeping Staff</item>
+        <item>Housekeeping Supervisor</item>
+        <item>Housekeeping Associate</item>
+        <item>Housekeeping Executive / Assistant</item>
+        <item>Housekeeping Manager</item>
+        <item>Housekeeping Attendant / Aide</item>
+        <item>Maintenance Worker</item>
+        <item>Lead Housekeeper</item>
+        <item>Maintenance Supervisor</item>
+        <item>Packaging Operator</item>
+        <item>Manager</item>
+        <item>Senior Brewer</item>
+        <item>Brewer</item>
+        <item>Sales And Marketing</item>
+        <item>Head Brewer</item>
+        <item>Distiller</item>
+        <item>Brewery Maintenance Engineer</item>
+        <item>Brewing Microbiologist / Chemist</item>
+    </string-array>
+
+    <string-array name="Logistics_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Operation Executive / Warehouse Executive</item>
+        <item>Team Supervisor</item>
+        <item>Warehouse Executive</item>
+        <item>Store Keeper / Warehouse Assistant</item>
+        <item>Logistics Executive</item>
+        <item>Logistics Team Lead</item>
+        <item>Dispatch Officer</item>
+        <item>Warehouse Manager</item>
+        <item>Senior Executive - Warehouse Operations</item>
+        <item>Senior / Operations Executive</item>
+        <item>Store Keeper</item>
+        <item>Logistics Support Executive</item>
+        <item>Packing Operator</item>
+        <item>Operations Manager</item>
+        <item>Assistant Store Manager</item>
+        <item>Warehouse Incharge</item>
+        <item>Warehouse Associate</item>
+        <item>Logistics Manager</item>
+        <item>Picker / Packer</item>
+        <item>Associate Fc Operations(Deo)</item>
+        <item>Inventory Executive</item>
+        <item>Warehouse Staff</item>
+        <item>Transport Supervisor</item>
+        <item>Forklift Driver / Operator</item>
+        <item>Warehouse Worker</item>
+        <item>Hub Manager</item>
+        <item>Warehouse Helper</item>
+        <item>Supervisory Supply Management Specialist</item>
+        <item>Transport Manager</item>
+        <item>Picker / Packer Associate</item>
+        <item>Picker And Packer</item>
+        <item>Office Manager</item>
+        <item>Transport / Distribution Manager</item>
+        <item>Shipping And Receiving Associate</item>
+        <item>Warehouse Clerk</item>
+        <item>Warehouse Packer</item>
+        <item>Client Services Administrator</item>
+        <item>Inventory Control Manager</item>
+        <item>Production Planner</item>
+        <item>General Laborer</item>
+        <item>Receiver</item>
+        <item>Loader</item>
+        <item>Material Handler</item>
+        <item>Shipping Specialist</item>
+        <item>Stock Clerk(Stocker)</item>
+        <item>Carry Forward Agent(Cfa)</item>
+        <item>Inventory - Sales Manager</item>
+        <item>Logistics Director</item>
+        <item>Warehouse Loader</item>
+        <item>Distribution Center Manager</item>
+        <item>Program Manager</item>
+        <item>Godown Attendant</item>
+        <item>Merchandise Pickup / Receiving Associate</item>
+        <item>Supportability Engineer</item>
+        <item>Logistic Vice President</item>
+        <item>Operations Vice President</item>
+        <item>Purchase Executive</item>
+        <item>Material Management Executive / Manager</item>
+        <item>Logistic Executive</item>
+        <item>Purchasing Supervisor</item>
+        <item>Purchasing Officer</item>
+        <item>Assistant Purchase Manager</item>
+        <item>Procurement Manager</item>
+        <item>Senior Sourcing Executive</item>
+        <item>Procurement Assistant</item>
+        <item>Materials Manager</item>
+        <item>Purchase Engineer</item>
+        <item>Purchase / Vendor Development Manager</item>
+        <item>Purchasing Assistant</item>
+        <item>Quality Assurance / Quality Control Executive</item>
+        <item>Production Manager</item>
+        <item>Procurement Officer</item>
+        <item>Purchasing Associate</item>
+        <item>Purchasing Clerk</item>
+        <item>General Manager</item>
+        <item>Procurement Specialist</item>
+        <item>Quality Assurance / Quality Control Manager</item>
+        <item>Plant Manager</item>
+        <item>Category Purchasing Manager</item>
+        <item>Commercial Manager</item>
+        <item>Operations Director</item>
+        <item>Materials Director</item>
+        <item>Business Manager</item>
+        <item>Plant Superintendent</item>
+        <item>Strategic Sourcing Director</item>
+        <item>Purchasing Agent</item>
+        <item>Purchasing Specialist</item>
+        <item>Commodity Manager</item>
+        <item>Procurement Technician</item>
+        <item>Facilities Manager</item>
+        <item>Purchasing Director</item>
+        <item>Procurement Director</item>
+        <item>Head / Vp / Gm-Scm / Logistics</item>
+        <item>Head / Vp / Gm-Purchase / Material Management</item>
+        <item>Head / Vp / Gm-Commercial</item>
+    </string-array>
+
+    <string-array name="Education_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Maths Teacher</item>
+        <item>School Teacher</item>
+        <item>Computer Teacher</item>
+        <item>Tutor</item>
+        <item>Class Teacher / Classroom Coordinator</item>
+        <item>Assistant Teacher</item>
+        <item>English Language Teacher</item>
+        <item>Science Teacher</item>
+        <item>Nursery Teacher</item>
+        <item>Physics Teacher</item>
+        <item>Primary School Teacher</item>
+        <item>Pre Primary Teacher</item>
+        <item>Chemistry Teacher</item>
+        <item>Social Studies Teacher</item>
+        <item>Biology Teacher</item>
+        <item>Maths &amp; Science Teacher</item>
+        <item>Home Tutor</item>
+        <item>Instructor</item>
+        <item>Commerce Teacher</item>
+        <item>Primary And Pre Primary Teachers</item>
+        <item>Primary English Teacher</item>
+        <item>School Teacher</item>
+        <item>Teacher / Private Tutor</item>
+        <item>Teaching Staff</item>
+        <item>History Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Classroom Teacher(Early Years)</item>
+        <item>Special Education Teacher</item>
+        <item>Economics Teacher</item>
+        <item>Pgt English</item>
+        <item>Primary Teachers(All Subjects)</item>
+        <item>Head Teacher</item>
+        <item>Educator</item>
+        <item>Account Teacher</item>
+        <item>School Librarian</item>
+        <item>English And Social Studies Teacher</item>
+        <item>Pre School Teacher</item>
+        <item>Geography Teacher</item>
+        <item>Lead Teacher</item>
+        <item>Senior Teacher</item>
+        <item>Online Tutor</item>
+        <item>Playschool Teacher</item>
+        <item>Technical / Process Trainer</item>
+        <item>Teacher - Play School And Childcare Facility</item>
+        <item>Teacher Assistant</item>
+        <item>Daycare Teacher / Incharge / Attendant</item>
+        <item>Junior / Primary / Assistant Teacher</item>
+        <item>Academic Coordinator</item>
+        <item>Pgt Accountancy</item>
+        <item>Urdu Teacher</item>
+        <item>Guidance Counselor</item>
+        <item>Hindustani Vocals Trainer</item>
+        <item>Pgt Chemistry</item>
+        <item>School Administrator</item>
+        <item>School Counselor</item>
+        <item>Social And English Teacher</item>
+        <item>Arabic Teacher</item>
+        <item>Online Math Tutor</item>
+        <item>Preschool Teacher</item>
+        <item>Business Studies Teacher</item>
+        <item>Business Teacher</item>
+        <item>Education Specialist</item>
+        <item>Education Technician</item>
+        <item>Kinder Garden Teacher</item>
+        <item>Pgt Geography</item>
+        <item>Soft Skill Trainer</item>
+        <item>Teacher - Pre School</item>
+        <item>Tram Lead Tutoring</item>
+        <item>Camp Educator</item>
+        <item>Curriculum Designer</item>
+        <item>Digital Marketing Trainer</item>
+        <item>Driver Education Teacher</item>
+        <item>Education Coordinator</item>
+        <item>English Science And Social Teacher</item>
+        <item>Foreign Language Teacher</item>
+        <item>Maths Tutor</item>
+        <item>Preschool Group Leader</item>
+        <item>Preschool Lead Teacher</item>
+        <item>Primary Coordinator</item>
+        <item>Program Assistant</item>
+        <item>Counselor</item>
+        <item>Administrator</item>
+        <item>Executive Officer</item>
+        <item>Manager Organizational</item>
+        <item>Principal / Vice-Principal / Academic Coordinator</item>
+        <item>Education And Training Manager</item>
+        <item>Training And Development Manager</item>
+        <item>Admissions Representative</item>
+        <item>Academic Support Coordinator</item>
+        <item>Education Manager</item>
+        <item>Adviser</item>
+        <item>Training Manager</item>
+        <item>Hostel Warden</item>
+        <item>Academic Content Writer</item>
+        <item>Academic Head</item>
+        <item>E Learning Manager</item>
+        <item>Principal</item>
+        <item>Lab Assistant</item>
+        <item>Academic Adviser</item>
+        <item>Assistant Coach</item>
+        <item>Vice Principal</item>
+        <item>Assistant Principal</item>
+        <item>Director Organizational</item>
+        <item>Curriculum Manager</item>
+        <item>Director And Placement Officer</item>
+        <item>Head - Teacher Play School</item>
+        <item>Head Teacher / Mistress / Master</item>
+        <item>Superintendent</item>
+        <item>After-School Program Aide</item>
+        <item>Assistant Preschool Teacher</item>
+        <item>Field Training Manager</item>
+        <item>Headmistress</item>
+        <item>Day Care Center Teacher</item>
+        <item>Director Of Staff Development</item>
+        <item>Associate Dean</item>
+        <item>Director Learning</item>
+        <item>Director Learning And Development</item>
+        <item>Director of Curriculum</item>
+        <item>Superintendent Of Schools</item>
+        <item>Adjunct Professor</item>
+        <item>Director E Learning</item>
+        <item>Technical Trainer</item>
+        <item>Computer Trainer</item>
+        <item>Soft Skills Trainer</item>
+        <item>Sports Coach</item>
+        <item>Product Trainer</item>
+        <item>English Trainer</item>
+        <item>It Trainer</item>
+        <item>Software Training Faculty / Instructor</item>
+        <item>Retail Trainer</item>
+        <item>Tally Trainer</item>
+        <item>Spoken English Trainer</item>
+        <item>English Language Trainer</item>
+        <item>Pre School Trainer</item>
+        <item>Hospitality Trainer</item>
+        <item>Multimedia Trainer</item>
+        <item>Robotics Trainer</item>
+        <item>Software Trainer</item>
+        <item>Assistant Professor</item>
+        <item>Bpo Trainer</item>
+        <item>Content Writer Executive</item>
+        <item>Voice And Accent Trainer</item>
+        <item>Stem Trainer</item>
+        <item>Coding Analyst</item>
+        <item>Angular Js Trainer</item>
+        <item>Associate Professor</item>
+        <item>Chess Trainer</item>
+        <item>Ethical Hacking Trainer</item>
+        <item>Sound Editor - Trainer</item>
+        <item>Visiting Faculty / Guest Faculty</item>
+        <item>Android Trainer</item>
+        <item>Hotel Management Trainer</item>
+        <item>Java Trainer</item>
+        <item>Lecturer / Professor</item>
+        <item>Teaching Faculty</item>
+        <item>Lecturer</item>
+        <item>Chemistry Lecturer</item>
+        <item>Teaching Assistant</item>
+        <item>Professor</item>
+        <item>Computer Faculty</item>
+        <item>English Faculty</item>
+        <item>Associate Professor Cse</item>
+        <item>Hod</item>
+        <item>Lecturer For Biology And Chemistry</item>
+        <item>Chemistry Faculty - Lit Jee / Neet</item>
+        <item>Faculty For Lit-Jee</item>
+        <item>History Faculty</item>
+        <item>Dean / Director</item>
+        <item>Career Counselor</item>
+        <item>Faculty - Graphic Designing</item>
+        <item>Lit Faculty</item>
+        <item>Tally Faculty</item>
+        <item>English Lecturer Puc</item>
+        <item>Faculty - Hardware And Networking</item>
+        <item>Multimedia Faculty</item>
+        <item>Associate Professor Radiology</item>
+        <item>Chairman</item>
+        <item>Chancellor</item>
+        <item>Child Care Assistant</item>
+        <item>Child Care Center Teacher</item>
+        <item>Coach</item>
+        <item>Crossing Guard</item>
+        <item>Faculty - Web Designing And Digital Marketing</item>
+        <item>Faculty For Mba Entrance</item>
+        <item>Programming Faculty</item>
+        <item>Quant Faculty</item>
+        <item>English Teacher</item>
+        <item>Hindi Teacher</item>
+        <item>Kannada Teacher</item>
+        <item>Sanskrit Teacher</item>
+        <item>German Teacher</item>
+        <item>After-School Program Coordinator</item>
+        <item>French Teacher</item>
+        <item>Telugu Teacher</item>
+        <item>Admissions Assistant</item>
+        <item>Assistant Instructor</item>
+        <item>Spanish Teacher</item>
+        <item>Assistant Registrar</item>
+        <item>Chinese Teacher</item>
+        <item>Club Associates</item>
+        <item>Malayalam Teacher</item>
+        <item>Portuguese Teacher</item>
+        <item>Special Education Assistant</item>
+        <item>Sports / Physical Education Teacher</item>
+        <item>Arts Teacher</item>
+        <item>Home Science Teacher</item>
+        <item>Music Teacher</item>
+        <item>Dance Teacher</item>
+        <item>Art &amp; Craft Teacher</item>
+        <item>Keyboard / Piano Tutor</item>
+        <item>Speech Therapist</item>
+        <item>Drama / Theater Teacher</item>
+        <item>Drawing Teacher</item>
+        <item>Speech Language Therapist</item>
+        <item>Yoga Trainer / Therapist</item>
+        <item>Yoga Teacher</item>
+    </string-array>
+
+    <string-array name="retail_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Sales Executive</item>
+        <item>Counter Sales</item>
+        <item>Retail Store Manager</item>
+        <item>Retail Team Leader</item>
+        <item>Retail Customer Service Associate</item>
+        <item>Sales Executive / Officer</item>
+        <item>Sales Associate</item>
+        <item>Assistant Store Manager</item>
+        <item>Wine Sales, Cashiers, And Stock Associates</item>
+        <item>Department Manager</item>
+        <item>Retail Sales Consultant</item>
+        <item>Sales / Business Development Manager</item>
+        <item>Retail Sales Representative</item>
+        <item>Branch Manager</item>
+        <item>Floor Leader</item>
+        <item>Area Sales Manager</item>
+        <item>Service Supervisor</item>
+        <item>Retail Trainee</item>
+        <item>Sales Consultant</item>
+        <item>Direct Sales Person</item>
+        <item>Floor Manager</item>
+        <item>Merchandiser</item>
+        <item>Retail Buyer</item>
+        <item>Buyer - Fashion - Clothing</item>
+        <item>Order Picker</item>
+        <item>Warehouse Associate - Material Handler</item>
+        <item>Promotions Coordinator</item>
+        <item>Inventory Associate</item>
+        <item>Order Entry / Processor</item>
+        <item>Inventory Manager</item>
+        <item>Bilingual Retail Sales Representative</item>
+        <item>Stock Clerk</item>
+        <item>Visual Merchandiser</item>
+        <item>Merchandise Supervisor</item>
+        <item>Retail Management Trainee</item>
+        <item>Regional Manager</item>
+        <item>Retail Marketing Specialist</item>
+        <item>Sales Promotion Manager</item>
+        <item>Buyer - Fashion</item>
+        <item>In-Store Assistant Branch Manager</item>
+        <item>Delivery / Bulk Merchandiser</item>
+        <item>Display Assistant</item>
+        <item>Product Demonstrator</item>
+        <item>Retail Associate Store Manager</item>
+        <item>Automotive Sales Manager</item>
+        <item>Delivery Merchandiser Trainee</item>
+        <item>Footwear Buyer</item>
+        <item>Inventory Taker</item>
+        <item>Loss Prevention Specialist</item>
+        <item>Manager Of Retail Strategy Communications And Processes</item>
+        <item>Medical Representative</item>
+        <item>Procurement Specialist</item>
+        <item>Retail Food Service Manager</item>
+        <item>Retail Personal Banker</item>
+        <item>Assistant Buyer</item>
+        <item>Assistant Merchandise Manager</item>
+        <item>Associate Product Manager</item>
+        <item>Buyer</item>
+        <item>Order Filler</item>
+        <item>Automotive Parts Counter Person</item>
+        <item>Buyer Of Cosmetics</item>
+        <item>Head / Vp / Gm / National Manager - Sales</item>
+        <item>Head / Vp / Gm / National Manager After Sales</item>
+        <item>Front Desk / Cashier / Billing</item>
+        <item>Sales Coordinator</item>
+        <item>Sales Promotion Manager</item>
+        <item>Sales Trainer</item>
+        <item>Telesales / Telemarketing Executive / Officer</item>
+        <item>Service Manager</item>
+        <item>After Sales Representative</item>
+        <item>Service Engineer</item>
+        <item>Post Sales Associate</item>
+        <item>Post Sales Consultant</item>
+        <item>Sales Executive / Officer</item>
+        <item>Area Sales Manager</item>
+        <item>Area / Territory Manager</item>
+        <item>Client Relationship Manager</item>
+        <item>Sales / Bd Manager</item>
+        <item>Key Account Manager</item>
+        <item>Regional Sales Manager</item>
+        <item>Sales Executive / Officer</item>
+        <item>Sales / Business Development Manager</item>
+        <item>Sales Consultant</item>
+        <item>Branch Manager / Regional Manager</item>
+        <item>Client Servicing / Key Account Manager</item>
+        <item>Pre-Sales Executive</item>
+        <item>Pre-Sales Consultant</item>
+        <item>Bid Manager</item>
+        <item>Pre-Sales Expert</item>
+        <item>Collateral / Flyers Manager</item>
+        <item>Sales Executive / Officer</item>
+        <item>Sales / Business Development Manager</item>
+        <item>Institutional Sales / Business Development Manager</item>
+        <item>Sales Promotion Manager</item>
+    </string-array>
+
+    <string-array name="role_experience_helthcare">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Pharmacist / Chemist / Bio Chemist</item>
+        <item>Medical Representative</item>
+        <item>Administration Services / Medical Facilities</item>
+        <item>Medical Officer</item>
+        <item>Documentation / Medical Writing</item>
+        <item>Physiotherapist</item>
+        <item>Clinical Researcher</item>
+        <item>Radiologic Technologists</item>
+        <item>General Practitioner</item>
+        <item>Dietician / Nutritionist</item>
+        <item>Lab Technician / Medical Technician / Lab Staff</item>
+        <item>Paramedic</item>
+        <item>Microbiologist</item>
+        <item>Chief Medical Officer / Head Medical Services</item>
+        <item>Medical Superintendent / Director</item>
+        <item>Gynaecologist</item>
+        <item>Intern</item>
+        <item>Ophthalmologist</item>
+        <item>Radiologist</item>
+        <item>Surgeon</item>
+        <item>Surgeon</item>
+        <item>Regulatory Affairs Manager</item>
+        <item>Anaesthetist</item>
+        <item>Drug Regulatory Director</item>
+        <item>Pediatrician</item>
+        <item>Psychiatrist</item>
+        <item>Ent Specialist</item>
+        <item>Hepatologist</item>
+        <item>Pediatrician</item>
+        <item>Psychiatrist</item>
+        <item>Ent Specialist</item>
+        <item>Nephrologist</item>
+        <item>Orthopaedist</item>
+        <item>Pathology Assistant</item>
+        <item>Cardiologist</item>
+        <item>Dermatologist</item>
+        <item>Neurologist</item>
+        <item>Oncologist</item>
+        <item>Pathologist</item>
+        <item>Medical Technologist</item>
+        <item>Medical Assistant</item>
+        <item>Medical Receptionist</item>
+        <item>Patient Services Technician</item>
+        <item>Healthcare Administrator</item>
+        <item>Medical Office Assistant</item>
+        <item>Patient Services Representative</item>
+        <item>Patient Care Associate</item>
+        <item>Medical Records Technician</item>
+        <item>Physician\'s Assistant</item>
+        <item>Health Services Manager</item>
+        <item>Pharmaceutical Sales Representative</item>
+        <item>Claims And Insurance Analyst</item>
+        <item>Medical Records Clerk</item>
+        <item>Medical Sales</item>
+        <item>Health Facilities Surveyor</item>
+        <item>Hospital Administrator</item>
+        <item>Medical Billing Specialist</item>
+        <item>Medical Office Manager</item>
+        <item>Patient Access Supervisor</item>
+        <item>Cardiovascular Technologist</item>
+        <item>Medical Claims And Billing Specialist</item>
+        <item>Infection Control Practitioner</item>
+        <item>Medical Director, Employee Health Services</item>
+        <item>Medical Office Specialist</item>
+        <item>Medical Secretary</item>
+        <item>Medical or Health Services Manager</item>
+        <item>Mobile Director Of Nursing Services</item>
+        <item>Director Of Safety and Wellness</item>
+        <item>Health and Safety Manager</item>
+        <item>Manager, Occupational Health</item>
+        <item>Medical Manager</item>
+        <item>Occupational Health Analyst</item>
+        <item>Bereavement Counselor</item>
+        <item>Corporate Safety Director</item>
+        <item>Medical Administrative</item>
+        <item>Medical Transcriptionist</item>
+        <item>Medical Records Director</item>
+        <item>Staff Nurse</item>
+        <item>Home Health Nurse</item>
+        <item>Gnm Nurse</item>
+        <item>Ward Sister / Nurse</item>
+        <item>Operating Room Nurse</item>
+        <item>Emergency Room Nurse</item>
+        <item>Ward Supervisor</item>
+        <item>Intensive Care Nurse</item>
+        <item>Clinical Instructor</item>
+        <item>Nursing Superintendent</item>
+        <item>Occupational Health Nurse</item>
+        <item>Paramedic Nurse</item>
+        <item>Pediatric Nurse</item>
+        <item>House Supervisor Nurse</item>
+        <item>Registered Nurse(RN) First Assistant</item>
+        <item>Medical Surgery Nurse</item>
+        <item>Pediatric Intensive Care Nurse</item>
+        <item>Registered Nurse (Rn) Student Health Services</item>
+        <item>School Nurse</item>
+        <item>Ambulatory Nurse</item>
+        <item>Dialysis Nurse</item>
+        <item>Labor and Delivery Nurse</item>
+        <item>Registered Nurse (Rn) Medical Inpatient Services</item>
+        <item>Registered Nurse (Rn) Women\'S Services</item>
+        <item>Dermatology Nurse</item>
+        <item>Registered Nurse(RN)</item>
+        <item>Registered Nurse(RN) Case Manager</item>
+        <item>Registered Nurse (Rn) Patient Call Center</item>
+        <item>Surgical Nurse</item>
+        <item>Travel Nurse</item>
+        <item>Endoscopy Nurse</item>
+        <item>Flight Nurse</item>
+        <item>Head Nurse</item>
+        <item>Lead Registered Nurse</item>
+        <item>Licensed Practical Nurse</item>
+        <item>Mobile Director Of Nursing Services</item>
+        <item>Nurse Practitioner</item>
+        <item>Office Nurse</item>
+        <item>Oncology Nurse</item>
+        <item>Progressive Care Nurse</item>
+        <item>Psychiatric Nurse</item>
+        <item>Registered Nurse(Rn) Urgent Care</item>
+        <item>Physical Therapist</item>
+        <item>Dentist</item>
+        <item>Anesthesiologist</item>
+        <item>Audiologist</item>
+        <item>Epidemiologist</item>
+        <item>Ergonomist</item>
+        <item>Chiropractor</item>
+    </string-array>
+
+    <string-array name="Design_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Graphics Designer</item>
+        <item>Graphics Designer / Senior Graphics Designer</item>
+        <item>Creative Graphic Designer</item>
+        <item>Ui / Ux Designer</item>
+        <item>Adobe Photoshop Designer</item>
+        <item>Graphic Designer / Graphics Designer</item>
+        <item>Dtp Operator</item>
+        <item>Web Designer</item>
+        <item>Designer</item>
+        <item>Video Editor</item>
+        <item>Senior Graphics Designer</item>
+        <item>Video Editor - Motions Graphics Artist</item>
+        <item>Adobe Photoshop Image Editor</item>
+        <item>3D Graphic Designer</item>
+        <item>Adobe Photoshop Editor</item>
+        <item>Web / Graphic Designer</item>
+        <item>Sr Graphic Designer</item>
+        <item>Dtp Operator / Graphics Designer</item>
+        <item>Junior Graphic Designer</item>
+        <item>Animator And Motion Graphics</item>
+        <item>Graphic Designers(Visualizer)</item>
+        <item>Logo Graphics Designer</item>
+        <item>Art Director / Visualizer / Creative Artist</item>
+        <item>Graphic Designer &amp; Video Editor</item>
+        <item>Visual Designer</item>
+        <item>Creative Designer</item>
+        <item>Embroidery Digitizers</item>
+        <item>Print Consultant</item>
+        <item>Sr. Ui / Ux Designer</item>
+        <item>Video Editor Graphics Designer</item>
+        <item>2D / 3D Animator</item>
+        <item>Web Designer / Website Designer</item>
+        <item>Web Developer / Designer</item>
+        <item>Animator</item>
+        <item>Web Designer / Website Designer</item>
+        <item>Web Developer / Designer</item>
+        <item>Animator</item>
+        <item>Executive - Graphic Designer</item>
+        <item>Ui Designer</item>
+        <item>2D Graphic Designer</item>
+        <item>Creative Lead - Graphics Design</item>
+        <item>Graphic Artist</item>
+        <item>Graphic Designer / Dtp Operator</item>
+        <item>Website Designer</item>
+        <item>Creative Head</item>
+        <item>Graphic And Web Designer</item>
+        <item>Graphic Designer / Social Media Manager</item>
+        <item>Graphics And Ui Designers</item>
+        <item>Sr. Graphic Designer</item>
+        <item>Ux Designer</item>
+        <item>Wordpress Developer</item>
+        <item>Animation Artist</item>
+        <item>Design Intern</item>
+        <item>Dtp Designer</item>
+        <item>Graphic Designer Intern</item>
+        <item>Graphic Designer Trainee</item>
+        <item>Graphic Web Designer</item>
+        <item>Head Designer</item>
+        <item>Jr. / Sr. Graphic Designer</item>
+        <item>Graphics Web Designer</item>
+        <item>Head Designer</item>
+        <item>Jr. / Sr. Graphic Designer</item>
+        <item>Motion Graphic Designer</item>
+        <item>Sketch / Illustration Artist</item>
+        <item>Sr Designer</item>
+        <item>Web Designer / Developer</item>
+        <item>Word Press Web Designer</item>
+        <item>Cataloging Executive</item>
+        <item>Content Writer</item>
+        <item>Graphic Designer &amp; 2D Animator</item>
+        <item>Motion Graphic Artist</item>
+        <item>Senior Graphic And Web Designer</item>
+        <item>Senior Ux Designer</item>
+        <item>Senior Web Designer</item>
+        <item>Sr. Visualizer</item>
+        <item>Vfx Artist</item>
+        <item>Web And Graphic Designer</item>
+        <item>Web Designer(Ui / Ux)</item>
+        <item>Animated Sketch Video Designer</item>
+        <item>Dtp Artist</item>
+        <item>Flash Action Script</item>
+        <item>Graphic Design Trainee</item>
+        <item>Magento Developer</item>
+        <item>Motion Designer</item>
+        <item>Unreal Engine Artist / Visualizer</item>
+        <item>Video Animator</item>
+        <item>Web / Graphics Designer</item>
+        <item>Web Developer And Designer</item>
+        <item>Web Graphic Designer Intern</item>
+        <item>Wedding Album Designer</item>
+        <item>Whiteboard Animator</item>
+        <item>Interior Designer</item>
+        <item>3D Designer</item>
+        <item>Autocad Designer</item>
+        <item>Interior Design Project Manager</item>
+        <item>Home Decorator</item>
+        <item>Interior Design Project Manager</item>
+        <item>Home Decorator</item>
+        <item>Sr. Interior Designer</item>
+        <item>Interior Designer(Retail)</item>
+        <item>Kitchen Designer</item>
+        <item>Interior Design / Space Planning (Interns)</item>
+        <item>Civil Designer</item>
+        <item>Modular Interior Designers</item>
+        <item>Decorating Consultant</item>
+        <item>Interior Design Planners</item>
+        <item>Exhibition / Stall Designer</item>
+        <item>Interior Design Lead</item>
+        <item>Building Space Planner</item>
+        <item>Interior Design Consultant</item>
+        <item>Lighting Design Engineer</item>
+        <item>Modeling Texturing And Visualizing Artist</item>
+        <item>Interior Design Technician</item>
+        <item>Aircraft Interior Designer</item>
+        <item>Floor Designers</item>
+        <item>Home Organiser</item>
+        <item>Interior Decorating Consultant</item>
+        <item>Office Space Planner</item>
+        <item>Space Management Consultant</item>
+        <item>Business Aircraft Interior Designer</item>
+        <item>Exhibition Designer</item>
+        <item>Home Stager</item>
+        <item>Home Staging Consultant</item>
+        <item>Interior Designer - Exhibition Stand</item>
+        <item>Interior Space Designer</item>
+        <item>Fashion Designer</item>
+        <item>Ladies Tailor</item>
+        <item>Merchandiser</item>
+        <item>Fashion Designer / Merchandiser</item>
+        <item>Fashion Designer Woman Clothing</item>
+        <item>Textile Designers</item>
+        <item>Pattern Maker</item>
+        <item>Embroidery Designer</item>
+        <item>Designer Merchandiser</item>
+        <item>Apparel Production Coordinator</item>
+        <item>Fashion Consultant</item>
+        <item>Jewalry Designer</item>
+        <item>Knitting Master</item>
+        <item>Cad Operator - Garment</item>
+        <item>Fashion Merchandiser</item>
+        <item>Store Manager</item>
+        <item>Product Designer - Accessories</item>
+        <item>Associate Designer</item>
+        <item>Bags / Accessories Designer</item>
+        <item>Fashion Director</item>
+        <item>Stylist</item>
+        <item>Art Class Model</item>
+        <item>Freelance Associate Designers</item>
+        <item>Indo-Western Fashion Designer</item>
+        <item>Visual Merchandiser</item>
+        <item>Accessory Designer</item>
+        <item>Area Brand Coordinator</item>
+        <item>Brand Strategist</item>
+        <item>Fitness Model</item>
+        <item>Junior Stylist</item>
+        <item>Textile Fabric Colorist</item>
+        <item>Bedding Designer</item>
+        <item>Creative Fashion Designer</item>
+        <item>Fashion Coordinator</item>
+        <item>Garment Designer</item>
+        <item>Senior Fashion Consultant</item>
+        <item>Showroom Model</item>
+        <item>Style Specialist</item>
+        <item>Technical Designer</item>
+        <item>Trend Forecaster</item>
+        <item>Window Stylist</item>
+        <item>Assessor Freelancing</item>
+        <item>Concept Designer</item>
+        <item>Fashion Model Agent</item>
+        <item>Knitwear Designer</item>
+        <item>Minimalist Fashion Designers</item>
+        <item>Modeling Coach</item>
+        <item>Photo Editor</item>
+        <item>Camera Operator</item>
+        <item>Cinematographer</item>
+        <item>Still Photographer</item>
+        <item>Animator</item>
+        <item>Audio And Video Equipment Technician</item>
+        <item>Director</item>
+        <item>Director Of Photography(DoP)</item>
+        <item>Chief Photography</item>
+        <item>Commercial Photographer</item>
+        <item>First Assistant Director(1st AD)</item>
+        <item>Product Photography</item>
+        <item>Senior Photographer</item>
+        <item>Studio Photographer</item>
+        <item>Digital Imging Technician(DIT)</item>
+        <item>Editorial Photographer</item>
+        <item>Producer</item>
+        <item>Set Designer</item>
+        <item>Wildlife Photographer</item>
+        <item>Aerial Photographer</item>
+        <item>Associate Producer</item>
+        <item>First Assistant Camera(1st AC)</item>
+        <item>Interior Photographer</item>
+        <item>News Photographer</item>
+        <item>Photography Manager</item>
+        <item>Photography Supervisor</item>
+        <item>Photojournalist</item>
+        <item>Evidence Photographer(Forensic)</item>
+        <item>Forensic Photographer</item>
+        <item>Gaffer</item>
+        <item>Industrial Photographer</item>
+        <item>Key Gip</item>
+        <item>Landscape Photographer</item>
+        <item>Lighting Director</item>
+        <item>Line Producer</item>
+        <item>Medical Photographer</item>
+        <item>Medical Photographer Technician</item>
+        <item>Motion Picture Set Worker</item>
+        <item>Multimedia Photographer</item>
+        <item>Photography Representatives</item>
+        <item>Police Photographer</item>
+        <item>Portrait Photographer</item>
+        <item>Production Assistant</item>
+        <item>Retoucher(Photography)</item>
+        <item>Sports Photographer</item>
+        <item>Drawing Artists</item>
+        <item>Musicians</item>
+        <item>Theatre Artist</item>
+        <item>Playback Artist</item>
+        <item>Pencil-Art Artists</item>
+        <item>Mimicry Artist</item>
+        <item>Glass Painters</item>
+        <item>Photographer</item>
+        <item>Camera Man</item>
+    </string-array>
+
+    <string-array name="Utility_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Electrician</item>
+        <item>Field Service Technician</item>
+        <item>Mechanical Technician</item>
+        <item>Ac Technician</item>
+        <item>Plumber</item>
+        <item>Electronic Technician</item>
+        <item>Cctv Technician</item>
+        <item>Repair Technician</item>
+        <item>Production Technician</item>
+        <item>Technical Executive</item>
+        <item>Assistant Technician</item>
+        <item>General Technician</item>
+        <item>Waterpurifier / Ro Technician</item>
+        <item>HVAC Technician</item>
+        <item>Manufacturing Technician</item>
+        <item>Mechanic</item>
+        <item>Industrial Engineering Technician</item>
+        <item>Machine Operator</item>
+        <item>Optical Fiber Technician</item>
+        <item>Plant Operator</item>
+        <item>Refrigeration Technician</item>
+        <item>X-Ray Technician</item>
+        <item>Electromechanical Technician</item>
+        <item>Lighting Technician</item>
+        <item>Machinists</item>
+        <item>Printer Repair Technician</item>
+        <item>Process Operator</item>
+        <item>Equipment Technician</item>
+        <item>Food Technologist</item>
+        <item>Power Plant Operator</item>
+        <item>Surface Mount Technology Machine Operator</item>
+        <item>Machine Tool Cutting Operator / Tender</item>
+        <item>Safety Technician</item>
+        <item>Ip Technician</item>
+        <item>Millwright</item>
+        <item>Plastic Machine Worker</item>
+        <item>Printing Machine Operators</item>
+        <item>Silicon Wafer Fabrication Operator</item>
+        <item>Wafer Processing Technician</item>
+        <item>Computer Control Programmer / Operator</item>
+        <item>Cnc Machine Operator</item>
+        <item>Chemical Plant Operator</item>
+        <item>Electric / Electronics Technician</item>
+        <item>Controller</item>
+        <item>Waste Treatment Plant Operator</item>
+        <item>Welder</item>
+        <item>Packer Operator</item>
+        <item>Food Production Machine Operator</item>
+        <item>Control Room Operator</item>
+        <item>Press Machine</item>
+        <item>Hvac Mechanic</item>
+        <item>Soldering Operator</item>
+        <item>Boiler</item>
+        <item>Molding</item>
+        <item>Milling Machine</item>
+        <item>CNC Machinist</item>
+        <item>Carpenter</item>
+        <item>Coating, Painting, and Spraying Machine Operator</item>
+        <item>Carpet Machine Operator</item>
+        <item>Dairy Processing Equipment Operator</item>
+        <item>Digital Printing Machine</item>
+        <item>Electric Home Appliance And Power Tool Repairer</item>
+        <item>Lathe Machine</item>
+        <item>Crane</item>
+        <item>Cutter</item>
+        <item>VMC Machine</item>
+        <item>Electric Motor Assembler</item>
+        <item>Grinder</item>
+        <item>Multi Boring Machine Operator</item>
+        <item>Pump</item>
+        <item>Punch Machine</item>
+        <item>Concrete Finisher</item>
+        <item>Electric Meter Installer And Repairer</item>
+        <item>Electrical Powerline Installer / Repairer</item>
+        <item>Electrical Utility Trouble Shooter</item>
+        <item>Elevator Installer / Repairer</item>
+        <item>Excavator</item>
+        <item>Hot Press Machine Operator</item>
+        <item>Panel Saw Operator</item>
+        <item>Turning Machine</item>
+        <item>Edge Bender Operator</item>
+        <item>Elevator</item>
+        <item>Jig And Fixture Builder</item>
+        <item>Lathe Operator</item>
+        <item>Stacker</item>
+        <item>Tow Truck</item>
+        <item>Aircraft Mechanic</item>
+        <item>Annealing</item>
+        <item>Cnc Drill</item>
+        <item>Configuration Analyst</item>
+        <item>Dro</item>
+        <item>Forklift</item>
+        <item>Hobbing Machine</item>
+        <item>Maintenance Supervisor</item>
+        <item>Maintenance and Service Manager</item>
+        <item>Installation &amp; Maintenance Executive</item>
+        <item>Operations Manager</item>
+        <item>Production Supervisor</item>
+        <item>Installation &amp; Maintenance Technician Director</item>
+        <item>Pipeline Executive</item>
+        <item>Property Manager</item>
+        <item>Security Director</item>
+        <item>Spares Coordinator</item>
+        <item>Waste Water Treatment Plant Manager</item>
+        <item>Housekeeper</item>
+        <item>Housekeeping Supervisor</item>
+        <item>Cleaning Crew</item>
+        <item>Office Cleaner</item>
+        <item>General Laborer</item>
+        <item>Head of Housekeeping</item>
+        <item>Housekeeping Manager</item>
+        <item>Vehicle Washer</item>
+        <item>Commercial Cleaner</item>
+        <item>Laundry Attendant</item>
+        <item>Equipment Cleaner</item>
+        <item>Housekeeping Dispatcher</item>
+        <item>School Janitor</item>
+        <item>Brazer</item>
+        <item>Campus Maintenance Manager</item>
+        <item>Construction Painter</item>
+        <item>Gardener</item>
+        <item>Janitor</item>
+        <item>Laundry Attendant</item>
+        <item>Equipment Cleaner</item>
+        <item>Housekeeping Dispatcher</item>
+        <item>School Janitor</item>
+        <item>Brazer</item>
+        <item>Campus Maintenance Manager</item>
+        <item>Construction Painter</item>
+        <item>Gardener</item>
+        <item>Janitor</item>
+        <item>Laundry Attendant</item>
+        <item>Lawn Service Manager</item>
+        <item>Vehicle Washer / Equipment Cleaner</item>
+        <item>Bricklayer</item>
+        <item>Custodial Manager</item>
+        <item>Custodian</item>
+        <item>Industrial Cleaner</item>
+        <item>Maid</item>
+        <item>Ladies Tailor</item>
+        <item>Tailor Master</item>
+        <item>Gents Tailor</item>
+        <item>Industrial Tailor</item>
+        <item>Cutting Master</item>
+        <item>Leather Tailor</item>
+        <item>Boutique Tailor</item>
+        <item>Designer Tailor</item>
+    </string-array>
+
+    <string-array name="Safety_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Security Guard</item>
+        <item>Security Manager</item>
+        <item>Private Security</item>
+        <item>Armed Security Officer</item>
+        <item>Security Specialist</item>
+        <item>Bodyguard</item>
+        <item>Control Room Operator</item>
+        <item>Homeguard</item>
+        <item>Senior Security Consultant</item>
+        <item>Unarmed Security Force</item>
+        <item>Watchman</item>
+        <item>Fire &amp; Safety Officer</item>
+        <item>Health and Safety engineer</item>
+        <item>Private Security</item>
+        <item>Safety Manager</item>
+        <item>Safety Technician</item>
+        <item>Fire &amp; Safety Trainer</item>
+        <item>Bodyguard</item>
+        <item>Control Room Operator</item>
+        <item>Plant Safety Executive</item>
+        <item>Safety Consultant</item>
+        <item>Safety Specialist</item>
+        <item>Life Guard</item>
+        <item>Security Specialist</item>
+        <item>Life Guard</item>
+        <item>Security Manager</item>
+        <item>Plant Safety Trainer</item>
+        <item>Security Guard</item>
+        <item>Armed Security Officer</item>
+        <item>Plant Manager</item>
+        <item>Security Specialist</item>
+        <item>Watchman</item>
+        <item>Senior Security Consultant</item>
+        <item>Unarmed Security Force</item>
+    </string-array>
+
+    <string-array name="Travel_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Travel Executive</item>
+        <item>Travel Sales Executive</item>
+        <item>Travel Associate</item>
+        <item>Travel Agent</item>
+        <item>Travel Consultant</item>
+        <item>Travel Coordinator</item>
+        <item>Travel Adviser</item>
+        <item>Travel Sales Consultant</item>
+        <item>Travel Counselor</item>
+        <item>Ground Staff</item>
+        <item>Air Ticketing Staff</item>
+        <item>Airport Cargo Supervisor</item>
+        <item>Air Hostess</item>
+        <item>Cabin Crew</item>
+        <item>Air Ticketing Officer</item>
+        <item>Operation Coordinator</item>
+        <item>Airport Ramp Officer</item>
+        <item>Lobby / Duty Manager</item>
+        <item>Airport Reservation Staff</item>
+        <item>Tour Coordinator</item>
+        <item>Air Ticketing Associate</item>
+        <item>Maintenance Engineer</item>
+        <item>Kitchen Manager</item>
+        <item>Assistant Restaurant Manager</item>
+        <item>Section Cook</item>
+        <item>Aviation Engineer</item>
+        <item>Operations Executive</item>
+        <item>Cashier / Billing Manager</item>
+        <item>Assistant Manager</item>
+        <item>Information Clerk</item>
+        <item>International Tourism Sales Manager</item>
+        <item>Branch Manager</item>
+        <item>Operations Manager</item>
+        <item>Tourism Promotion Manager</item>
+        <item>Business Development Manager</item>
+        <item>Marketing Manager</item>
+        <item>Hotel General Manager</item>
+        <item>Records Management Analyst</item>
+        <item>Communications Specialist, Chamber Of Commerce</item>
+        <item>Public Relations Specialist, Chamber Of Commerce</item>
+        <item>Pastry Cook</item>
+        <item>Project Coordinator, Chamber Of Commerce</item>
+        <item>Tour Management Manager / Senior Manager</item>
+        <item>Tour Management Executive</item>
+        <item>Corporate Travel Agent</item>
+        <item>Airport Manager</item>
+        <item>Cabin Supervisor</item>
+        <item>Tour Receptionist</item>
+        <item>Regional Manager</item>
+        <item>Air Mechanic</item>
+        <item>Resorts Operations Manager</item>
+        <item>Reservations Manager</item>
+        <item>Airfield Operations Specialist</item>
+        <item>Airline Cargo Handling Supervisor</item>
+        <item>Inflight Services / Operations</item>
+        <item>Transportation Security Officer</item>
+        <item>Festival Coordinator</item>
+        <item>Head Purser</item>
+        <item>Concierge</item>
+        <item>Flight Engineer</item>
+        <item>Reservations Executive</item>
+        <item>Resort Promotions and Marketing</item>
+        <item>Wheelchair Transporters</item>
+        <item>Amusement Park Marketing Coordinator</item>
+        <item>Assistant Resort Manager</item>
+        <item>Flight Dispatcher</item>
+        <item>Parks Volunteer Coordinator</item>
+        <item>Resort Activities Director</item>
+        <item>Resort Marketing Coordinator</item>
+        <item>Resort Recreations Manager</item>
+        <item>Sbu / Profit Center Head</item>
+        <item>Front Office Executive / Associate</item>
+        <item>Front Desk Executive</item>
+        <item>Front Office Associate</item>
+        <item>Cashier</item>
+        <item>Front Office / Guest Relations Executive / Manager</item>
+        <item>Travel Desk Manager</item>
+        <item>Receptionist</item>
+        <item>Staff Function</item>
+        <item>Caretaker / Concierge</item>
+        <item>Housekeeping Supervisor</item>
+        <item>Guest Service Agent</item>
+        <item>Maintenance Worker</item>
+        <item>Executive Housekeeper</item>
+        <item>Housekeeping Attendant / Aide</item>
+        <item>Housekeeper</item>
+        <item>Housekeeping Associate</item>
+        <item>Housekeeping Executive / Assistant</item>
+        <item>Housekeeping Manager</item>
+        <item>Housekeeping Aide</item>
+        <item>Housekeeping Staff</item>
+        <item>Lead Housekeeper</item>
+        <item>Maintenance Supervisor</item>
+        <item>Maid</item>
+        <item>Airline Security Officer</item>
+        <item>Airport Coordinator</item>
+        <item>Cargo Operations / Officer / Loadmaster</item>
+        <item>Air Traffic Controller</item>
+        <item>Radio Operator / Radio Engineer / Radar Operator</item>
+        <item>Cook / Chef</item>
+        <item>Cafe Assistant</item>
+        <item>Steward</item>
+        <item>Waiter / Waitress</item>
+        <item>Captain</item>
+        <item>Director Of Housekeeping</item>
+        <item>Support Assistant</item>
+        <item>Banquet Sales Executive / Manager</item>
+        <item>Cafe Manager</item>
+        <item>General Manager</item>
+        <item>Director Of Maintenance</item>
+        <item>F &amp; B Manager</item>
+        <item>Host / Hostess</item>
+        <item>Restaurant Manager / Bar Manager</item>
+        <item>Bartender</item>
+        <item>Chef De Parties</item>
+        <item>Director Of Operations</item>
+        <item>Executive Sous Chef / Chef De cuisine</item>
+        <item>Head Chef</item>
+        <item>Restaurant Manager</item>
+        <item>Sous Chef</item>
+        <item>Support Specialist</item>
+        <item>Busser</item>
+        <item>Butler</item>
+        <item>Night Manager</item>
+        <item>Pastry Chef</item>
+    </string-array>
+
+    <string-array name="Beauty_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Beautician</item>
+        <item>Massage Therapist</item>
+        <item>Hair Stylist</item>
+        <item>Make-Up Artist</item>
+        <item>Beauty Trainer(Hair / Makeup / Skin Care)</item>
+        <item>Spa Therapist</item>
+        <item>Beauty Advisor</item>
+        <item>Centre Head / Manager</item>
+        <item>Beauty Manager</item>
+        <item>Hair Dresser</item>
+        <item>Barber Stylist</item>
+        <item>Senior Beautician</item>
+        <item>Spa Reception Manager</item>
+        <item>Beauty Consultant</item>
+        <item>Beauty Assistant</item>
+        <item>Beauty Exepert</item>
+        <item>Cosmetologist</item>
+        <item>Hair And Makeup Designer</item>
+        <item>Hairdresser</item>
+        <item>Hairstylist</item>
+        <item>Beauty Operation</item>
+        <item>Beauty Therapist</item>
+        <item>Nail Professional</item>
+        <item>Beauty Account Manager</item>
+        <item>Senior Stylist</item>
+        <item>Barber</item>
+        <item>Beauty Waxing Specialist</item>
+        <item>Cosmetic Advisors Beauty Tips</item>
+        <item>Stylist</item>
+        <item>Skin Care Specialist</item>
+        <item>Spa Attendant</item>
+        <item>Spa Supervisor</item>
+        <item>Cosmetic Advisorian</item>
+        <item>Personality Grooming</item>
+        <item>Senior Spa Therapist</item>
+        <item>Cosmetic Adviser Consultant</item>
+        <item>Creative Styling / Spa Owner</item>
+        <item>Face Make-Up Instructor</item>
+        <item>Face Make-Up Teacher</item>
+        <item>Facialist</item>
+        <item>Funeral Home Makeup Artist</item>
+        <item>Hair Cutter</item>
+        <item>Hair Specialist</item>
+        <item>Skin Care Spa Specialist</item>
+        <item>Spa Treatments Coordinator</item>
+        <item>Trainee Beauty Therapist</item>
+        <item>Trichologist</item>
+        <item>Wedding Makeup Artist</item>
+        <item>Wig Dresser</item>
+        <item>Wig Stylist</item>
+        <item>Beauty Merchandiser</item>
+        <item>Beauty Therapy Lecturer</item>
+        <item>Beauty Co-Ordinator</item>
+        <item>Brow Expert</item>
+        <item>Casual Therapist</item>
+        <item>Colourist</item>
+        <item>Cosmetic Advisor Therapist</item>
+        <item>Cosmetic Advisorian Apprentice</item>
+        <item>Cosmetologist Apprentice</item>
+        <item>Creative Styling Assistant</item>
+        <item>Creative Styling Designer</item>
+        <item>Creative Styling Stylist</item>
+        <item>Electrologist</item>
+        <item>Electrolysis Needle Operator</item>
+        <item>Electrolysis Operator</item>
+        <item>Electrologist</item>
+        <item>Esthetician</item>
+        <item>Eyebrow Apprentice</item>
+        <item>Hair Colorist</item>
+        <item>Hair Designer</item>
+        <item>Hairpiece Stylist</item>
+        <item>Hypertrichologist</item>
+        <item>Manager Stylist</item>
+        <item>Men\'S Custom Hair Piece Consultant</item>
+        <item>Therapeutic Beautician</item>
+        <item>Fitness Trainer</item>
+        <item>Personal Trainer</item>
+        <item>Yoga Teacher</item>
+        <item>Physical Therapist</item>
+        <item>Fitness Coach</item>
+        <item>Club Manager</item>
+        <item>Nutritionist / Dietitian</item>
+        <item>Gym Assistant</item>
+        <item>Fitness Consultant</item>
+        <item>Health CLub Manager</item>
+        <item>Gym Instructor</item>
+        <item>Fitness Worker</item>
+        <item>Yoga Trainer</item>
+        <item>Fitness Instructor</item>
+        <item>Health Coach</item>
+        <item>Wellness Coordinator</item>
+        <item>Health Advisor</item>
+        <item>Aerobic Trainer</item>
+        <item>Health &amp; Fitness Mentor</item>
+        <item>Centre Head</item>
+        <item>Health/Fitness Teacher</item>
+        <item>Nutrition specialist</item>
+        <item>Fitness Advisor</item>
+        <item>Athletic Trainer</item>
+        <item>Slimming Manager</item>
+        <item>Fitness Mentor</item>
+    </string-array>
+
+    <string-array name="Legal_role_experience">
+        <item><font fgcolor='#a9a9a9'>Select Role</font></item>
+        <item>Other</item>
+        <item>Junior Advocate</item>
+        <item>Legal Associate</item>
+        <item>Junior Legal Executive</item>
+        <item>Legal Advisor</item>
+        <item>Legal Assistant</item>
+        <item>Senior Advocate</item>
+        <item>Compliance Executive</item>
+        <item>Legal Consultant</item>
+        <item>Stenographer</item>
+        <item>Legal And Compliance Manager</item>
+        <item>Legal Analyst</item>
+        <item>Corporate Secretarial Trainee</item>
+        <item>Legal Matter Consultant</item>
+        <item>Law Graduate Trainee</item>
+        <item>Head / Vp / Gm-Taxation</item>
+        <item>Legal And Compliance Lead</item>
+        <item>Liasioning Officer</item>
+        <item>Avp Finance</item>
+        <item>Head / Vp / Gm-Accounts</item>
+        <item>Head / Vp / Gm-Finance / Audit</item>
+        <item>Fraud investigation Officer</item>
+        <item>Arbitrator</item>
+        <item>Chief Financial Officer - Cfo</item>
+        <item>Head / Vp / Gm-Cfo / Financial Controller</item>
+        <item>Head / Vp / Gm-Regulatory Affairs</item>
+        <item>Gm-Liasioning</item>
+
+        <item>Case Manager</item>
+        <item>Legal Services Director</item>
+        <item>Jury Consultant</item>
+        <item>Mediator</item>
+        <item>Legal Advisor Intern</item>
+        <item>Law Firm Administrator</item>
+    </string-array>
+
+    <string-array name="company_name">
+        <item>Other</item>
+        <item>Self</item>
+        <item>Justjobs HR</item>
+        <item>Amazon</item>
+        <item>Darwinlabs</item>
+        <item>Workex Solutions</item>
+        <item>Temp</item>
+        <item>Drivar</item>
+        <item>Navya Recruiter</item>
+        <item>Delhivery</item>
+        <item>None</item>
+        <item>United Capital Club Pvt Ltd</item>
+        <item>Fabric Spa Kanakpura Road</item>
+        <item>Iffco</item>
+        <item>No Name Restaurant</item>
+        <item>Swe</item>
+        <item>Samsul</item>
+        <item>Raymond</item>
+        <item>Rrb</item>
+        <item>Tyco</item>
+        <item>Isiris</item>
+        <item>Freshers</item>
+        <item>Sibbhu</item>
+        <item>Anakinmedia</item>
+        <item>The Brain Hunt</item>
+        <item>Cocktail</item>
+        <item>Rsm</item>
+        <item>Infomedia</item>
+        <item>Bgc</item>
+        <item>Maiyas</item>
+        <item>Teacher</item>
+        <item>Ideamagix</item>
+        <item>Indus Business Academy</item>
+        <item>Crown Hospitality</item>
+        <item>Niteshkumar</item>
+        <item>Satya</item>
+        <item>Freshar</item>
+        <item>Resuming</item>
+        <item>Vertex</item>
+        <item>Channabasava</item>
+        <item>Rccl</item>
+        <item>Cse</item>
+        <item>Flipkart Internet Pvt Ltd</item>
+        <item>Santhosh</item>
+        <item>Smart India</item>
+        <item>Mpf</item>
+        <item>Adigas</item>
+        <item>Protectcare</item>
+        <item>Fikka</item>
+        <item>Adigas</item>
+        <item>Bluecapstone</item>
+        <item>Rotary Electronics</item>
+        <item>Magna Infotech</item>
+        <item>Nagesha</item>
+        <item>Limb</item>
+        <item>Exetap Mobile Solutions Pvt Ltd</item>
+        <item>Ashlyn Services</item>
+        <item>Delgivery</item>
+        <item>S N R Destrict Hospital</item>
+        <item>Diploma</item>
+        <item>Nacons</item>
+        <item>Minacs</item>
+        <item>Amity Associates</item>
+        <item>Osson</item>
+        <item>Cvl</item>
+        <item>Internship</item>
+        <item>Sri Nidhi Services</item>
+        <item>Just Dial</item>
+        <item>Aegis</item>
+        <item>Noo</item>
+        <item>Fidelity Investments</item>
+        <item>Cvcbt</item>
+        <item>Bescom</item>
+        <item>Unishear</item>
+        <item>Aparajitha</item>
+        <item>Self Employed</item>
+        <item>Teaching</item>
+        <item>Mysore</item>
+        <item>Maa Ambika Pharmaceuticals</item>
+        <item>Ekart</item>
+        <item>Web Trendz</item>
+    </string-array>
+</resources>

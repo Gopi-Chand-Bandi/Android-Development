@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RadioButton
+        android:id="@+id/cnd_home_filter_title_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company Title"
+        android:visibility="gone"
+        android:textSize="15sp"/>
+
+    <RadioButton
+        android:id="@+id/cnd_home_filter_location_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company Location"
+        android:visibility="gone"
+        android:textSize="15sp"/>
+    <RadioButton
+        android:id="@+id/cnd_home_filter_type_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company Type"
+        android:visibility="gone"
+        android:textSize="15sp"/>
+    <RadioButton
+        android:id="@+id/cnd_home_filter_salary_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Starting Salary"
+        android:visibility="gone"
+        android:textSize="15sp"/>
+    <RadioButton
+        android:id="@+id/cnd_home_filter_experience_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Starting Experience"
+        android:visibility="gone"
+        android:textSize="15sp"/>
+    <RadioButton
+        android:id="@+id/cnd_home_filter_new_job_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Jobs"
+        android:textSize="15sp"/>
+
+</LinearLayout>

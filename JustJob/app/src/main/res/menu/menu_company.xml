@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nave_home_comp"
+        android:icon="@drawable/ic_company_size"
+        android:title="Candidates"/>
+
+    <item
+        android:id="@+id/nave_other_company"
+        android:icon="@drawable/ic_baseline_business_24"
+        android:title="Companies"/>
+
+<!--    <item-->
+<!--        android:id="@+id/nave_myJob_comp"-->
+<!--        android:icon="@drawable/ic_profile_new"-->
+<!--        android:title="My Post"/>-->
+
+    <item
+        android:id="@+id/nave_post_job"
+        android:icon="@drawable/ic_add_button"
+        android:title="Post Jobs"/>
+
+    <item
+        android:id="@+id/nav_ComProfile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/nave_plan"
+        android:icon="@drawable/ic_indian_money"
+        android:title="Plan"/>
+    
+</menu>

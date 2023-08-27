@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="primaryTitleColor" format="color" />
+
+    <attr name="tabSelectedTextColor" format="color" />
+    <attr name="tabTextColor" format="color" />
+
+    <attr name="bottom_navi_not_sected" format="color"/>
+    <attr name="bottom_navi_sected" format="color"/>
+
+    <attr name="card_layout_color" format="color" />
+
+    <attr name="container_layout_color" format="color" />
+
+    <attr name="time_picker_theme" format="color" />
+
+</resources>

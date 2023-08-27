@@ -1,0 +1,2492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/container_layout_color"
+    tools:context=".Candidate.CandidateActivityFragment.CndEditProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cnd_edit_profile_fname_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Full Name"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_fname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/f_name_text_layout"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_person"
+                                android:hint="Full Name"
+                                android:inputType="textPersonName" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_fname_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_fname_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_fname"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_person"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Fulll name"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_fname_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/email_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/email_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/e_mail_text_layout"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_email"
+                                android:hint="Full Name"
+                                android:inputType="textPersonName" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_email_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_email_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_email"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_email"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Email"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_email_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/gender_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gender"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/gender_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/gender_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spinner_bg"
+                            android:clickable="false"
+                            android:entries="@array/gender"
+                            android:padding="10dp"
+                            android:theme="@style/SpinnerThemeLight_new" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_gender_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_gender_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_gender"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_gender"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Gender"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_gender_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/date_of_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date Of Birth"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_date_of_b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/date_of_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/date_of_b_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/text_view_border"
+                            android:drawableStart="@drawable/ic_date_of_birth"
+                            android:drawablePadding="10dp"
+                            android:padding="10dp"
+                            android:text="Date of Birth"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_date_of_b_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_date_of_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_date_of_b"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_date_of_birth"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Date of Birth"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_date_of_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/contact_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/contact_text_layout"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_local_phone"
+                                android:hint="Contact"
+                                android:inputType="phone" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_contact_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_contact_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_contact"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_local_phone"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Contact"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_contact_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/alter_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alternate number"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_alter_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/alter_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/alter_contact_text_layout"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_local_phone"
+                                android:hint="Alternat Contact"
+                                android:inputType="phone" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_alter_contact_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_alter_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_alter_contact"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_local_phone"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Alternate Contact"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_alter_cont_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/state_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="State"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/state_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/state_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/text_view_border"
+                            android:drawableEnd="@drawable/location"
+                            android:padding="10dp"
+                            android:text="State"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_state_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_state_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_state"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/location"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="State"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_state_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/city_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="City"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/city_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/city_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/text_view_border"
+                            android:drawableEnd="@drawable/location"
+                            android:padding="10dp"
+                            android:text="State"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_city_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_city_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_city"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/location"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="City"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_city_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/current_location_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Current Location"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_current_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/current_location_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/c_location_text_layout"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_location"
+                                android:hint="Current Location"
+                                android:inputType="textPersonName" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_clocation_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_current_location_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_current_location"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/location"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Current Location"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_current_location_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/j_profile_one_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Job Profile Primary"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_job_profile_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/j_profile_one_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/job_profile_one_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/text_view_border"
+                            android:drawableEnd="@drawable/ic_work"
+                            android:padding="10dp"
+                            android:text="Job Profile One"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/other_profile_one_text_layout"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="8dp"
+                            android:visibility="gone">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Other Profile"
+                                android:inputType="textEmailAddress" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/job_designation_one_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/spinner_bg"
+                            android:entries="@array/designation_spinner"
+                            android:padding="10dp"
+                            android:theme="@style/SpinnerThemeLight_new" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_job_profile_one_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_job_profile_one"
+                        android:layout_marginTop="17dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cnd_edit_profile_profile_one_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/text_view_border"
+                            android:drawableStart="@drawable/ic_work"
+                            android:drawablePadding="10dp"
+                            android:padding="10dp"
+                            android:text="Job Profile Primary"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/cnd_edit_profile_Designation_one_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/text_view_border"
+                            android:drawableStart="@drawable/ic_work"
+                            android:drawablePadding="10dp"
+                            android:padding="10dp"
+                            android:text="Designation Primary"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_j_profile_one_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/j_profile_two_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Job Profile Secondary"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_job_profile_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/j_profile_two_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/job_profile_two_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/text_view_border"
+                            android:drawableEnd="@drawable/ic_work"
+                            android:padding="10dp"
+                            android:text="Job Profile Primary"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/other_profile_two_text_layout"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="8dp"
+                            android:visibility="gone">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Other Profile"
+                                android:inputType="textEmailAddress" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/job_designation_two_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/spinner_bg"
+                            android:entries="@array/designation_spinner"
+                            android:padding="10dp"
+                            android:theme="@style/SpinnerThemeLight_new" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_job_profile_two_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_job_profile_two"
+                        android:layout_marginTop="17dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cnd_edit_profile_profile_two_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/text_view_border"
+                            android:drawableStart="@drawable/ic_work"
+                            android:drawablePadding="10dp"
+                            android:padding="10dp"
+                            android:text="Job Profile Secondary"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/cnd_edit_profile_Designation_two_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/text_view_border"
+                            android:drawableStart="@drawable/ic_work"
+                            android:drawablePadding="10dp"
+                            android:padding="10dp"
+                            android:text="Designation"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_j_profile_two_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--qualification-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/quali_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qualification"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_quali"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/quali_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/quali_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/text_view_border"
+                            android:drawableEnd="@drawable/ic_cap_school_24"
+                            android:padding="10dp"
+                            android:text="Chenge Qualification"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_quali_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/qualification_layout"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_quali"
+                        android:layout_marginTop="17dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="STD: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_quali_std"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Std" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Stream : "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_quali_stream_et"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="stream" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="College Name: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_quali_college_name_et"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="College name" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Start date: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_quali_start_date_et"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="start date" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="End date: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_quali_end_date_et"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="end date" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_quali_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <!--end qualification-->
+
+            <!--Experience-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/exp_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Experience"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_expe"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/exp_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/expe_select_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spinner_bg"
+                            android:entries="@array/experience"
+                            android:padding="10dp"
+                            android:theme="@style/SpinnerThemeLight_new" />
+
+                        <TextView
+                            android:id="@+id/expe_add_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/text_view_border"
+                            android:drawableEnd="@drawable/ic_work"
+                            android:padding="10dp"
+                            android:text="Chenge Experience"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_expe_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_expe"
+                        android:layout_marginTop="17dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Experience: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_fresher_or_not_et"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="True/False" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Company Name: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_company_name_et"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Company name" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Industry: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_industry_et"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Industry" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Role: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_role_et"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Role" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Designation: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_designation_et"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Designation" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Current Salary: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_current_salary_et"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Current Salary" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Start date: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_exp_start_date_et"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="start date" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="End date: "
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cnd_edit_profile_exp_end_date_et"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="End Date" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_experience_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <!--Experience end-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/communicatin_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="English Communication"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_communication"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/communicatin_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/communication_text_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spinner_bg"
+                            android:entries="@array/communication"
+                            android:padding="10dp"
+                            android:theme="@style/SpinnerThemeLight_new" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_communication_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_communication_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_communication"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_language"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Communication"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_communication_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/language_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Languages"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_languages"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/language_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/languages_knows"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="22sp" />
+
+                        <CheckBox
+                            android:id="@+id/lang_hindi_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hindi"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/lang_marathi_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Marathi"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/lang_english_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="English"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/lang_urdu_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Urdu"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/lang_gujrati_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Gujrati"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Other: "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/lang_other_edit"
+                                style="@style/MyTextInputLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    style="@style/MyTextInputEditText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:drawableEnd="@drawable/ic_person"
+                                    android:hint="Other Languages"
+                                    android:inputType="textPersonName" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_languages_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_languages_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_languages"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_language"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Languages"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_languages_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/vehicle_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vehicle"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_vehicle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/vehicle_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vehicle"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="22sp" />
+
+                        <CheckBox
+                            android:id="@+id/vehicle_bike_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bike"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/vehicle_car_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Car"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/vehicle_scooter_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Scooter"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/vehicle_no_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Other: "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/vehicle_other_edit"
+                                style="@style/MyTextInputLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    style="@style/MyTextInputEditText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:drawableEnd="@drawable/ic_person"
+                                    android:hint="Other Vehicles"
+                                    android:inputType="textPersonName" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_vehicle_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_vehicle_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_vehicle"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_car_24"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Vehicle"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_vehicle_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/licence_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Licence"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_licence"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/licence_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Licence"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="22sp" />
+
+                        <CheckBox
+                            android:id="@+id/lice_two_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Two Wheeler"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/lice_four_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Four Wheeler"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/lice_transport_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Transport"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/lice_heavy_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Heavy"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/lice_amv_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="AMV"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/lice_no_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Other: "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/licence_other_edit"
+                                style="@style/MyTextInputLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    style="@style/MyTextInputEditText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:drawableEnd="@drawable/ic_person"
+                                    android:hint="Other Licence"
+                                    android:inputType="textPersonName" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_licence_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_licence_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_licence"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_car_24"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Licence"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_licence_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/documents_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Documents"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_documents"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/documents_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Documents"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="22sp" />
+
+                        <CheckBox
+                            android:id="@+id/aadhar_doc_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Aadhar Card"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/pan_doc_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pan Card"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/passport_doc_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Passport"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/voting_card_doc_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Voting Card"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/driving_licence_doc_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Driving Licences"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/bank_acc_doc_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bank Account"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Other: "
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/other_doc_edit"
+                                style="@style/MyTextInputLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    style="@style/MyTextInputEditText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:drawableEnd="@drawable/ic_person"
+                                    android:hint="Other Licence"
+                                    android:inputType="textPersonName" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_documents_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_doc_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_documents"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_resume_and_cv"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Documents"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_doc_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/skill_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Skill"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_skill"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/skill_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Skill"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="22sp" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/skill_text_layout"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_reference"
+                                android:hint="Skill"
+                                android:inputType="text" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_skill_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_skill_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_skill"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_skill"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Skill"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_skill_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/reference_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reference"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_reference"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/reference_tv"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Reference"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="22sp" />
+
+                        <RadioGroup
+                            android:id="@+id/reference_r_grp_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_whatsapp_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Whatsapp" />
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_instagram_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Instagram" />
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_text_message_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Text Message" />
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_friends_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Friend" />
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_family_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Family" />
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_facebook_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Facebook" />
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_olx_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="OLX" />
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_quikr_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Quikr" />
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_jobs_website_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Jobs Website" />
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_linkedin_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="LinkedIn" />
+
+                            <RadioButton
+                                android:id="@+id/reference_r_btn_other_edit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Other: " />
+                        </RadioGroup>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/reference_other_text_edit"
+                            style="@style/MyTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                style="@style/MyTextInputEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/ic_reference"
+                                android:hint="Other reference"
+                                android:inputType="text" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_reference_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_reference_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_reference"
+                        android:layout_marginTop="17dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_reference"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Reference"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_reference_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Select file-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/resume_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CV / Resume"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/only_accept"
+                        android:layout_below="@id/resume_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Only Accept pdf/doc/docx File"
+                        android:layout_marginTop="5dp"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_cnd_edit_resume"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/only_accept"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/layout_bg_border"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/select_cv_file_btn_edit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:paddingStart="5dp"
+                                android:text="Select File"
+                                android:textAllCaps="false"
+                                android:textColor="?attr/primaryTitleColor" />
+
+                            <TextView
+                                android:id="@+id/select_file_name_tv_edit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/text_view_border"
+                                android:padding="10dp"
+                                android:text="Selected file name"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_resume_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/search_jobs_btn"
+                            android:text="Done" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cnd_edit_profile_resume_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_cnd_edit_resume"
+                        android:layout_marginTop="22dp"
+                        android:background="@drawable/text_view_border"
+                        android:drawableStart="@drawable/ic_resume_and_cv"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"
+                        android:text="Resume"
+                        android:textColor="?attr/primaryTitleColor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/cnd_edit_profile_resume_edit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/ic_edit_over_img" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <!--select file end-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="?attr/card_layout_color"
+                android:padding="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/candidate_submit_btn_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/search_jobs_btn"
+                        android:text="Submit"
+                        android:textAllCaps="false"
+                        android:textSize="22sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cand_view_design_aplc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/sort_layout"
+    android:layout_marginLeft="13dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="13dp"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFF"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/cmp_dsg_delete_iv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_baseline_delete_24" />
+
+        <LinearLayout
+            android:id="@+id/layout_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cmp_dsg_job_role_aplc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job Role"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cmp_dsg_details_aplc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Company Details"
+                android:visibility="gone"
+                android:textColor="@color/dark_gray" />
+
+            <TextView
+                android:id="@+id/cmp_dsg_location_aplc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:text="Location"
+                android:textColor="@color/dark_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#EAE7E7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="Job Industry" />
+
+                    <TextView
+                        android:id="@+id/cmp_dsg_job_indystry_aplc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:text="Hospitality &amp; Restaurant"
+                        android:textColor="@color/dark_gray"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Type of Job"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/cmp_dsg_time_aplc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Full Time"
+                        android:textSize="12sp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textColor="@color/dark_gray"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Monthaly Salary"
+                        android:textColor="#000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cmp_dsg_min_salary_aplc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="3dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="500"
+                            android:textSize="12sp"
+                            android:textColor="@color/dark_gray" />
+
+                        <View
+                            android:layout_width="8dp"
+                            android:layout_height="1dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:background="@color/dark_gray" />
+
+                        <TextView
+                            android:id="@+id/cmp_dsg_max_salary_aplc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1000"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textSize="12sp"
+                            android:textColor="@color/dark_gray" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+<!--            exp  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Experience"
+                        android:textColor="#000"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cmp_dsg_min_exp_aplc"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/dark_gray"
+                            android:text="55 year"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textSize="12sp"
+                            android:layout_marginStart="3dp" />
+
+                        <View
+                            android:layout_width="8dp"
+                            android:layout_height="1dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:background="@color/dark_gray" />
+
+                        <TextView
+                            android:id="@+id/cmp_dsg_max_exp_aplc"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/dark_gray"
+                            android:text="10 year"
+                            android:maxLines="1"
+                            android:textSize="12sp"
+                            android:ellipsize="end" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qualification"
+                        android:textColor="#000" />
+                    <TextView
+                        android:id="@+id/cmp_dsg_education_aplc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/dark_gray"
+                        android:text="Graduate"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shift Time"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="130dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/cmp_dsg_job_shift_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark_gray"
+                    android:text="6:30 AM"
+                    android:maxLines="1"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:layout_marginStart="3dp"/>
+
+                <!--<View
+                    android:layout_width="8dp"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"/>
+
+                <TextView
+                    android:id="@+id/cmp_dsg_job_shift_to"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark_gray"
+                    android:text="6:30 PM"
+                    android:textSize="12sp"
+                    android:layout_alignParentEnd="true"
+                    android:maxLines="1"
+                    android:ellipsize="end"/>-->
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cmp_dsg_cnd_view_count_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_baseline_remove_red_eye_24"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/container_layout_color"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    tools:context=".Candidate.CandidateActivityFragment.Interview_tips">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa1"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="1"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa2"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                expandableTextView:maxCollapsedLines="2"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa3"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="1"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa4"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="3"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa5"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="2"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa6"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="2"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa7"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="1"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa8"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="3"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa9"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="1"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa10"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="2"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="1"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa12"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="2"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa13"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="2"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa14"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="1"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa15"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="2"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa16"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="3"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa17"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="2"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expand_tv_qa18"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                expandableTextView:maxCollapsedLines="2"
+                android:background="@drawable/card_border_red"
+                expandableTextView:animDuration="200">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/primaryTitleColor" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="right|bottom"
+                    android:background="@android:color/transparent"/>
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/container_layout_color"
+    tools:context=".Candidate.CandidateActivityFragment.HelpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Tell me something about yourself in brief"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:visibility="gone"
+                android:text="“Thank you, Sir/Ma’am for this opportunity. I am from XYZ City and belong to a nuclear family. My father is a Central Government Employee and my mother is a Vice Principal at a private school. My younger sister will appear her CBSE 10th board this year. We are a very close-knit family. On an individual front, I perceive myself as a confident, conscientious and hardworking individual. I carry out any task assigned to me without hesitation, provided the instructions are clear. In the case of doubts, I never hesitate to put forth my questions. I have always been a fast learner, and I love to keep up my process of learning to figure out better ways of solving problems. Moreover, I love to compete with my own past performances than competing with my peers, as I believe that improvement is always better than perfection!”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Describe who you are. or Tell me about your background"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:visibility="gone"
+                android:text="“I am a B. Tech in Computer Science/B. Com in Economics. I also have an MBA or I have completed a certification course in Digital Marketing from ABC Academy. What else would you like to know?”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="What are your strengths and weaknesses?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:visibility="gone"
+                android:text="“I have several strengths namely – I am patient, committed, honest and self-motivated. I am the biggest dreamer I have ever come across! I forgive easily and hate to keep grudges in my heart. My greatest weakness is that I don\'t like getting interrupted when I am seriously into something. Another one of my weaknesses is that I trust people very easily. As I already said, I am a very patient person, so I am actively working on this lacuna.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="You have not done your PG yet. This is not a drawback, but don’t you think you should get a PG degree asap?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:visibility="gone"
+                android:text="“As soon as I graduated, I felt the urge to start working in the real world. It’s not that I am a total novice. I have undergone 3 internships, of which 2 are paid from reputed organizations. This credential has helped me land an offer from one of those firms. I sometimes wonder whether I should have first completed my post-graduation. Had I done so, I wouldn’t have been able to develop my complete portfolio. And I am hoping that my track record will help me get selected for this position in your esteemed organization.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="You have changed jobs/jumped ship too many times already, why so?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="“You may label me a ‘frequent career-changer’ but I genuinely feel that today I am a far better employee. My switches have helped me develop better interpersonal skills, gain diverse skills and adapt to rapidly changing business environments. I can solve problems more efficiently and creatively, as I have learned to live with ambiguity and uncertainty. My first job helped me develop patience. My second job helped me master spreadsheets and numbers. My third job helped me develop better people skills and also adjust amidst culturally diverse and geographically dispersed teams. All in all, I feel that my varied background makes me an ideal candidate for this job role today.”"
+                android:visibility="gone"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="What are your strong points? or What are your strengths?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:visibility="gone"
+                android:text="“I have the requisite skills to make your risk worth it. Chatting less and letting my work do the talking, is my motto. In the past, whatever project was assigned to me was delivered on time and also at par with all the quality standards.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="What is your greatest fear?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:visibility="gone"
+                android:text="“I work too hard sometimes and care too much about my work. I take my tasks back home and work even during the weekends. You can call me a workaholic, but my family always points out that this is not right. Slowly and steadily I am realizing that speed and working smartly are the key. So, I have begun to reach out to my colleagues for ready-to-use workarounds so that I can give more time to my family.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="If I call up your current or previous reporting manager now, what will be their opinion about you? What will they say that you need to work on?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="60dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:visibility="gone"
+                android:text="“Interesting. During my last performance review, my boss did not list any areas of improvement and gave me an outstanding rating. However, if I were to think of one, I would guess that I need to speak up more during meetings. I always have good ideas and contribute my thoughts to my current project. But I discuss these ideas with my boss and let him do all the talking during meetings. I should work on speaking up more during brainstorming sessions.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Do you have any serious medical issues?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:visibility="gone"
+                android:text="“I am partially color blind. Sometimes I face difficulty in distinguishing between colors. For example, I cannot see shades or tones of the same color. But for your information, no adjustments would be required on your part to accommodate this minor disability. As you can see from my resume, it does not have any impact on my ability to get the job done.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Did you ever have a conflict with your current/previous boss or professor?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:visibility="gone"
+                android:text="“Recently I had a disagreement with one of my professors about a question that was out of syllabus in one of the semester exams. It was not a major one, but yes I will label it a ‘conflict’. Most of my friends and peers did not attempt this question due to ambiguity. When I brought the cause into my professor’s notice in private, he remained cold and unconcerned. So, I and my batchmates had a discussion following which, we went to him together. At that point, our professor agreed that the question was ambiguous, but he refused to give us grace marks for the same. I felt disappointed because he did not appreciate the fact that I brought the situation earlier, into his notice in private. Besides, he did not suggest an alternative paper or project work, with which students could make up for the lost marks.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="What do your friends/co-workers say about you?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:visibility="gone"
+                android:text="“I recently completed my internship at Tata Steel Ltd., Tata Center, Kolkata. My project lead told me that in the beginning, I was a little lost, but by the end of the summer internship program, she knew that she could count on me.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="What did you do in the last year to improve your knowledge?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:visibility="gone"
+                android:text="“In 2016, I was in the final year of college. During that time, I did three things to improve my knowledge. 1. I got myself enrolled in Aptech for the Sun Certified Java Programmer course. I will appear my exam soon. 2. I have bought magazine subscriptions such as Dataquest. These magazines help me to stay well informed about new topics in the IT world. 3. I completed my final year application project based on Java. The topic was Centralized Remote Based College Information Scheme.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Explain the difference between group and team. Are you a team player?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:visibility="gone"
+                android:text="“Yes I am. During my summer internship at Cadence, me and my friends were working together. Ours was a mixed group with varied skills and we produced results which would have been impossible to produce individually. I had to keep all my communication channels open at all times to ensure that the project stayed on track. I was responsible for my part of the code and also for the collective delivery of the entire project. I worked closely with senior key team members to keep my deliverables on track. In the end, I was able to deliver on time and within budget.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="What is your ideal company or workplace?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:visibility="gone"
+                android:text="“My ideal workplace or company is a fair one that values my contributions even as a fresher and encourages me to speak up and share my ideas. It is a place where I can be myself, while working towards a greater goal.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Have you ever had to fire anyone? How did you feel about that?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:visibility="gone"
+                android:text="“Yes, I have and believe me it feels horrible. But I know how to keep emotions at bay, while I am at work. Firing comes at the very end of road with me. When I set up a team, I do so very carefully after considering the past feedback and history of every single team member. But it is not always possible to choose your team. Sometimes, you have to work with a few rotten potatoes and it is essential to remove them from the basket, to save the rest. I have a tendency to spot poor performers within two to three months of them or me joining a new team. Last time I spotted one, I consulted my peers and other team members. Then, I had to set up a one-on-one meeting with the person and gave him several warnings, both written and verbal, over a 30-day period. I helped him prepare a list of work and behavioral goals, that I decided upon after consulting the rest of the team. Eventually I had to fire that person because he showed zero signs of improvement, drive and motivation. That firing was for a cause and I had no other resort left in my rule book.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="What is the most difficult thing that you’ve ever accomplished? or What is the most difficult thing you have ever done?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:visibility="gone"
+                android:text="“I have never been a great public speaker. The very thought of facing a crowd used to make me nervous. When I started college, my best friend advised me that I had to get over this roadblock to shine through. So, last year, I took the bold step of trying my hand at public speaking. I joined the Debate Club in my college. Since then, I have participated in multiple contests. Initially, I stammered, forgot my lines, dropped the microphone once due to my sweaty palms and even got booed at or scolded by the judges. Yet, I kept on participating. Last month, for the very first time in a year, I won the third prize. It was a great boost to my self-confidence. I believe that it is my greatest feat so far, even bigger than my AIEEE rank.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="What is the difference between hard work and smart work?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:visibility="gone"
+                android:text="“Hard work is delivering work on time with more effort and smart work is delivering work on time, with lesser effort. I feel that is the basic difference. Most of the times, in the corporate world, I feel a combination of both is needed to attain excellence.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_border_red"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/Main_text_Interview18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="How do you feel about working weekends and night shifts?"
+                android:textColor="#16202c"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/Interview_button18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/expandable_text_tip18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:visibility="gone"
+                android:text="“I am a fresher and I hardly have any exposure of the corporate world. Back in college, weekends were no different from weekdays for us. The assignments, tasks and projects had to be submitted within deadlines, and to do so, we would study during the weekdays. As far as night shifts are concerned, I would like to say that I am a nocturnal person and I like to do my studies generally at night. I have no issues working during weekends and at night, provided I get enough compensatory offs to relax and wind down.”"
+                android:textColor="#16202c"
+                android:padding="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

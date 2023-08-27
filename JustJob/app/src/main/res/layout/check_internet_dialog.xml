@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:tint="@color/colorAccentDemo"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_wifi_off_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPPS!"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccentDemo"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Internet Connection"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccentDemo"
+        android:gravity="center"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRetry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:textAllCaps="true"
+        android:background="@drawable/network_error_btn_shap"
+        android:textColor="@color/colorOnPriparyDemo"
+        android:text="retry"/>
+
+</LinearLayout>

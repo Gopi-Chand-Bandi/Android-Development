@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Company.NewPlaneActivity.ITHiringFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/free_ITPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="₹30 Per Unlocked"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Data Relevancy Check"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/first_ITPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="25 Data Unlocked + 20 Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Urgent Sourcing Plan"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/first_ArrowBtn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="58dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/firstITPlanView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="@string/_725_it_actual_amount"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="50dp"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="@string/_750"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="3% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="@string/_25_it_candidate_unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="20 Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="200 Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 7 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_btn1"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sec_ITPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:animateLayoutChanges="true"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="50 Data Unlocked + 30 Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Urgent Sourcing Plan"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/sec_ArrowBtn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="57dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/secITPlanView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="@string/_1350_it_actual_amount"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="50dp"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="@string/_1450"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="7% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="@string/_50_it_candidate_unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="30 Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="300 Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 7 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_btn2"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/third_ITPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="100 Data Unlocked + 40 Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Urgent Sourcing Plan"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/third_ArrowBtn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="53dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/thirdITPlanView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="@string/_2500_it_actual_amount"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="40dp"
+                                        android:layout_marginLeft="40dp"
+                                        android:text="@string/_2700"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="15% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="@string/_100_it_candidate_unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="40 Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="400 Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 15 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_btn3"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fourth_ITPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:animateLayoutChanges="true"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="500 Data Unlocked + 200 Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Urgent Sourcing Plan"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/fourth_ArrowBtn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="48dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fourthITPlanView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="@string/_12500_it_actual_amount"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="38dp"
+                                        android:layout_marginLeft="38dp"
+                                        android:text="@string/_15000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="17% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="@string/_500_it_candidate_unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="200 Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="2000 Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 30 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_btn4"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fifth_ITPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:animateLayoutChanges="true"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="5000 Data Unlocked + Unlimited Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Urgent Sourcing Plan"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/fifth_ArrowBtn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="17dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fifthITPlanView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="@string/_105000_it_actual_amount"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginLeft="32dp"
+                                        android:text="@string/_150000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="30% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="@string/_5000_it_candidate_unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 90 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_btn5"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sixth_ITPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:animateLayoutChanges="true"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="10000 Data Unlocked + Unlimited Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Urgent Sourcing Plan"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/sixth_ArrowBtn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="12dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/sixthITPlanView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="@string/_180000_it_actual_amount"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:text="@string/_300000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="40% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="@string/_10000_it_candidate_unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 180 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_btn6"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/seventh_ITPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="10dp"
+                android:animateLayoutChanges="true"
+                android:background="?attr/card_layout_color"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_weight="100">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:text="30000 Data Unlocked + Unlimited Job Post"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Better For Urgent Sourcing Plan"
+                                android:textColor="?attr/primaryTitleColor"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/seventh_ArrowBtn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="12dp"
+                            android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            app:layout_constraintEnd_toEndOf="parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/seventhITPlanView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/teal_200" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/border"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="@string/_450000_it_actual_amount"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:text="@string/_900000"
+                                        android:textColor="?attr/primaryTitleColor"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="3dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="50% off"
+                                        android:textColor="#4CAF50"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="@string/_30000_it_candidate_unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Job Post"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Unlimited Received Application Unlocked"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="1dp"
+                            android:drawableLeft="@drawable/ic_dot"
+                            android:drawablePadding="10dp"
+                            android:text="Validity For 365 Days"
+                            android:textColor="?attr/primaryTitleColor"
+                            android:textSize="14sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:padding="8dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/plan_btn7"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/search_jobs_btn"
+                                android:text="Buy"
+                                android:textAllCaps="true"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
